@@ -26,25 +26,29 @@ Next, setup trusted sign on for your windows user account in postgres. This will
 
 At the bottom of the file look for the
 
-> # IPv4 local connections:
+`# IPv4 local connections:`
 
 There should be one line under it that looks like:
 
-> host    all             all             127.0.0.1/32            scram-sha-256
+`host    all             all             127.0.0.1/32            scram-sha-256`
 
 make a copy of this line, above it and edit it so that the IPv4 section looks like:
 
-> # IPv4 local connections:
-> host    UserName             UserName             127.0.0.1/32            trust
-> host    all             all             127.0.0.1/32            scram-sha-256
+```
+# IPv4 local connections:
+host    UserName             UserName             127.0.0.1/32            trust
+host    all             all             127.0.0.1/32            scram-sha-256
+```
 
 Where "`UserName`" is your user name as it appears when you open a Windows command prompt. It is case sensitive.
 
 Repeat for the IPv6 section next so that it looks like:
 
-> # IPv6 local connections:
-> host    UserName             UserName             ::1/128                 trust
-> host    all             all             ::1/128                 scram-sha-256
+```
+# IPv6 local connections:
+host    UserName             UserName             ::1/128                 trust
+host    all             all             ::1/128                 scram-sha-256
+```
 
 With those two lines added, save and close the file.
 
@@ -52,14 +56,16 @@ then restart postgresql in the Windows services management panel.
 
 Open a command prompt and run the psql command, connecting as the postgres user, e.g:
 
-> "\Program Files\PostgreSQL\13\bin\psql.exe" -U postgres
+`"\Program Files\PostgreSQL\13\bin\psql.exe" -U postgres`
 
 provide the password you used when installing postgres.
 
 run the following two sql commands:
 
-> CREATE ROLE "UserName" WITH LOGIN  SUPERUSER  INHERIT  CREATEDB  CREATEROLE  NOREPLICATION;
-> CREATE DATABASE "UserName";
+```
+CREATE ROLE "UserName" WITH LOGIN  SUPERUSER  INHERIT  CREATEDB  CREATEROLE  NOREPLICATION;
+CREATE DATABASE "UserName";
+```
 
 then quit psql with:
 `\q`
@@ -68,17 +74,19 @@ Once again, "UserName" must match your Windows username as it appears on the com
 
 To test that all the above worked, you should be able to use psql to connect to your database on localhost without needing to provide a username or password:
 
-> "\Program Files\PostgreSQL\13\bin\psql.exe" -h 127.0.0.1
-> psql (13.0)
-> Type "help" for help.
+```
+"\Program Files\PostgreSQL\13\bin\psql.exe" -h 127.0.0.1
+psql (13.0)
+Type "help" for help.
 
-> UserName=#
+UserName=#
+```
 
 You may get a warning about the windows codepage. ignore it. Quit again with `\q`
 
 Set up the mealplanner schema:
 
-> "\Program Files\PostgreSQL\13\bin\psql.exe" -f db-reset.psql
+`"\Program Files\PostgreSQL\13\bin\psql.exe" -f db-reset.psql`
 
 Install node using the windows installer from nodejs.org
 
@@ -86,11 +94,11 @@ Open a command prompt or powershell and CD to the `mealplanner/backend`
 
 Install the dependencies if you haven't already:
 
-> npm install
+`npm install`
 
 Now run the graphql server:
 
-> npm start
+`npm start`
 
 The server should now be available at `http://localhost:4000/graphiql`
 
