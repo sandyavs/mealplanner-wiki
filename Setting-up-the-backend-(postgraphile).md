@@ -35,7 +35,9 @@ There should be one line under it that looks like:
 make a copy of this line, above it and edit it so that the IPv4 section looks like:
 
 `# IPv4 local connections:
+
 host    UserName             UserName             127.0.0.1/32            trust
+
 host    all             all             127.0.0.1/32            scram-sha-256`
 
 Where "`UserName`" is your user name as it appears when you open a Windows command prompt. It is case sensitive.
@@ -43,7 +45,9 @@ Where "`UserName`" is your user name as it appears when you open a Windows comma
 Repeat for the IPv6 section next so that it looks like:
 
 `# IPv6 local connections:
+
 host    UserName             UserName             ::1/128                 trust
+
 host    all             all             ::1/128                 scram-sha-256`
 
 With those two lines added, save and close the file.
@@ -59,6 +63,7 @@ provide the password you used when installing postgres.
 run the following two sql commands:
 
 `CREATE ROLE "UserName" WITH  LOGIN  SUPERUSER  INHERIT  CREATEDB  CREATEROLE  NOREPLICATION;
+
 CREATE DATABASE "UserName";`
 
 then quit psql with:
@@ -69,8 +74,11 @@ Once again, "UserName" must match your Windows username as it appears on the com
 To test that all the above worked, you should be able to use psql to connect to your database on localhost without needing to provide a username or password:
 
 `"\Program Files\PostgreSQL\13\bin\psql.exe" -h 127.0.0.1
-psql (13.0)`
+
+psql (13.0)
+
 Type "help" for help.
+
 
 UserName=#`
 
