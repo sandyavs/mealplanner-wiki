@@ -88,4 +88,4 @@ Set up the mealplanner schema:
 
 `"\Program Files\PostgreSQL\13\bin\psql.exe" -f db-reset.psql`
 
-Next step: [Setting up the GrapQL backend](Setting up the GraphQL backend)
+Next step: [[Setting up the GrapQL backend|Setting up the GraphQL backend]]
