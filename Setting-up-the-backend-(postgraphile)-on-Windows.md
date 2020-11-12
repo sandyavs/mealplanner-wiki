@@ -1,4 +1,3 @@
-# Postgres on Windows
 
 https://www.postgresql.org/download/windows/
 
