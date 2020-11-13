@@ -26,7 +26,7 @@ With that one line added, save and close the file and restart postgres:
 
 `sudo systemctl restart postgresql`
 
-Open a command prompt and run the psql command, connecting as the postgres user, e.g:
+Run the psql command, connecting as the postgres user, e.g:
 
 `sudo -u postgres psql`
 
