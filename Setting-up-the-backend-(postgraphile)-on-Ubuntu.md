@@ -43,11 +43,12 @@ then quit psql with:
 To test that all the above worked, you should be able to use psql to connect to your database on localhost without needing to provide a username or password:
 
 ```
-psql -h 127.0.0.1
-psql (13.0)
+$ psql -h 127.0.0.1
+psql (12.4 (Ubuntu 12.4-0ubuntu0.20.04.1))
+SSL connection (protocol: TLSv1.3, cipher: TLS_AES_256_GCM_SHA384, bits: 256, compression: off)
 Type "help" for help.
 
-UserName=#
+username=# \q
 ```
 
 Set up the mealplanner schema. Change to the `mealplanner/backend` directory and:
