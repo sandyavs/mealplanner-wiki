@@ -1,3 +1,6 @@
+_**Make sure you set up the postgrahpile backend first. The graphql server depends on that.**_
+
+
 Install node using the installer from nodejs.org that matches your OS (Windows/Mac/Linux).
 
 Open a command prompt or powershell and CD to the `mealplanner/backend`
