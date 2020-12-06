@@ -84,12 +84,7 @@ UserName=#
 You may get a warning about the windows codepage. ignore it. Quit again with `\q`
 
 Set up the mealplanner schema:
-1. Modify the db-reset.psql script to reflect the path where the other scripts reside. 
 
-For example, if you have cloned your directory in "C:\Users\user\Documents" then put the absolute path to the file in the script using the Linux notation. In Windows, we use '\' in paths, but in Linux we use '/'. Reason for this is the psql shell is treated like a Linux shell, and a lot of the syntax there is derivative of it.
-
-2. Execute the db-reset.psql script.
-- Navigate to the location where your 'psql.exe' application is stored.
-- Execute the following command: psql.exe -f full_absolute_path\db-reset.psql
+`"\Program Files\PostgreSQL\13\bin\psql.exe" -f db-reset.psql`
 
 Next step: [[Setting up the GrapQL backend|Setting up the GraphQL backend]]
