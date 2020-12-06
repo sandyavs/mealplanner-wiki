@@ -83,7 +83,7 @@ UserName=#
 
 You may get a warning about the windows codepage. ignore it. Quit again with `\q`
 
-Change directory to the mealplanner\backend where it is cloned from git. User `psql` to set up the mealplanner schema:
+Change directory to the `mealplanner\backend` where it is cloned from git. User `psql` to set up the mealplanner schema:
 
 `"\Program Files\PostgreSQL\13\bin\psql.exe" -f db-reset.psql`
 
