@@ -1,0 +1,89 @@
+# The Standard Development Flow
+
+The branch management strategy for CivicTech will borrow heavily from the '[GitHub Flow](https://guides.github.com/introduction/flow/)' branch-based workflow.  Contributors should know and understand the GitHub Flow. As in GitHub Flow, the 'master' branch for any project should only ever contain fully tested and releasable code. In addition to master we also have a shared development branch (often called 'develop' but may have other names like 'release_dev'). The objective with this shared development branch is that it will be the common place where individual feature branches merge in preparation for a release. Only completed features should be merged into the development branch. At all times the code in the development branch should be testable by the team. Before merging new feature code into the development branch, it should be tested in the feature branch. Feature branches should always be up to date with development to be sure that new features will work once merged into development.
+
+When starting work on a new feature or story, create a new branch off of development and give it a meaningful name that relates to the feature. These are referred to as 'feature' branches. As you develop and commit changes to the feature be sure to create descriptive and helpful commit messages. This helps reviewers and testers understand the incoming changes. Once a feature is complete and merged into development, the feature branch can be removed. This will keep the repository from being cluttered with a zillion no longer used branches.
+
+Our Flow will therefore will have an extra branch compared with the normal GitHub Flow.
+
+[[gitflow.png]]
+
+Members of the Civic Tech Fredericton organization and teams will contribute to projects using the Shared Repository model. In this project model all branching and pull requests are made in the original repository.  Contributors from outside the CivicTechFredericton organization will use the Fork+Pull project model. In the Fork + Pull model developers will create a fork of our repository and manage their own development process. Once they have completed feature development they can open a pull request with the original repository and a Civic Tech Fredericton member can review and merge it.
+
+# Protected Branches and Permissions
+
+Protected branches in github have additional constraints on merging pull requests. By protecting a branch an administrator can enforce certain checks and balances. In Civic Tech Fredericton projects the development and master branches will be protected. Pull requests to the master branch will require at least one approver other than the requestor and the merge can only be done by an organization admin or a repository admin.  In the developement branch pull requests will require a review before being merged.  There are no restrictions on feature branches.
+
+Pull requests in github offer the opportunity to create discussions about the request, the changes in it and even to comment directly on specific lines of code. A reviewer of a pull request should use these features to be sure they understand the changes or to raise concerns. 
+
+Release candidates should be prepared and tested completely in the development branch and only when it is ready for release will a pull request be opened for master.  During the phase of preparing for release, pull requests to the development branch should be restricted to only bug fixes so that no new untested code is introduced.
+
+# GitHub Administration
+
+There should always be three organization administrators for Civic Tech Fredericton and two repository admins for each repository. Repository admins should be project leaders or senior developers that can take responsibility for merges and releases.
+
+Respository access can be managed through team membership.  By creating a team per project it is easy to manage access simply by managing teams. 
+
+# Developer guidance
+
+![](https://imgs.xkcd.com/comics/git_2x.png)
+
+## Branch Naming Conventions
+
+Since dozens of short-lived branches tend to accumulate due to unfinished experiments and so on, please use helpful branch names. It is helpful to start with your name, nickname or github username, followed by either: and issue number from git issues, or a short name for the feature. This makes it easier to identify when stale branches contain useful but unfinished work.  Every new months stale branches will be removed.
+
+Example
+
+`rory-podman-compatibility`
+
+## Commits
+
+With regards to commit messages please make good use of them:
+ 
+1. Make sure to reference the issue # in the message
+1. Use the body to explain what and why instead of how
+
+We won't stop you from committing without a proper message but it is just good practice and good manners.
+
+## Other Rules & Important Info:
+
+Master is generally off-limits. If you need to access it you must ask an organisation or repository admin, they are the only ones who can grant access to that branch.
+
+We require public-private ssh keys. If you do not know how to create one see the tutorial below. 
+If you do not feel comfortable using the terminal you can use the following, which have been tested and verified to work:
+Git Extensions
+Git within Jet Brains Web Storm IDE
+Git within Jet Brains PyCharm IDE (Full and Community editions)
+Git within VSCode
+
+There are also some GUI git clients like Git Desktop that may be useful.      
+
+You are responsible for deleting your remote branches that are not deleted as part of a pull request. However, there will also be ocasional sweeps to remove stale branches (those that have been unused/unmodified for at least 6 months).
+
+# Resources
+
+
+Pro Git by Scott Chacon and Ben Straub 
+https://git-scm.com/book/en/v2 
+
+
+Visualizing Git Concepts with D3
+http://onlywei.github.io/explain-git-with-d3/ 
+
+
+Buckey's tutorial on git
+https://www.youtube.com/playlist?list=PL6gx4Cwl9DGAKWClAD_iKpNC0bGHxGhcx 
+
+Learn Git Branching
+https://learngitbranching.js.org/ 
+
+Git Tricks
+https://devhints.io/git-tricks 
+
+Git notes for professionals
+https://books.goalkicker.com/GitBook/ 
+
+Learn Git with Git Kraken
+https://www.gitkraken.com/learn-git 
+
+***
