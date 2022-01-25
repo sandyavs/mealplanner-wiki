@@ -30,7 +30,7 @@ Respository access can be managed through team membership.  By creating a team p
 
 ## Branch Naming Conventions
 
-Since dozens of short-lived branches tend to accumulate due to unfinished experiments and so on, please use helpful branch names. It is helpful to start with your name, nickname or github username, followed by either: and issue number from git issues, or a short name for the feature. This makes it easier to identify when stale branches contain useful but unfinished work.  Every new months stale branches will be removed.
+Since dozens of short-lived branches tend to accumulate due to unfinished experiments and so on, please use helpful branch names. It is helpful to start with your name, nickname or github username, followed by either: an issue number from git issues, or a short name for the feature. This makes it easier to identify when stale branches contain useful but unfinished work.  Every few months stale branches will be removed.
 
 Example
 
@@ -49,12 +49,12 @@ We won't stop you from committing without a proper message but it is just good p
 
 Master is generally off-limits. If you need to access it you must ask an organisation or repository admin, they are the only ones who can grant access to that branch.
 
-We require public-private ssh keys. If you do not know how to create one see the tutorial below. 
+We require public-private ssh keys. If you do not know how to create one see the tutorial [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). 
 If you do not feel comfortable using the terminal you can use the following, which have been tested and verified to work:
-Git Extensions
-Git within Jet Brains Web Storm IDE
-Git within Jet Brains PyCharm IDE (Full and Community editions)
-Git within VSCode
+* Git Extensions
+* Git within Jet Brains Web Storm IDE
+* Git within Jet Brains PyCharm IDE (Full and Community editions)
+* Git within VSCode
 
 There are also some GUI git clients like Git Desktop that may be useful.      
 
