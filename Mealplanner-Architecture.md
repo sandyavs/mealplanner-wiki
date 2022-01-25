@@ -27,8 +27,11 @@ In a sense this choice was made moot by the selection of Postgraphile which only
 
 ### Database Schema
 
-Mealplanner actually uses two schema, `app` and `pp_private`. The first is the main schema from which the GraphQL API is built and it defines all the tables, relationships and functions that support the API. The private schema hoolds account information to support authentication.
+Mealplanner actually uses two schema, `app` and `app_private`. The first is the main schema from which the GraphQL API is built and it defines all the tables, relationships and functions that support the API. The private schema hoolds account information to support authentication.
 
 [[mealplanner-db.png]]
 
+# Development Environment
+
+# Deployment
  
