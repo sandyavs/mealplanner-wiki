@@ -19,7 +19,8 @@ This is an ideal choice for this project for a number of reasons:
 * All data definition, managment and access control is centralised in the DB and defined with SQL
 * Since the data model and schema are fairly stable, the API is also very stable
 
-[[mealplanner-api-schema.png]]
+| [[mealplanner-api-schema.png]]
+| Mealplanner GraphQL Schema v1
 
 ## Postgres
 
