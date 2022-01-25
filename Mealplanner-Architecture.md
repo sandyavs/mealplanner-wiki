@@ -10,9 +10,7 @@ TBC
 
 Postgraphile provides a complete graphql API mapped to a postgres database schema. It is a virtually zero code implementation where all nodes and edges are built from the relational schema. As such the database defines the API in a declarative manner, and various postgres DDL features allow for tuning the API. From the [Postgraphile site](https://www.graphile.org/postgraphile/):
 
-```
-PostGraphile automatically detects tables, columns, indexes, relationships, views, types, functions, comments, and more — providing a GraphQL server that is highly intelligent about your data, and that automatically updates itself without restarting when you modify your database.
-```
+> PostGraphile automatically detects tables, columns, indexes, relationships, views, types, functions, comments, and more — providing a GraphQL server that is highly intelligent about your data, and that automatically updates itself without restarting when you modify your database.
 
 This is an ideal choice for this project for a number of reasons:
 * Developers can focus on front end and database, eliminating the need for middleware developers
@@ -21,7 +19,7 @@ This is an ideal choice for this project for a number of reasons:
 * All data definition, managment and access control is centralised in the DB and defined with SQL
 * Since the data model and schema are fairly stable, the API is also very stable
 
-[[mealplanner-graphl-schema.png]]
+[[mealplanner-api-schema.png]]
 
 ## Postgres
 
