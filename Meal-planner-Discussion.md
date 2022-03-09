@@ -96,7 +96,7 @@
 6. *tags can be assigned after designing the meal plan calendar. Not required while creating new meal plan. So Edit meal plan should have tags as a field.*
 7. *We should allow the admin to create the tags..*
 8. *Date not required for meal plans list.*
-9. *new meal plan button should be there in the meal plans list also.*
+9. *new meal plan button should be there in the meal plans list.*
 10. M*eal catalogue is generic to all users. No client user is assigned to a meal.*
 11. *60 recipes. So search and pagination is required for meal catalog.*
 12. *Tags required for a meal recipe* 
