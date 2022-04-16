@@ -22,3 +22,22 @@ Pre-requisite: MP-Login-001
 
 ## Expected Behaviour:
 Meals should be displayed correctly as per the meal plan
+
+
+## Test case No: MP-MealCatalog-001
+
+## Test case description: View meal catalog based on search criteria.
+## Steps to follow:
+
+Pre-requisite: MP-Login-001
+1. Go to url/mealplan/:id 
+2. click the search box to input text
+3. check when user start typing word in the search box, it should suggest words that matches typed keywords
+4. Choose and select from the list of suggested meal catalog options
+5. Ensure that meal is selected from the suggested meal catalog
+6. check whether there is option to cancel(X mark) the selected meal
+7. click on Cancel button
+8. ensure that the meal option is not selected now.
+
+## Expected Behaviour:
+Meals should be selected from the suggested meal catalog
