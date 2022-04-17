@@ -24,7 +24,7 @@ Pre-requisite: MP-Login-001
 Meals should be displayed correctly as per the meal plan
 
 
-## Test case No: MP-MealCatalog-001
+## Test case No: MP-MealCatalog-002
 
 ## Test case description: View meal catalog based on search criteria.
 ## Steps to follow:
@@ -41,3 +41,32 @@ Pre-requisite: MP-Login-001
 
 ## Expected Behaviour:
 Meals should be selected from the suggested meal catalog
+
+## Test case No: MP-AddMeal-003
+
+## Test case description: Add meal in the specific category of meal plan
+## Steps to follow:
+
+Prerequisite: MP-Login-001
+1. Go to url/mealplan/:id 
+2. Select the meal from the selected meal catalog
+3. Drag and drop it in the specific category of meal plan
+4. Meal should be added to the specific category of meal plan
+
+## Expected Behaviour:
+Should be able select the meal from the selected meal category and add it to the specific category of meal plan
+
+
+## Test case No: MP-DeleteMeal-004
+
+## Test case description: Delete meal in the specific category of meal plan
+## Steps to follow:
+
+Prerequisite: MP-Login-001
+1. Go to url/mealplan/:id 
+2. Verify when mouse hover the meal item in a specific category of meal plan is highlighted with green color and showing delete icon or not
+3. check that the user is able to click on the delete icon/button
+4. check that when the user clicks on the delete icon/button then the meal in the specific category of meal plan gets deleted.
+
+## Expected Behaviour:
+Should be able delete the meal in the specific category of meal plan when clicked on the delete icon
