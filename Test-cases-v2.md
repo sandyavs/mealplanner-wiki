@@ -54,7 +54,7 @@ Prerequisite: MP-Login-001
 4. Meal should be added to the specific category of meal plan
 
 ## Expected Behaviour:
-Should be able select the meal from the selected meal category and add it to the specific category of meal plan
+Should be able select the meal from the selected meal catalog and add it to the specific category of meal plan
 
 
 ## Test case No: MP-DeleteMeal-004
