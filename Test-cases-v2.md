@@ -51,7 +51,7 @@ Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id 
 2. Select the meal from the selected meal catalog
 3. Drag and drop it in the specific category of meal plan
-4. Meal should be added to the specific category of meal plan
+4. Check meal is added to the specific category of meal plan for a particular day. Eg: In Lunch section for Monday, the selected meal should have been added.
 
 ## Expected Behaviour:
 Should be able select the meal from the selected meal catalog and add it to the specific category of meal plan
@@ -66,7 +66,7 @@ Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id 
 2. Verify when mouse hover the meal item in a specific category of meal plan is highlighted with green color and showing delete icon or not
 3. check that the user is able to click on the delete icon/button
-4. check that when the user clicks on the delete icon/button then the meal in the specific category of meal plan gets deleted.
+4. Check that when the user clicks on the delete icon/button then the meal in the specific category of meal plan for a particular day gets deleted. Eg: In Lunch section for Monday, the selected meal should have been deleted
 
 ## Expected Behaviour:
 Should be able delete the meal in the specific category of meal plan when clicked on the delete icon
