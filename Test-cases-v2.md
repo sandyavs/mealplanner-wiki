@@ -26,7 +26,8 @@ Meals should be displayed correctly as per the meal plan
 
 ## Test case No: MP-MealCatalog-002
 
-## Test case description: View meal catalog based on search criteria.
+## Test case description:
+View meal catalog based on search criteria.
 ## Steps to follow:
 
 Pre-requisite: MP-Login-001
@@ -44,7 +45,8 @@ Meals should be selected from the suggested meal catalog
 
 ## Test case No: MP-AddMeal-003
 
-## Test case description: Add meal in the specific category of meal plan
+## Test case description: 
+Add meal in the specific category of meal plan
 ## Steps to follow:
 
 Prerequisite: MP-Login-001
@@ -59,7 +61,8 @@ Should be able select the meal from the selected meal catalog and add it to the 
 
 ## Test case No: MP-DeleteMeal-004
 
-## Test case description: Delete meal in the specific category of meal plan
+## Test case description: 
+Delete meal in the specific category of meal plan
 ## Steps to follow:
 
 Prerequisite: MP-Login-001
@@ -70,3 +73,19 @@ Prerequisite: MP-Login-001
 
 ## Expected Behaviour:
 Should be able delete the meal in the specific category of meal plan when clicked on the delete icon
+
+## Test case No: MP-AddTag-005
+
+## Test case description:
+Add tags to the meal plan
+## Steps to follow:
+
+Prerequisite: MP-Login-001
+1. Go to url/mealplan/:id 
+2. Click on the input textbox to enter the required text
+3. Check whether it takes only alpha characters(A-Z).
+4. Check whether it takes Numeric characters (numbers 0-9)
+4. Make sure that after entering characters and when you click enter, a tag is added to the meal plan with the text that has been input in step 2
+
+Expected Behaviour:
+It should allow only Alphabets and Should be able to add tags to the meal plan
