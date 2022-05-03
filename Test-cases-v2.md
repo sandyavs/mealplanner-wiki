@@ -88,4 +88,42 @@ Prerequisite: MP-Login-001
 4. Make sure that after entering characters and when you click enter, a tag is added to the meal plan with the text that has been input in step 2
 
 Expected Behaviour:
-It should allow only Alphabets and Should be able to add tags to the meal plan
+It should allow only Alphabets and Should be able to add tags to the meal plan.
+
+## Test case No: MP-AddTag-006
+
+## Test case description: 
+Select User
+## Steps to follow:
+
+Prerequisite: MP-Login-001
+1. Go to url/mealplan/:id
+2. check that the Dropdown is Clickable or Not.
+3. check that by clicking on the dropdown whether list of users are displayed.
+4. check that the dropdown displays all users or few as the user clicks on the dropdown.
+5. check that when user selects "admin" in dropdown, make sure admin is able to view the meal planner page.
+6. check scroll down functionality working in the dropdown list or not.
+7. check that the drop-down list is scrolled down by pressing the Arrow-down key on the keyboard.
+8. check that the dropdown is not editable.
+9. check that the dropdown values are accessible and user be able to select by clicking on specific value in the dropdown by mouse pointer.
+
+Expected Behaviour:
+When user selects "admin" from list of users dropdwon, admin should be able to view the meal planner page. 
+
+
+## Test case No: MP-AddTag-007
+
+## Test case description: 
+Description of the meal plan
+## Steps to follow:
+
+Prerequisite: MP-Login-001
+1. Go to url/mealplan/:id
+2. Check the description input box is clickable or not.
+3. Check that whether the description input box accepts alphabets A-Z.
+4. Check whether the description input box accepts both upper and lower case alphabets.
+5. Check the maximum and minimum character length of description box.
+6. Check whether the description box accepts numeric,special characters and symbols.
+
+Excepted Behabiour:
+User should be able to click on Description input box and be able to enter both Alphanumeric characters
