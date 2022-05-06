@@ -2,9 +2,9 @@
 ## Test case description: 
 Login with meal designer credentials
 ## Steps to follow:
-1. Login <url> 
-2. Enter <username>
-3. Enter <password>
+1. Login url 
+2. Enter username
+3. Enter password
 
 Expected result: Should successfully login and enter the home page
 
