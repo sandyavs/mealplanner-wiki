@@ -24,10 +24,10 @@ Pre-requisite: MP-Login-001
 Meals should be displayed correctly as per the meal plan
 
 
-## Test case No: MP-MealCatalog-002
+## Test case No: MP-SelectMeal-002
 
 ## Test case description:
-View meal catalog based on search criteria.
+Select meal based on  the search criteria.
 ## Steps to follow:
 
 Pre-requisite: MP-Login-001
@@ -53,10 +53,10 @@ Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id 
 2. Select the meal from the selected meal catalog
 3. Drag and drop it in the specific category of meal plan
-4. Check meal is added to the specific category of meal plan for a particular day. Eg: In Lunch section for Monday, the selected meal should have been added.
+4. Check weather the meal is added to the specific category of meal plan for a particular day. Eg: In Lunch section for Monday, the selected meal should have been added.
 
 ## Expected Behaviour:
-Should be able select the meal from the selected meal catalog and add it to the specific category of meal plan
+Should be able to select the meal from the selected meal catalog and add it to the specific category of meal plan
 
 
 ## Test case No: MP-DeleteMeal-004
@@ -72,7 +72,7 @@ Prerequisite: MP-Login-001
 4. Check that when the user clicks on the delete icon/button then the meal in the specific category of meal plan for a particular day gets deleted. Eg: In Lunch section for Monday, the selected meal should have been deleted
 
 ## Expected Behaviour:
-Should be able delete the meal in the specific category of meal plan when clicked on the delete icon
+Should be to able delete the meal in the specific category of meal plan when clicked on the delete icon
 
 ## Test case No: MP-AddTag-005
 
@@ -90,7 +90,7 @@ Prerequisite: MP-Login-001
 Expected Behaviour:
 It should allow only Alphabets and Should be able to add tags to the meal plan.
 
-## Test case No: MP-AddTag-006
+## Test case No: MP-SelectUser-006
 
 ## Test case description: 
 Select User
@@ -108,10 +108,10 @@ Prerequisite: MP-Login-001
 9. check that the dropdown values are accessible and user be able to select by clicking on specific value in the dropdown by mouse pointer.
 
 Expected Behaviour:
-When user selects "admin" from list of users dropdwon, admin should be able to view the meal planner page. 
+When user selects "admin" from list of users dropdown, admin should be able to view the meal planner page. 
 
 
-## Test case No: MP-AddTag-007
+## Test case No: MP-AddDescription-007
 
 ## Test case description: 
 Description of the meal plan
@@ -123,7 +123,7 @@ Prerequisite: MP-Login-001
 3. Check that whether the description input box accepts alphabets A-Z.
 4. Check whether the description input box accepts both upper and lower case alphabets.
 5. Check the maximum and minimum character length of description box.
-6. Check whether the description box accepts numeric,special characters and symbols.
+6. Check whether the description box accepts numeric, special characters and symbols.
 
-Excepted Behabiour:
+Excepted Behaviour:
 User should be able to click on Description input box and be able to enter both Alphanumeric characters
