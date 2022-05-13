@@ -2,11 +2,17 @@
 ## Test case description: 
 Login with meal designer credentials
 ## Steps to follow:
-1. Login url 
-2. Enter username
-3. Enter password
+1. Check that the login page contains elements such as Username, Password, and Sign in button
+2. Check that cursor is focused on the “Username” text box on the page load (login page)
+3. Check that tab functionality is working properly or not
+3. Check that the User is able to Login with Valid Credentials
+4. Check that the User is not able to Login with an invalid Username and invalid Password
+5. Check that the User is not able to Login with a Valid Username and invalid Password
+6. Check that the User is not able to log in with an invalid Username and Valid Password
+7. Check that the User is not able to log in with a blank Username or Password
+8. Check that the User is not able to Login with inactive credentials
 
-Expected result: Should successfully login and enter the home page
+Expected result: Should be able login successfully and view the home page
 
 ## Test case No: MP-Plans-001
 
@@ -98,17 +104,19 @@ Select User
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id
-2. check that the Dropdown is Clickable or Not.
-3. check that by clicking on the dropdown whether list of users are displayed.
-4. check that the dropdown displays all users or few as the user clicks on the dropdown.
-5. check that when user selects "admin" in dropdown, make sure admin is able to view the meal planner page.
-6. check scroll down functionality working in the dropdown list or not.
-7. check that the drop-down list is scrolled down by pressing the Arrow-down key on the keyboard.
-8. check that the dropdown is not editable.
-9. check that the dropdown values are accessible and user be able to select by clicking on specific value in the dropdown by mouse pointer.
+2. On the header section check that the name of user signed-in such as "Admin" is displayed
+3. Also on the header section check that name of the meal plan such as "Veg Meal Plan" is displayed in the header section based on the user signed in.
+4. Check that the Dropdown present in the header section and whether it is Clickable.
+5. Check that by clicking on the dropdown whether list of users are displayed.
+6. Check whether the dropdown is displaying all the users or only few as the user clicks on the dropdown.
+7. Check that when user selects "meal designer" in the dropdown present in header section, user should be able to view "Vegetarian Meal Plan" page.
+8. Check scroll down functionality working in the dropdown list or not.
+9. check that the drop-down list is scrolled down by pressing the Arrow-down key on the keyboard.
+10. check that the dropdown is not editable.
+11. check that the dropdown values are accessible and user be able to select by clicking on specific value in the dropdown by mouse pointer.
 
 Expected Behaviour:
-When user selects "admin" from list of users dropdown, admin should be able to view the meal planner page. 
+When user selects "meal designer" from list of users present in dropdown, meal designer should be able to view the Vegetarian Meal Plan. 
 
 
 ## Test case No: MP-AddDescription-007
@@ -119,6 +127,7 @@ Description of the meal plan
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id
+2. 
 2. Check the description input box is clickable or not.
 3. Check that whether the description input box accepts alphabets A-Z.
 4. Check whether the description input box accepts both upper and lower case alphabets.
