@@ -2,17 +2,17 @@
 ## Test case description: 
 Login with meal designer credentials
 ## Steps to follow:
-1. Check that the login page contains elements such as Username, Password, and Sign in button
-2. Check that cursor is focused on the “Username” text box on the page load (login page)
-3. Check that tab functionality is working properly or not
-3. Check that the User is able to Login with Valid Credentials
-4. Check that the User is not able to Login with an invalid Username and invalid Password
-5. Check that the User is not able to Login with a Valid Username and invalid Password
-6. Check that the User is not able to log in with an invalid Username and Valid Password
-7. Check that the User is not able to log in with a blank Username or Password
-8. Check that the User is not able to Login with inactive credentials
+1. Check that the login page contains input boxes for Username and Password, and with Sign-in button
+2. Check that cursor is in the “Username” text box by default on the page load (login page)
+3. Check that tab functionality is working by pressing the tab button on keyboard to move to Password field from Username.
+4. Check that whether the User is able to Login with an invalid Username and invalid Password
+5. Check that whether the User is able to Login with a Valid Username and invalid Password
+6. Check that whether the User is able to log in with an invalid Username and Valid Password
+7. Check that whether the User is able to log in with a blank Username or Password
+8. Check that whether the User is able to Login with inactive credentials
+9. Check that whether the User is able to Login when valid username and password are entered
 
-Expected result: Should be able login successfully and view the home page
+Expected result: User should be able to login successfully when the valid username and password are entered and view the home page by clicking on sign-in button and display an error that username/password is wrong when invalid parameters are passed in username or password fields.
 
 ## Test case No: MP-Plans-001
 
