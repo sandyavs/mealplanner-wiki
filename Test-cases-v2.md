@@ -104,19 +104,19 @@ Select User
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id
-2. On the header section check that the name of user signed-in such as "Admin" is displayed
-3. Also on the header section check that name of the meal plan such as "Veg Meal Plan" is displayed in the header section based on the user signed in.
+2. On the header section when Signed in check that whether the name of user such as "Admin" is displayed
+3. Also on the header section check that name of the meal plan such as "Veg Meal Plan" is displayed based on the user signed in such as admin in step 1.
 4. Check that the Dropdown present in the header section and whether it is Clickable.
 5. Check that by clicking on the dropdown whether list of users are displayed.
 6. Check whether the dropdown is displaying all the users or only few as the user clicks on the dropdown.
-7. Check that when user selects "meal designer" in the dropdown present in header section, user should be able to view "Vegetarian Meal Plan" page.
-8. Check scroll down functionality working in the dropdown list or not.
+7. Check that when user selects "meal designer" in the dropdown present in header section, Make sure user is able to view "Vegetarian Meal Plan" page.
+8. Check and make sure scroll down functionality working in the dropdown list and view other user options.
 9. check that the drop-down list is scrolled down by pressing the Arrow-down key on the keyboard.
 10. check that the dropdown is not editable.
 11. check that the dropdown values are accessible and user be able to select by clicking on specific value in the dropdown by mouse pointer.
 
 Expected Behaviour:
-When user selects "meal designer" from list of users present in dropdown, meal designer should be able to view the Vegetarian Meal Plan. 
+meal designer user should be able to view the Vegetarian Meal Plan when user selects "meal designer" from list of users present in dropdown,. 
 
 
 ## Test case No: MP-AddDescription-007
@@ -127,12 +127,14 @@ Description of the meal plan
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id
-2. 
-2. Check the description input box is clickable or not.
-3. Check that whether the description input box accepts alphabets A-Z.
-4. Check whether the description input box accepts both upper and lower case alphabets.
-5. Check the maximum and minimum character length of description box.
-6. Check whether the description box accepts numeric, special characters and symbols.
+2. Check and make sure that on the header section there is a arrow key pointing downwards by default.
+3. Click on the arrow key pointing downwards to expand the view to display description and add tags details.
+4. Check and make sure the arrow now pointing upwards and when clicking on it should collapse the view and hide description and tags
+4. When the view is in expanded form as that of arrow turning upwards check the description input box is displayed and if its clickable.
+5. Check that whether the description input box accepts alphabets A-Z.
+6. Check whether the description input box accepts both upper and lower case alphabets.
+7. Check the maximum and minimum character length of description box.
+8. Check whether the description box accepts numeric, special characters and symbols.
 
 Excepted Behaviour:
 User should be able to click on Description input box and be able to enter both Alphanumeric characters
