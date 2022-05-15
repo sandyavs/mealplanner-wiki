@@ -88,10 +88,14 @@ Add tags to the meal plan
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id 
-2. Click on the input textbox to enter the required text
-3. Check whether it takes only alpha characters(A-Z).
-4. Check whether it takes Numeric characters (numbers 0-9)
-4. Make sure that after entering characters and when you click enter, a tag is added to the meal plan with the text that has been input in step 2
+2. Check and make sure that on the header section there is a arrow key pointing downwards by default.
+3. Click on the arrow key pointing downwards to expand the view to display description and add tags details.
+4. Check and make sure the arrow now pointing upwards and when clicking on it should collapse the view and hide description and tags
+5. When the view is in expanded form as that of arrow turning upwards check the add tag input box is displayed and if its clickable.
+6. Click on the input textbox to enter the required text
+7. Check whether it takes only alpha characters(A-Z).
+8. Check whether it takes Numeric characters (numbers 0-9)
+9. Make sure that after entering characters and when you click enter, a tag is added to the meal plan with the text that has been input in step 6
 
 Expected Behaviour:
 It should allow only Alphabets and Should be able to add tags to the meal plan.
@@ -128,13 +132,28 @@ Description of the meal plan
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id
 2. Check and make sure that on the header section there is a arrow key pointing downwards by default.
-3. Click on the arrow key pointing downwards to expand the view to display description and add tags details.
+3. Click on the arrow key pointing downwards to expand the view to display description and add tag details.
 4. Check and make sure the arrow now pointing upwards and when clicking on it should collapse the view and hide description and tags
-4. When the view is in expanded form as that of arrow turning upwards check the description input box is displayed and if its clickable.
-5. Check that whether the description input box accepts alphabets A-Z.
-6. Check whether the description input box accepts both upper and lower case alphabets.
-7. Check the maximum and minimum character length of description box.
-8. Check whether the description box accepts numeric, special characters and symbols.
+5. When the view is in expanded form as that of arrow turning upwards check the description input box is displayed and if its clickable.
+6. Check that whether the description input box accepts alphabets A-Z.
+7. Check whether the description input box accepts both upper and lower case alphabets.
+8. Check the maximum and minimum character length of description box.
+9. Check whether the description box accepts numeric, special characters and symbols.
 
 Excepted Behaviour:
 User should be able to click on Description input box and be able to enter both Alphanumeric characters
+
+
+## Test case No: MP-Logout-008
+
+## Test case description: 
+Check weather the user is able to logout successfully/
+## Steps to follow:
+
+Prerequisite: MP-Login-001
+1. Go to url/mealplan/:id
+2. Check after successful login such as "Admin", logout button is visible on the top right corner of the webpage.
+3. Check whether the logout button is clickable or not.
+4. Check whether the user is able to logout successfully by clicking on the logout button.
+5. After successful logout user should be able to view home page of the meal planner website.
+6. After logout check whether the user is able to login again by clicking on the back button on the home page of meal planner website.
