@@ -157,8 +157,8 @@ Prerequisite: MP-Login-001
 2. Check after successful login such as "Admin", the logout button is visible on the top right corner of the webpage.
 3. Check whether the logout button is clickable or not.
 4. Check whether the user is able to logout successfully by clicking on the logout button.
-5. After successful logout users should be able to view the home page of the meal planner website.
-6. After logout check whether the user is able to login again by clicking on the back button on the home page of the meal planner website.
+5. After successful logout users should be able to view the sign-in page of the meal planner website.
+6. After logout check whether the user is able to login again by clicking on the back button on the sign-in page of the meal planner website.
 7. Check by logging into more than one browser and logout from any of them and check whether other accounts are properly working or all get logged out.
 8. Check the logout option should not be visible till the user is logged in.
 9. After logging in with correct user credentials, close the browser by clicking on (X) and again reopen the browser and check whether the user is logged in or auto logout from the meal planner website.
