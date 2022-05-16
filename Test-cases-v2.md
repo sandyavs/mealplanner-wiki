@@ -166,7 +166,7 @@ Prerequisite: MP-Login-001
 Excepted Behaviour:
 User should be able to logout successfully by clicking on the logout button.
 
-## Test case No: MP-Menu bar-008
+## Test case No: MP-Menu bar-009
 
 ## Test case description: 
 Check the menu is displayed properly on the top of the web page
