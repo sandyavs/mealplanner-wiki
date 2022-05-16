@@ -60,6 +60,7 @@ Prerequisite: MP-Login-001
 2. Select the meal from the selected meal catalog
 3. Drag and drop it in the specific category of meal plan
 4. Check weather the meal is added to the specific category of meal plan for a particular day. Eg: In Lunch section for Monday, the selected meal should have been added.
+5. Check weather the meal added is also added in the database.
 
 ## Expected Behaviour:
 Should be able to select the meal from the selected meal catalog and add it to the specific category of meal plan
@@ -76,6 +77,7 @@ Prerequisite: MP-Login-001
 2. Verify when mouse hover the meal item in a specific category of meal plan is highlighted with green color and showing delete icon or not
 3. check that the user is able to click on the delete icon/button
 4. Check that when the user clicks on the delete icon/button then the meal in the specific category of meal plan for a particular day gets deleted. Eg: In Lunch section for Monday, the selected meal should have been deleted
+5. Check the meal is also deleted from the database.
 
 ## Expected Behaviour:
 Should be to able delete the meal in the specific category of meal plan when clicked on the delete icon
@@ -172,4 +174,11 @@ Check the menu is displayed properly on the top of the web page
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id
-2. 
+2. Check the menus are displaying properly without any congestion and properly displayed.
+3. Check the menu is adjusting automatically or not based on the number of menus.
+4. Check whether the menu item is clickable.
+5. When user clicks on the menu item such as "Plans", user should view "Plans" web page.
+6. Check "Good Meal Plan" logo is properly visible on the menu bar of the web page.
+
+Excepted Behaviour:
+When user clicks on the menu item such as "Plans", user should be able to view "Plans" web page.
