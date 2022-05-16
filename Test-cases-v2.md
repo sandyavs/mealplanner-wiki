@@ -14,7 +14,7 @@ Login with meal designer credentials
 
 Expected result: User should be able to login successfully when the valid username and password are entered and view the home page by clicking on sign-in button and display an error that username/password is wrong when invalid parameters are passed in username or password fields.
 
-## Test case No: MP-Plans-001
+## Test case No: MP-MealCalendar-001
 
 ## Test case description: 
 View a specific Meal Plan in Desktop view
@@ -30,7 +30,7 @@ Pre-requisite: MP-Login-001
 Meals should be displayed correctly as per the meal plan
 
 
-## Test case No: MP-SelectMeal-002
+## Test case No: MP-MealCalendar-002
 
 ## Test case description:
 Select meal based on  the search criteria.
@@ -38,7 +38,7 @@ Select meal based on  the search criteria.
 
 Pre-requisite: MP-Login-001
 1. Go to url/mealplan/:id 
-2. click the search box to input text
+2. Click the search box to input text
 3. Check when user start typing word in the search box, it should suggest words that matches typed keywords
 4. Choose and select from the list of suggested meal catalog options
 5. Ensure that meal is selected from the suggested meal catalog
