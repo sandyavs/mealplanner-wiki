@@ -39,12 +39,12 @@ Select meal based on  the search criteria.
 Pre-requisite: MP-Login-001
 1. Go to url/mealplan/:id 
 2. click the search box to input text
-3. check when user start typing word in the search box, it should suggest words that matches typed keywords
+3. Check when user start typing word in the search box, it should suggest words that matches typed keywords
 4. Choose and select from the list of suggested meal catalog options
 5. Ensure that meal is selected from the suggested meal catalog
-6. check whether there is option to cancel(X mark) the selected meal
-7. click on Cancel button
-8. ensure that the meal option is not selected now.
+6. Check whether there is option to cancel(X mark) the selected meal
+7. Click on Cancel button
+8. Ensure that the meal option is not selected now.
 
 ## Expected Behaviour:
 Meals should be selected from the suggested meal catalog
@@ -147,13 +147,29 @@ User should be able to click on Description input box and be able to enter both 
 ## Test case No: MP-Logout-008
 
 ## Test case description: 
-Check weather the user is able to logout successfully/
+Check weather the user is able to logout successfully
 ## Steps to follow:
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id
-2. Check after successful login such as "Admin", logout button is visible on the top right corner of the webpage.
+2. Check after successful login such as "Admin", the logout button is visible on the top right corner of the webpage.
 3. Check whether the logout button is clickable or not.
 4. Check whether the user is able to logout successfully by clicking on the logout button.
-5. After successful logout user should be able to view home page of the meal planner website.
-6. After logout check whether the user is able to login again by clicking on the back button on the home page of meal planner website.
+5. After successful logout users should be able to view the home page of the meal planner website.
+6. After logout check whether the user is able to login again by clicking on the back button on the home page of the meal planner website.
+7. Check by logging into more than one browser and logout from any of them and check whether other accounts are properly working or all get logged out.
+8. Check the logout option should not be visible till the user is logged in.
+9. After logging in with correct user credentials, close the browser by clicking on (X) and again reopen the browser and check whether the user is logged in or auto logout from the meal planner website.
+
+Excepted Behaviour:
+User should be able to logout successfully by clicking on the logout button.
+
+## Test case No: MP-Menu bar-008
+
+## Test case description: 
+Check the menu is displayed properly on the top of the web page
+## Steps to follow:
+
+Prerequisite: MP-Login-001
+1. Go to url/mealplan/:id
+2. 
