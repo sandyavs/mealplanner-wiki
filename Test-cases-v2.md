@@ -5,12 +5,14 @@ Login with meal designer credentials
 1. Check that the login page contains input boxes for Username and Password, and with Sign-in button
 2. Check that cursor is in the “Username” text box by default on the page load (login page)
 3. Check that tab functionality is working by pressing the tab button on keyboard to move to Password field from Username.
-4. Check that whether the User is able to Login with an invalid Username and invalid Password
-5. Check that whether the User is able to Login with a Valid Username and invalid Password
-6. Check that whether the User is able to log in with an invalid Username and Valid Password
-7. Check that whether the User is able to log in with a blank Username or Password
-8. Check that whether the User is able to Login with inactive credentials
-9. Check that whether the User is able to Login when valid username and password are entered
+4. Check that when user clicks on show password icon, user should be able to view the password
+5. Check that when user clicks on hide password, user shouldn't be able to view the password
+6. Check that whether the User is able to Login with an invalid Username and invalid Password
+7. Check that whether the User is able to Login with a Valid Username and invalid Password
+8. Check that whether the User is able to log in with an invalid Username and Valid Password
+9. Check that whether the User is able to log in with a blank Username or Password
+10. Check that whether the User is able to Login with inactive credentials
+11. Check that whether the User is able to Login when valid username and password are entered
 
 Expected result: User should be able to login successfully when the valid username and password are entered and view the home page by clicking on sign-in button and display an error that username/password is wrong when invalid parameters are passed in username or password fields.
 
@@ -30,7 +32,7 @@ Pre-requisite: MP-Login-001
 Meals should be displayed correctly as per the meal plan
 
 
-## Test case No: MP-MealCalendar-002
+## Test case No: MP-SelectMeal-002
 
 ## Test case description:
 Select meal based on  the search criteria.
@@ -82,7 +84,50 @@ Prerequisite: MP-Login-001
 ## Expected Behaviour:
 Should be to able delete the meal in the specific category of meal plan when clicked on the delete icon
 
-## Test case No: MP-AddTag-005
+
+## Test case No: MP-EditMealPlanName-005
+
+## Test case description: 
+Select User
+## Steps to follow:
+
+Prerequisite: MP-Login-001
+1. Go to url/mealplan/:id
+2. Check in the header section, when user clicks on the mealplan name make sure the previous mealplan name is highlighted.
+3. Check to make sure it is editable such as "Vegetarian Meal Plan".
+4. Check to make sure that it is automatically saved in the database.
+5. Check that whether the mealplan name input box accepts alphabets A-Z.
+6. Check whether the mealplan name input box accepts both upper and lower case alphabets.
+7. Check whether the mealplan name input box accepts numeric, special characters and symbols.
+
+Expected Behaviour:
+User should be able to edit the mealplan name.
+
+
+## Test case No: MP-SelectUser-006
+
+## Test case description: 
+Select User
+## Steps to follow:
+
+Prerequisite: MP-Login-001
+1. Go to url/mealplan/:id
+2. On the header section when Signed in check that whether the name of user such as "Admin" is displayed
+3. Check that the Dropdown present in the header section and whether it is Clickable.
+4. Check that by clicking on the dropdown whether list of users are displayed.
+5. Check whether the dropdown is displaying all the users or only few as the user clicks on the dropdown.
+6. Check that user  should be to select the user such as "meal designer" in the dropdown.
+7. Check to make sure that selected user name is automatically saved in the database.
+8. Check and make sure scroll down functionality working in the dropdown list and view other user options.
+9. check that the drop-down list is scrolled down by pressing the Arrow-down key on the keyboard.
+10. check that the dropdown is not editable.
+11. check that the dropdown values are accessible and user be able to select by clicking on specific value in the dropdown by mouse pointer.
+
+Expected Behaviour:
+Should be able to select the user such as "meal designer" from the dropdown and it should be automatically saved in the database.
+
+
+## Test case No: MP-AddTag-007
 
 ## Test case description:
 Add tags to the meal plan
@@ -102,30 +147,8 @@ Prerequisite: MP-Login-001
 Expected Behaviour:
 It should allow only Alphabets and Should be able to add tags to the meal plan.
 
-## Test case No: MP-SelectUser-006
 
-## Test case description: 
-Select User
-## Steps to follow:
-
-Prerequisite: MP-Login-001
-1. Go to url/mealplan/:id
-2. On the header section when Signed in check that whether the name of user such as "Admin" is displayed
-3. Also on the header section check that name of the meal plan such as "Veg Meal Plan" is displayed based on the user signed in such as admin in step 1.
-4. Check that the Dropdown present in the header section and whether it is Clickable.
-5. Check that by clicking on the dropdown whether list of users are displayed.
-6. Check whether the dropdown is displaying all the users or only few as the user clicks on the dropdown.
-7. Check that when user selects "meal designer" in the dropdown present in header section, Make sure user is able to view "Vegetarian Meal Plan" page.
-8. Check and make sure scroll down functionality working in the dropdown list and view other user options.
-9. check that the drop-down list is scrolled down by pressing the Arrow-down key on the keyboard.
-10. check that the dropdown is not editable.
-11. check that the dropdown values are accessible and user be able to select by clicking on specific value in the dropdown by mouse pointer.
-
-Expected Behaviour:
-meal designer user should be able to view the Vegetarian Meal Plan when user selects "meal designer" from list of users present in dropdown,. 
-
-
-## Test case No: MP-AddDescription-007
+## Test case No: MP-AddDescription-008
 
 ## Test case description: 
 Description of the meal plan
@@ -135,18 +158,21 @@ Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id
 2. Check and make sure that on the header section there is a arrow key pointing downwards by default.
 3. Click on the arrow key pointing downwards to expand the view to display description and add tag details.
-4. Check and make sure the arrow now pointing upwards and when clicking on it should collapse the view and hide description and tags
-5. When the view is in expanded form as that of arrow turning upwards check the description input box is displayed and if its clickable.
-6. Check that whether the description input box accepts alphabets A-Z.
-7. Check whether the description input box accepts both upper and lower case alphabets.
-8. Check the maximum and minimum character length of description box.
-9. Check whether the description box accepts numeric, special characters and symbols.
+4. When the view is in expanded form as that of arrow turning upwards check the description input box is displayed and if its clickable.
+5. Check that whether the description input box accepts alphabets A-Z.
+6. Check whether the description input box accepts both upper and lower case alphabets.
+7. Check the maximum and minimum character length of description box.
+8. Check whether the description box accepts numeric, special characters and symbols.
+9. Check to make sure that it is automatically saved in the database.
+10. Check whether the user is able to view the description, after the user gets logged out and sign-in again.
+11. Check and make sure the arrow now pointing upwards and when clicking on it should collapse the view and hide description and tags
+
 
 Excepted Behaviour:
-User should be able to click on Description input box and be able to enter both Alphanumeric characters
+User should be able to click on Description input box and be able to enter both Alphanumeric characters and user should be able view the saved description after the user logins again
 
 
-## Test case No: MP-Logout-008
+## Test case No: MP-Logout-009
 
 ## Test case description: 
 Check weather the user is able to logout successfully
@@ -166,7 +192,7 @@ Prerequisite: MP-Login-001
 Excepted Behaviour:
 User should be able to logout successfully by clicking on the logout button.
 
-## Test case No: MP-Menu bar-009
+## Test case No: MP-Menu bar-010
 
 ## Test case description: 
 Check the menu is displayed properly on the top of the web page
