@@ -112,20 +112,19 @@ Select User
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id
-2. On the header section when Signed in check that whether the name of user such as "Admin" is displayed
+2. On the header section when Signed in check that whether the name of the user such as "Admin" is displayed
 3. Check that the Dropdown present in the header section and whether it is Clickable.
-4. Check that by clicking on the dropdown whether list of users are displayed.
-5. Check whether the dropdown is displaying all the users or only few as the user clicks on the dropdown.
-6. Check that user  should be to select the user such as "meal designer" in the dropdown.
-7. Check to make sure that selected user name is automatically saved in the database.
-8. Check and make sure scroll down functionality working in the dropdown list and view other user options.
+4. Check that by clicking on the dropdown whether a list of users are displayed.
+5. Check whether the dropdown is displaying all the users or only a few as the user clicks on the dropdown.
+6. Check that the user should be able to select different users such as "meal designer" in the dropdown.
+7. Check to make sure that the selected user name is automatically saved in the database.
+8. Check and make sure to scroll down functionality working in the dropdown list and view other user options.
 9. check that the drop-down list is scrolled down by pressing the Arrow-down key on the keyboard.
 10. check that the dropdown is not editable.
-11. check that the dropdown values are accessible and user be able to select by clicking on specific value in the dropdown by mouse pointer.
+11. check that the dropdown values are accessible and the user is able to select by clicking on specific values in the dropdown by mouse pointer.
 
 Expected Behaviour:
-Should be able to select the user such as "meal designer" from the dropdown and it should be automatically saved in the database.
-
+Should be able to select the user such as "meal designer" from the dropdown.
 
 ## Test case No: MP-AddTag-007
 
@@ -135,17 +134,22 @@ Add tags to the meal plan
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id 
-2. Check and make sure that on the header section there is a arrow key pointing downwards by default.
+2. Check and make sure that on the header section there is an arrow key pointing downwards by default.
 3. Click on the arrow key pointing downwards to expand the view to display description and add tags details.
-4. Check and make sure the arrow now pointing upwards and when clicking on it should collapse the view and hide description and tags
-5. When the view is in expanded form as that of arrow turning upwards check the add tag input box is displayed and if its clickable.
-6. Click on the input textbox to enter the required text
-7. Check whether it takes only alpha characters(A-Z).
-8. Check whether it takes Numeric characters (numbers 0-9)
-9. Make sure that after entering characters and when you click enter, a tag is added to the meal plan with the text that has been input in step 6
+4. When the view is in expanded form as that of an arrow turning upwards check the add tag input box is displayed and if it's clickable.
+5. Click on the input textbox to enter the required text
+6. Check whether it takes only alpha characters(A-Z).
+7. Check whether it takes Numeric characters (numbers 0-9)
+8. Make sure that after entering characters and when you click enter, a tag is added to the meal plan with the text that has been input in step 6
+9. Check to make sure that it is automatically saved in the database.
+10. Check whether there is an option to delete(X mark) the selected tag.
+11. Click on the delete button to delete the tag.
+12. Check to make sure that the tag is also deleted from the database.
+13. Check and make sure the arrow now pointing upwards and when clicking on it should collapse the view and hide description and tags
+
 
 Expected Behaviour:
-It should allow only Alphabets and Should be able to add tags to the meal plan.
+It should allow only Alphabets and Should be able to add tags to the meal plan and when clicked delete, the selected tag should be deleted.
 
 
 ## Test case No: MP-AddDescription-008
@@ -156,12 +160,12 @@ Description of the meal plan
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id
-2. Check and make sure that on the header section there is a arrow key pointing downwards by default.
+2. Check and make sure that on the header section there is an arrow key pointing downwards by default.
 3. Click on the arrow key pointing downwards to expand the view to display description and add tag details.
-4. When the view is in expanded form as that of arrow turning upwards check the description input box is displayed and if its clickable.
-5. Check that whether the description input box accepts alphabets A-Z.
+4. When the view is in expanded form as that of an arrow turning upwards check the description input box is displayed and if it's clickable.
+5. Check whether the description input box accepts alphabets A-Z.
 6. Check whether the description input box accepts both upper and lower case alphabets.
-7. Check the maximum and minimum character length of description box.
+7. Check the maximum and minimum character length of the description box.
 8. Check whether the description box accepts numeric, special characters and symbols.
 9. Check to make sure that it is automatically saved in the database.
 10. Check whether the user is able to view the description, after the user gets logged out and sign-in again.
