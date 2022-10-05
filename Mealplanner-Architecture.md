@@ -32,7 +32,4 @@ Mealplanner actually uses two schema, `app` and `app_private`. The first is the 
 
 [[mealplanner-db.png]]
 
-# Development Environment
-
-# Deployment
  
