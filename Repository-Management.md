@@ -34,7 +34,7 @@ Github Issues are the primary building block for project management in mealplann
 
 ## Branch Naming Conventions
 
-Since dozens of short-lived branches tend to accumulate due to unfinished experiments and so on, please use helpful branch names. It is helpful to start with your name, nickname or github username, followed by either: an issue number from git issues, or a short name for the feature. This makes it easier to identify when stale branches contain useful but unfinished work.  Every few months stale branches will be removed.
+Since dozens of short-lived branches tend to accumulate due to unfinished experiments and so on, please use helpful branch names. It is helpful to start with the issue number followed by a short name for the feature. You can do this automatically from the issue details page by clicking the "Create a branch" link on the right sidebar. This makes it easier to identify when stale branches contain useful but unfinished work.  Every few months stale branches will be removed.
 
 Example
 
