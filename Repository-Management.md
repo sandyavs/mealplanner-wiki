@@ -53,7 +53,7 @@ We won't stop you from committing without a proper message but it is just good p
 
 Master is generally off-limits. If you need to access it you must ask an organisation or repository admin, they are the only ones who can grant access to that branch.
 
-Pull requests to the develop branch must include the list of issues fixed. 
+Pull requests to the develop branch must include the list of issues fixed. Also, PRs without test cases should not be accepted. Test cases can be automated via Jest or documented on the [test cases page](Test-cases-v2).
 
 We require public-private ssh keys. If you do not know how to create one see the tutorial [Generating a new SSH key and adding it to the ssh-agent](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent). 
 If you do not feel comfortable using the terminal you can use the following, which have been tested and verified to work:
