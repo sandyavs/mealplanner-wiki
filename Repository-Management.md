@@ -32,7 +32,7 @@ Respository access can be managed through team membership.  By creating a team p
 
 Github Issues are the primary building block for project management in mealplanner. Any work done on the code repository, wiki, documentation and any feature requests need to be managed via Issues. There will always be a lot of work to do and therefore a lot of open Issues but the team will decide as a group which are current priorities. Team members should work on and complete Issues assigned to them during the weekly backlog grooming before taking on any additional work. The team uses Zenhub for managing the status and assignment of Issues and the specifics will be reviewed in each meeting.
 
-Issues can be created in a couple of ways: via the Github Issues page or in ZenHub, use the Github issues page for all Issue creation to ensure correct template usage.
+Issues can be created in a couple of ways: via the Github Issues page or in Github Projects, use the Github issues page for all Issue creation to ensure correct template usage.
 
 ## Branch Naming Conventions
 
@@ -47,7 +47,7 @@ Example
 With regards to commit messages please make good use of them:
  
 1. Make sure to reference the issue # in the message
-1. Use the body to explain what and why instead of how
+1. Use the body to explain what and why instead of how
 
 We won't stop you from committing without a proper message but it is just good practice and good manners.
 
