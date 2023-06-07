@@ -2,7 +2,9 @@
 
 The branch management strategy for CivicTech will borrow heavily from the '[GitHub Flow](https://guides.github.com/introduction/flow/)' branch-based workflow.  Contributors should know and understand the GitHub Flow. As in GitHub Flow, the 'master' branch for any project should only ever contain fully tested and releasable code. In addition to master we also have a shared development branch (often called 'develop' but may have other names like 'release_dev'). The objective with this shared development branch is that it will be the common place where individual feature branches merge in preparation for a release. Only completed features should be merged into the development branch. At all times the code in the development branch should be testable by the team. Before merging new feature code into the development branch, it should be tested in the feature branch. Feature branches should always be up to date with development to be sure that new features will work once merged into development.
 
-When starting work on a new feature or story, create a new branch off of development and give it a meaningful name that relates to the feature. These are referred to as 'feature' branches. As you develop and commit changes to the feature be sure to create descriptive and helpful commit messages. This helps reviewers and testers understand the incoming changes. Once a feature is complete and merged into development, the feature branch can be removed. This will keep the repository from being cluttered with a zillion no longer used branches.
+For mealplanner, we have extended the flow to add an extra stage. All feature work will be based off the `v2` branch. Individual features or bugs will be branched from `v2` according to guidelines below and merged into `v2` on completion for integration testing. Periodically, `v2` will be mereged into `develop` and release testing will be performed there. Also any demos or playbacks will be based on `develop`.
+
+When starting work on a new feature or story, create a new branch off of `v2` and give it a meaningful name that relates to the feature. These are referred to as 'feature' branches. As you develop and commit changes to the feature be sure to create descriptive and helpful commit messages. This helps reviewers and testers understand the incoming changes. Once a feature is complete and merged into development, the feature branch can be removed. This will keep the repository from being cluttered with a zillion no longer used branches. All pull requests should have an associated Issue.
 
 Our Flow will therefore will have an extra branch compared with the normal GitHub Flow.
 
@@ -12,7 +14,7 @@ Members of the Civic Tech Fredericton organization and teams will contribute to 
 
 # Protected Branches and Permissions
 
-Protected branches in github have additional constraints on merging pull requests. By protecting a branch an administrator can enforce certain checks and balances. In Civic Tech Fredericton projects the development and master branches will be protected. Pull requests to the master branch will require at least one approver other than the requestor and the merge can only be done by an organization admin or a repository admin.  In the developement branch pull requests will require a review before being merged.  There are no restrictions on feature branches.
+Protected branches in github have additional constraints on merging pull requests. By protecting a branch an administrator can enforce certain checks and balances. In Civic Tech Fredericton projects the `develop` and `v2` branches will be protected. Pull requests will require a review before being merged.  There are no restrictions on feature branches.
 
 Pull requests in github offer the opportunity to create discussions about the request, the changes in it and even to comment directly on specific lines of code. A reviewer of a pull request should use these features to be sure they understand the changes or to raise concerns. 
 
@@ -32,7 +34,7 @@ Respository access can be managed through team membership.  By creating a team p
 
 Github Issues are the primary building block for project management in mealplanner. Any work done on the code repository, wiki, documentation and any feature requests need to be managed via Issues. There will always be a lot of work to do and therefore a lot of open Issues but the team will decide as a group which are current priorities. Team members should work on and complete Issues assigned to them during the weekly backlog grooming before taking on any additional work. The team uses Zenhub for managing the status and assignment of Issues and the specifics will be reviewed in each meeting.
 
-Issues can be created in a couple of ways: via the Github Issues page or in Github Projects, use the Github issues page for all Issue creation to ensure correct template usage.
+Issues can be created in a couple of ways: via the Github Issues page or in Github Projects, please use the Github issues page for all Issue creation to ensure correct template usage.
 
 ## Branch Naming Conventions
 
