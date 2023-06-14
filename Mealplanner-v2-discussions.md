@@ -57,7 +57,7 @@ Upon reviewing and testing will be merged to develop
      - git checkout -b {issue#}-{descriptionofissue}
          - ex: git checkout -b 456-display-username
      - git add {changedfiles}
-     - git commit -m "[#issuenumber] descriptionofwhatyourcodeacheives #issuenumber"
+     - git commit -m "[#issuenumber] descriptionofwhatyourcodeacheives"
          - ex: git commit -m "[#456] username will be displayed as no user assigned in the mealplanner calendar"
      - git push origin {yourbranchname}
          - ex: git push origin 456-display-username
