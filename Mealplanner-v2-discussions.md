@@ -38,7 +38,7 @@ Upon reviewing and testing will be merged to develop
     - can use material UI (MUI) instead of css, bootstrap 
     - https://mui.com/
 4. Sebastian is awaiting code review for his issue
-5. Bo is to create a MR for bug where username is not showing up when meal is not assigned to a user (issue #456)
+5. Bo is to create a PR for bug where username is not showing up when meal is not assigned to a user (issue #456)
 6. Duplicate meal plan feature (issue #377) assigned to Pujitha
 7. New feature: In mealplanner Admin UI (localhost:2000), be able to search particular meals in meal table
     - assigned to Tulio
@@ -51,7 +51,7 @@ Upon reviewing and testing will be merged to develop
      - assigned to Bo
      - Bo must create a new bug issue
 
-11. Steps on how to push code and create MR
+11. Steps on how to push code and create PR
      - git checkout v2
      - git checkout -b {issue#}-{descriptionofissue}
          - ex: git checkout -b 456-display-username
@@ -59,7 +59,7 @@ Upon reviewing and testing will be merged to develop
          - ex: git commit -m "username will be displayed as no user assigned in the mealplanner calendar"
      - git push origin {yourbranchname}
          - ex: git push origin 456-display-username
-     - create MR: select V2, not develop
-     - assign MR to Shanthi
+     - create PR: select V2, not develop
+     - assign PR to Shanthi
 
 
