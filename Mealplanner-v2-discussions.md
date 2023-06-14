@@ -57,8 +57,8 @@ Upon reviewing and testing will be merged to develop
      - git checkout -b {issue#}-{descriptionofissue}
          - ex: git checkout -b 456-display-username
      - git add {changedfiles}
-     - git commit -m "descriptionofwhatyourcodeacheives #issuenumber"
-         - ex: git commit -m "username will be displayed as no user assigned in the mealplanner calendar. Fixes #456"
+     - git commit -m "[#issuenumber] descriptionofwhatyourcodeacheives #issuenumber"
+         - ex: git commit -m "[#456] username will be displayed as no user assigned in the mealplanner calendar"
      - git push origin {yourbranchname}
          - ex: git push origin 456-display-username
      - create PR: select V2, not develop for base
