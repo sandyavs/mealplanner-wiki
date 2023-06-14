@@ -53,13 +53,15 @@ Upon reviewing and testing will be merged to develop
 
 11. Steps on how to push code and create PR
      - git checkout v2
+     - git pull origin v2
      - git checkout -b {issue#}-{descriptionofissue}
          - ex: git checkout -b 456-display-username
+     - git add {changedfiles}
      - git commit -m "descriptionofwhatyourcodeacheives #issuenumber"
          - ex: git commit -m "username will be displayed as no user assigned in the mealplanner calendar. Fixes #456"
      - git push origin {yourbranchname}
          - ex: git push origin 456-display-username
-     - create PR: select V2, not develop
+     - create PR: select V2, not develop for base
      - assign PR to Shanthi
 
 
