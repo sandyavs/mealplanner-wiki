@@ -30,7 +30,7 @@ After completion create merge request to v2.
 Upon reviewing and testing will be merged to develop
 
 # Minutes of Meeting 13-Jun-2023
-1. Riya favourites feature (issue #455):Code review finished, must create graphQL query, and make a MR
+1. Riya favourites feature (issue #455): Code review finished, must create graphQL query, and make a PR
 2. Mayomi's bug (issue #355) where empty meals are being created: initial solution involves making every field as required so that empty meals cannot be created, but code and name_en is mandatory, the rest of the fields are not mandatory. Must fix this in the solution.
 3. Getting familiarized with reactJS
     - Mayomi, Bo, Pujitha, Tulio must do a sample project (different project for each members) in react. Push code to github.
@@ -40,7 +40,7 @@ Upon reviewing and testing will be merged to develop
 4. Sebastian is awaiting code review for his issue
 5. Bo is to create a PR for bug where username is not showing up when meal is not assigned to a user (issue #456)
 6. Duplicate meal plan feature (issue #377) assigned to Pujitha
-7. New feature: In mealplanner Admin UI (localhost:2000), be able to search particular meals in meal table
+7. New feature: In mealplanner AdminUI (localhost:2000), be able to search particular meals in meal table
     - assigned to Tulio
     - Tulio must create new feature issue on github
 8. Print Meal plan calendar is broken when in portrait view bug (issue #345) assigned to Mayomi
