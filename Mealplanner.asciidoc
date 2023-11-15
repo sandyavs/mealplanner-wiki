@@ -1,0 +1,65 @@
+'Meals made simple' is a project by Greener Village to offer simple, affordable meal plans to clients with limited budget and time. 
+
+We volunteers at Civic Tech designed and developed a web application Meal Planner.
+We delivered the first version on October to Greener Village. 
+
+Basically when a client walks in to Greener village, a meal designer would sit with the client and discuss their dietary requirements and restrictions and design a mealplan for them. They have a readymade set of meals for each category which they write it down for a particular meal of the day say Breakfast, Lunch, Dinner. This meal plan is made for a week and the meal recipes are shared with the client. Also they provide a shopping list as per their customized meal plan. So we have worked to digitalize this entire workflow. From the software development point of view, the product is named MealPlanner. 
+We have defined 3 roles from the application point of you. 
+The user who will be the client who requires the meal plans. 
+The meal designer who designs these meal plans for the user.
+The admin who can manage the entries of recipes, products used in the recipes, measures for the ingredients in the meal, and their nutritional information. 
+
+This is the landing page where the users can login using their credentials. Here is an example of an admin user who logs in. This would take the user to the view of the list of mealplans. This is the mealplan’s name. This is the user assigned to the mealplan. This image basically shows the meals that are part of the mealplan. There is the mealplan description and tags displayed here. The shopping list of the meal plan can be printed like this. Any meal plan can be deleted by the meal designer.
+The meal designer can create a meal plan with name, description. If it is a template, no user needs to be assigned. Mealplans can be categorized using tags. Mealplan name is mandatory. Hence the create button is disabled and enabled when entered.
+When I click on a mealplan the details of the mealplan will be shown.
+Here is the view of the mealplan details which can be edited in line for changes. The name, user assigned, description and tags can be edited.
+Here is the section of example meals. The meals are tagged with any special cases such as dietary restrictions or allergies. The meal can be searched and selected to be added to the meal plan. Then click on the specific category and day in which the meal needs to be added.
+Meal entries can be deleted inline.
+I am implementing the admin interface to make it easier to manage master data like products, meals, measures, nutrition and users
+
+
+ I had securely implemented Login with HTTP cookie instead of the JWT Token being visible as a cookie that could have led to security threats.
+7. I am implementing the admin interface to make it easier to manage master data like products, meals and users.
+
+
+The Good meal plan has the domain name goodmealplan.com and the admin UI will be in goodmealplan.com:8443
+When the system is setup the first user created will be the default admin. The admin has all the access to create users, assign roles. So now with this user we are going to login.
+So the landing page is the login screen.
+ Login using email and password and click ‘Login’ button.
+ It will go to the ‘Meal Plans Page’ where the user can see current meal plans.
+These are meal plans. This is the name. 
+These meal plans have meals and those meals images are displayed inside the card.
+The mealplan card also displays which user is assigned to the meal plan, the avatar on the left side displays the initials of the user name.
+The expand button displays the description of the meal plan.
+The shopping icon is the shopping list for a particular meal plan based on the meal entries. The shopping icon navigates to the shopping list. At the top, it displays the information of user, week, and meal plan name.
+In the top right corner is the estimate of the product which is mentioned for the meal in the meal plan.
+For example, if the meal requires 80g of sugar, we cannot buy only 80g of sugar, we can only buy in bulk, say 2kgs.
+So the price displayed here is for the quantity of the product at purchase cost.
+The estimate is the total sum of the prices of all the products.
+The print button prints the entire shopping list.
+You can go to the meal plans by click on the meal plans tab here.
+The delete button deletes the entire meal plan.
+The user can create a new meal plan using the ‘Create Meal Plan’ button.
+To create a new meal plan, ‘Meal Plan Name’is a mandatory field. Other fields are optional. You can assign a user from the list of users existing in the system. You can enter a French Meal Plan Name, ’Description’, ‘Description in French’ and ‘Tags’.
+For the tags, type the required text and hit ‘Enter’, it will become a tag. It can be deleted by hitting backspace or ‘X’ button.
+Then click on ‘Create’ button
+This creates the meal plan, and you can see that the image list is blank. That is because there are no meals added to this meal plan yet.
+Clicking the meal plan, opens the meal calendar view.
+It displays the name of the meal plan which you can edit, there is no edit button, just click on the meal plan name and make changes and press the tab button. The meal plan names will be updated.
+ Similarly, the assigned user can also be changed.
+21. The print button prints the entire meal plan.
+22. The expand button on the right side displays the description and tags of the meal plan. The description and tags can also be edited. If you want to add some tag, you can do so by typing and hitting enter. The ‘X’ button is for deleting the tag. After entering the details and if you click anywhere on the screen, the details will be saved.
+23. You may verify your changes by viewing the meal plans page
+24. The meal plan has different categories for ‘Breakfast’, ‘Lunch’, ‘Dinner’, and ’Snack’ and days of the week. The meal plans are planned for a week.
+25. To add meal entries to the meal plan, you need to select the meal from the list in the left section. It can be added in two ways. The user can simply scroll and find the meal or search for the meal using a search bar.
+26. The search is simple. You can type in letters, and it will display the meal which is associated with your search string.
+27. From there you can select a meal. Once you select a meal, it will show that the meal is selected.
+28. Next to the meal is the cancel button. If you select the wrong meal, you can cancel it using the ‘X’ button. Again, you can select another meal from the search result.
+29. After the meal is selected, it can be dropped multiple times in multiple fields.
+30. Similarly, you can do so by selecting another meal and dropping it into multiple fields.
+32. Now you want to know how the meal looks like before entering into meal plan. For that you need to go to Meals
+34. This is the name of the meal in English, followed by the name in French.
+35. Next is the image and tags. If you click on the expand button, it will display the description of the meal.
+36. If the meal doesn’t have an image, then the default logo image will be displayed.
+37. If you click on a particular meal, then the estimated price, nutrition rating, detailed recipe with all the ingredients, associated tags, categories and tips will be displayed to the user.
+38. Finally, if you click on the ‘Logout’ button, then the user will be logged out.
