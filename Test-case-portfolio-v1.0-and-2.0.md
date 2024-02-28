@@ -255,7 +255,7 @@ When user clicks on the menu item such as "Plans", user should be able to view 
 ## Test case name: 
 User not assigned should be shown as text in meal calendar 
 
-## Related Bug ID: #458
+## Related Bug ID: #456
 
 ## Steps to follow:
 Pre-requisite: MP-Login-001
