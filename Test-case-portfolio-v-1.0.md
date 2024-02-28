@@ -1,4 +1,21 @@
-## Test case ID: MP-Login-001
+# Test case Portfolio v 1.0
+
+| S.No | Test case ID   | Test case name                                         |
+|:-----|:---------------|--------------------------------------------------------|
+| 1 | [MP-Login-001](#001) | Login with meal designer credentials       |
+| 2 | [MP-MealCalendar-002](#002)|  View a specific Meal Plan in Desktop view |
+| 3 | MP-SelectMeal-003 | Select meal based on the search criteria. |
+| 4 | MP-AddMeal-004 | Add meal in the specific category of meal plan |
+| 5 | MP-DeleteMeal-005 | Delete meals in the specific category of meal plan |
+| 6 | MP-EditMealPlanName-006 | Select User |
+| 7 | MP-SelectUser-007 | Select User |
+| 8 | MP-AddTag-008 | Add tags to the meal plan |
+| 9 | MP-AddDescription-009 | Description of the meal plan |
+| 10 | MP-Logout-010 | Check whether the user can logout successfully |
+| 11 | MP-Menu bar-011 | Check the menu is displayed properly on the top of the web page |
+
+
+## <a id="001">Test case ID: MP-Login-001</a> 
 ## Test case name: 
 Login with meal designer credentials
 ## Steps to follow:
@@ -17,7 +34,7 @@ Login with meal designer credentials
 ## Expected result: 
 User should be able to login successfully when the valid username and password are entered and view the home page by clicking on sign-in button and display an error that username/password is wrong when invalid parameters are passed in username or password fields.
 
-## Test case ID: MP-MealCalendar-001
+## <a id="002">Test case ID: MP-MealCalendar-002</a>
 
 ## Test case name: 
 View a specific Meal Plan in Desktop view
@@ -32,11 +49,12 @@ Pre-requisite: MP-Login-001
 ## Expected Behaviour:
 Meals should be displayed correctly as per the meal plan
 
+<a id="MP-MealCalendar-002">MEAL</a>
 
-## Test case No: MP-SelectMeal-002
+## Test case ID: MP-SelectMeal-003
 
-## Test case description:
-Select meal based on  the search criteria.
+## Test case name:
+Select meal based on the search criteria.
 ## Steps to follow:
 
 Pre-requisite: MP-Login-001
@@ -52,9 +70,9 @@ Pre-requisite: MP-Login-001
 ## Expected Behaviour:
 Meals should be selected from the suggested meal catalog
 
-## Test case No: MP-AddMeal-003
+## Test case ID: MP-AddMeal-004
 
-## Test case description: 
+## Test case name: 
 Add meal in the specific category of meal plan
 ## Steps to follow:
 
@@ -69,9 +87,9 @@ Prerequisite: MP-Login-001
 Should be able to select the meal from the selected meal catalog and add it to the specific category of meal plan
 
 
-## Test case No: MP-DeleteMeal-004
+## Test case ID: MP-DeleteMeal-005
 
-## Test case description: 
+## Test case name: 
 Delete meal in the specific category of meal plan
 ## Steps to follow:
 
@@ -86,9 +104,9 @@ Prerequisite: MP-Login-001
 Should be to able delete the meal in the specific category of meal plan when clicked on the delete icon
 
 
-## Test case No: MP-EditMealPlanName-005
+## Test case ID: MP-EditMealPlanName-006
 
-## Test case description: 
+## Test case name: 
 Select User
 ## Steps to follow:
 
@@ -105,9 +123,9 @@ Expected Behaviour:
 User should be able to edit the mealplan name.
 
 
-## Test case No: MP-SelectUser-006
+## Test case ID: MP-SelectUser-007
 
-## Test case description: 
+## Test case name: 
 Select User
 ## Steps to follow:
 
@@ -127,9 +145,9 @@ Prerequisite: MP-Login-001
 Expected Behaviour:
 Should be able to select the user such as "meal designer" from the dropdown.
 
-## Test case No: MP-AddTag-007
+## Test case ID: MP-AddTag-008
 
-## Test case description:
+## Test case name:
 Add tags to the meal plan
 ## Steps to follow:
 
@@ -149,13 +167,13 @@ Prerequisite: MP-Login-001
 13. Check and make sure the arrow now pointing upwards and when clicking on it should collapse the view and hide description and tags
 
 
-Expected Behaviour:
+## Expected Behaviour:
 It should allow only Alphabets and Should be able to add tags to the meal plan and when clicked delete, the selected tag should be deleted.
 
 
-## Test case No: MP-AddDescription-008
+## Test case ID: MP-AddDescription-009
 
-## Test case description: 
+## Test case name: 
 Description of the meal plan
 ## Steps to follow:
 
@@ -173,14 +191,14 @@ Prerequisite: MP-Login-001
 11. Check and make sure the arrow now pointing upwards and when clicking on it should collapse the view and hide description and tags
 
 
-Excepted Behaviour:
+Expected Behaviour:
 User should be able to click on Description input box and be able to enter both Alphanumeric characters and user should be able view the saved description after the user logins again
 
 
-## Test case No: MP-Logout-009
+## Test case ID: MP-Logout-010
 
-## Test case description: 
-Check weather the user is able to logout successfully
+## Test case name: 
+Check whether the user can logout successfully
 ## Steps to follow:
 
 Prerequisite: MP-Login-001
@@ -194,12 +212,12 @@ Prerequisite: MP-Login-001
 8. Check the logout option should not be visible till the user is logged in.
 9. After logging in with correct user credentials, close the browser by clicking on (X) and again reopen the browser and check whether the user is logged in or auto logout from the meal planner website.
 
-Excepted Behaviour:
+## Expected Behaviour:
 User should be able to logout successfully by clicking on the logout button.
 
-## Test case No: MP-Menu bar-010
+## Test case ID: MP-Menu bar-011
 
-## Test case description: 
+## Test case name: 
 Check the menu is displayed properly on the top of the web page
 ## Steps to follow:
 
@@ -211,5 +229,5 @@ Prerequisite: MP-Login-001
 5. When user clicks on the menu item such as "Plans", user should view "Plans" web page.
 6. Check "Good Meal Plan" logo is properly visible on the menu bar of the web page.
 
-Excepted Behaviour:
+## Expected Behaviour:
 When user clicks on the menu item such as "Plans", user should be able to view "Plans" web page.
