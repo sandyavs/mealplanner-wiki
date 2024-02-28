@@ -19,7 +19,7 @@
 | S.No | Test case ID   | Test case name                                         |
 |:-----|:---------------|--------------------------------------------------------|
 | 1 | [MP-Login-001](#001) | Login with meal designer credentials       |
-| 2 | [MP-MealCalendar-002](#002)|  View a specific Meal Plan in Desktop view |
+| 2 | [MP-MPCalendar-002](#002)|  View a specific Meal Plan in Desktop view |
 | 3 | MP-SelectMeal-003 | Select meal based on the search criteria. |
 | 4 | MP-AddMeal-004 | Add meal in the specific category of meal plan |
 | 5 | MP-DeleteMeal-005 | Delete meals in the specific category of meal plan |
@@ -29,7 +29,7 @@
 | 9 | MP-AddDescription-009 | Description of the meal plan |
 | 10 | MP-Logout-010 | Check whether the user can logout successfully |
 | 11 | MP-Menu bar-011 | Check the menu is displayed properly on the top of the web page |
-
+| 12| [MP-MPCalendar-012](#012) | User should show 'No user assigned' |
 
 
 
@@ -52,7 +52,7 @@ Login with meal designer credentials
 ## Expected result: 
 User should be able to login successfully when the valid username and password are entered and view the home page by clicking on sign-in button and display an error that username/password is wrong when invalid parameters are passed in username or password fields.
 
-## <a id="002">Test case ID: MP-MealCalendar-002</a>
+## <a id="002">Test case ID: MP-MPCalendar-002</a>
 
 ## Test case name: 
 View a specific Meal Plan in Desktop view
@@ -67,7 +67,7 @@ Pre-requisite: MP-Login-001
 ## Expected Behaviour:
 Meals should be displayed correctly as per the meal plan
 
-<a id="MP-MealCalendar-002">MEAL</a>
+
 
 ## Test case ID: MP-SelectMeal-003
 
@@ -249,3 +249,19 @@ Prerequisite: MP-Login-001
 
 ## Expected Behaviour:
 When user clicks on the menu item such as "Plans", user should be able to view "Plans" web page.
+
+## <a id="012">Test case ID: MP-MPCalendar-012</a>
+
+## Test case name: 
+User not assigned should be shown as text in meal calendar 
+
+## Related Bug ID: #458
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Go to '/mealplans'
+2. Click on 'Create Meal Plan'
+3. Enter the meal plan name 'Veg' and do not assign a user
+4. Click on the created meal plan
+5. In the mealplan calendar view, notice there is no user field next to the meal plan name.
+
