@@ -14,6 +14,24 @@
 | 10 | MP-Logout-010 | Check whether the user can logout successfully |
 | 11 | MP-Menu bar-011 | Check the menu is displayed properly on the top of the web page |
 
+# Test case Portfolio v 2.0
+
+| S.No | Test case ID   | Test case name                                         |
+|:-----|:---------------|--------------------------------------------------------|
+| 1 | [MP-Login-001](#001) | Login with meal designer credentials       |
+| 2 | [MP-MealCalendar-002](#002)|  View a specific Meal Plan in Desktop view |
+| 3 | MP-SelectMeal-003 | Select meal based on the search criteria. |
+| 4 | MP-AddMeal-004 | Add meal in the specific category of meal plan |
+| 5 | MP-DeleteMeal-005 | Delete meals in the specific category of meal plan |
+| 6 | MP-EditMealPlanName-006 | Select User |
+| 7 | MP-SelectUser-007 | Select User |
+| 8 | MP-AddTag-008 | Add tags to the meal plan |
+| 9 | MP-AddDescription-009 | Description of the meal plan |
+| 10 | MP-Logout-010 | Check whether the user can logout successfully |
+| 11 | MP-Menu bar-011 | Check the menu is displayed properly on the top of the web page |
+
+
+
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 ## Test case name: 
