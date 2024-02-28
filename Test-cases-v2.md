@@ -1,5 +1,5 @@
-## Test case No: MP-Login-001
-## Test case description: 
+## Test case ID: MP-Login-001
+## Test case name: 
 Login with meal designer credentials
 ## Steps to follow:
 1. Check that the login page contains input boxes for Username and Password, and with Sign-in button
@@ -14,11 +14,12 @@ Login with meal designer credentials
 10. Check that whether the User is able to Login with inactive credentials
 11. Check that whether the User is able to Login when valid username and password are entered
 
-Expected result: User should be able to login successfully when the valid username and password are entered and view the home page by clicking on sign-in button and display an error that username/password is wrong when invalid parameters are passed in username or password fields.
+## Expected result: 
+User should be able to login successfully when the valid username and password are entered and view the home page by clicking on sign-in button and display an error that username/password is wrong when invalid parameters are passed in username or password fields.
 
-## Test case No: MP-MealCalendar-001
+## Test case ID: MP-MealCalendar-001
 
-## Test case description: 
+## Test case name: 
 View a specific Meal Plan in Desktop view
 ## Steps to follow:
 Pre-requisite: MP-Login-001
