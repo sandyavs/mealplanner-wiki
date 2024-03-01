@@ -3,16 +3,16 @@
 | S.No | Test case ID   | Test case name                                         |
 |:-----|:---------------|--------------------------------------------------------|
 | 1 | [MP-Login-001](#001) | Login with meal designer credentials       |
-| 2 | [MP-MealCalendar-002](#002)|  View a specific Meal Plan in Desktop view |
-| 3 | MP-SelectMeal-003 | Select meal based on the search criteria. |
-| 4 | MP-AddMeal-004 | Add meal in the specific category of meal plan |
-| 5 | MP-DeleteMeal-005 | Delete meals in the specific category of meal plan |
-| 6 | MP-EditMealPlanName-006 | Select User |
-| 7 | MP-SelectUser-007 | Select User |
-| 8 | MP-AddTag-008 | Add tags to the meal plan |
-| 9 | MP-AddDescription-009 | Description of the meal plan |
-| 10 | MP-Logout-010 | Check whether the user can logout successfully |
-| 11 | MP-Menu bar-011 | Check the menu is displayed properly on the top of the web page |
+| 2 | [MP-MPCalendar-002](#002)|  View a specific Meal Plan in Desktop view |
+| 3 | [MP-SelectMeal-003](#003) | Select a meal based on the search criteria. |
+| 4 | [MP-AddMeal-004](#004) | Add meals in the specific category of meal plan |
+| 5 | [MP-DeleteMeal-005](#005) | Delete meals in the specific category of meal plan |
+| 6 | [MP-EditMealPlanName-006](#006) | Select User |
+| 7 | [MP-SelectUser-007](#007) | Select User |
+| 8 | [MP-AddTag-008](#008) | Add tags to the meal plan |
+| 9 | [MP-AddDescription-009](#009) | Description of the meal plan |
+| 10 | [MP-Logout-010](#010) | Check whether the user can log out successfully |
+| 11 | [MP-Menu bar-011](#011) | Check the menu is displayed properly on the top of the web page |
 
 # Test case Portfolio v 2.0
 
@@ -20,138 +20,144 @@
 |:-----|:---------------|--------------------------------------------------------|
 | 1 | [MP-Login-001](#001) | Login with meal designer credentials       |
 | 2 | [MP-MPCalendar-002](#002)|  View a specific Meal Plan in Desktop view |
-| 3 | MP-SelectMeal-003 | Select meal based on the search criteria. |
-| 4 | MP-AddMeal-004 | Add meal in the specific category of meal plan |
-| 5 | MP-DeleteMeal-005 | Delete meals in the specific category of meal plan |
-| 6 | MP-EditMealPlanName-006 | Select User |
-| 7 | MP-SelectUser-007 | Select User |
-| 8 | MP-AddTag-008 | Add tags to the meal plan |
-| 9 | MP-AddDescription-009 | Description of the meal plan |
-| 10 | MP-Logout-010 | Check whether the user can logout successfully |
-| 11 | MP-Menu bar-011 | Check the menu is displayed properly on the top of the web page |
-| 12| [MP-MPCalendar-012](#012) | User should show 'No user assigned' |
+| 3 | [MP-SelectMeal-003](#003) | Select a meal based on the search criteria. |
+| 4 | [MP-AddMeal-004](#004) | Add meals in the specific category of meal plan |
+| 5 | [MP-DeleteMeal-005](#005) | Delete meals in the specific category of meal plan |
+| 6 | [MP-EditMealPlanName-006](#006) | Select User |
+| 7 | [MP-SelectUser-007](#007) | Select User |
+| 8 | [MP-AddTag-008](#008) | Add tags to the meal plan |
+| 9 | [MP-AddDescription-009](#009) | Description of the meal plan |
+| 10 | [MP-Logout-010](#010) | Check whether the user can log out successfully |
+| 11 | [MP-Menu bar-011](#011) | Check the menu is displayed properly on the top of the web page |
+| 12 | [MP-MPCalendar-012](#012) | User should show 'No user assigned'|
+| 13 | [MP-MPSearch-013](#013) | Search for a meal plan based on any word of the name |
+| 14 | [AA-Autocomplete-014](#014) | Enable autocomplete feature for Products and Meals fields in admin app measure form |
+| 15 | [MP-FilterByTags-015](#015) | Filter meal plans by tags                                                |
 
 
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
+
 ## Test case name: 
 Login with meal designer credentials
+
 ## Steps to follow:
-1. Check that the login page contains input boxes for Username and Password, and with Sign-in button
-2. Check that cursor is in the “Username” text box by default on the page load (login page)
-3. Check that tab functionality is working by pressing the tab button on keyboard to move to Password field from Username.
-4. Check that when user clicks on show password icon, user should be able to view the password
-5. Check that when user clicks on hide password, user shouldn't be able to view the password
-6. Check that whether the User is able to Login with an invalid Username and invalid Password
-7. Check that whether the User is able to Login with a Valid Username and invalid Password
-8. Check that whether the User is able to log in with an invalid Username and Valid Password
-9. Check that whether the User is able to log in with a blank Username or Password
-10. Check that whether the User is able to Login with inactive credentials
-11. Check that whether the User is able to Login when valid username and password are entered
+1. Check that the login page contains input boxes for Username and Password and with Sign-in button
+2. Check that the cursor is in the “Username” text box by default on the page load (login page)
+3. Check that the tab functionality is working by pressing the tab button on the keyboard to move to the Password field from the Username.
+4. Check that when the user clicks on the show password icon, the user should be able to view the password
+5. Check that when the user clicks on hide password, the user shouldn't be able to view the password
+6. Check whether the User is able to log in with an invalid Username and invalid Password
+7. Check whether the User is able to log in with a Valid Username and an invalid Password
+8. Check whether the User is able to log in with an invalid Username and Valid Password
+9. Check whether the User is able to log in with a blank Username or Password
+10. Check whether the User is able to log in with inactive credentials
+11. Check whether the User is able to log in when a valid username and password are entered
 
 ## Expected result: 
-User should be able to login successfully when the valid username and password are entered and view the home page by clicking on sign-in button and display an error that username/password is wrong when invalid parameters are passed in username or password fields.
+Users should be able to log in successfully when the valid username and password are entered and view the home page by clicking on the sign-in button and display an error that username/password is wrong when invalid parameters are passed in username or password fields.
 
 ## <a id="002">Test case ID: MP-MPCalendar-002</a>
 
 ## Test case name: 
-View a specific Meal Plan in Desktop view
+View a specific Meal Plan in the Desktop view
+
 ## Steps to follow:
 Pre-requisite: MP-Login-001
 1. Go to url/mealplan/:id
 2. Check the meal plan name is displayed in tabular form
 3. Check whether the 7 days (Sunday, Monday, Tuesday, Wednesday, Thursday, Friday) are listed
-4. Check the categories Breakfast, Lunch, Dinner, Snack are displayed
-5. Check the meals are displayed in a specific category for a particular day. Eg: In Breakfast of Monday, the added meal should be listed.
+4. Check the categories Breakfast, Lunch, Dinner, and Snack are displayed
+5. Check the meals are displayed in a specific category for a particular day. Eg: In Breakfast on Monday, the added meal should be listed.
 
 ## Expected Behaviour:
 Meals should be displayed correctly as per the meal plan
 
-
-
-## Test case ID: MP-SelectMeal-003
+## <a id="003">Test case ID: MP-SelectMeal-003</a>
 
 ## Test case name:
-Select meal based on the search criteria.
+Select a meal based on the search criteria.
+
 ## Steps to follow:
 
 Pre-requisite: MP-Login-001
 1. Go to url/mealplan/:id 
 2. Click the search box to input text
-3. Check when user start typing word in the search box, it should suggest words that matches typed keywords
-4. Choose and select from the list of suggested meal catalog options
-5. Ensure that meal is selected from the suggested meal catalog
-6. Check whether there is option to cancel(X mark) the selected meal
-7. Click on Cancel button
+3. Check when the user starts typing words in the search box, it should suggest words that match typed keywords
+4. Choose and select from the list of suggested meal catalogue options
+5. Ensure that the meal is selected from the suggested meal catalogue
+6. Check whether there is an option to cancel(X mark) the selected meal
+7. Click on the Cancel button
 8. Ensure that the meal option is not selected now.
 
 ## Expected Behaviour:
-Meals should be selected from the suggested meal catalog
+Meals should be selected from the suggested meal catalogue
 
-## Test case ID: MP-AddMeal-004
+## <a id="004">Test case ID: MP-AddMeal-004</a>
 
 ## Test case name: 
-Add meal in the specific category of meal plan
+Add meals in the specific category of the meal plan
+
 ## Steps to follow:
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id 
-2. Select the meal from the selected meal catalog
+2. Select the meal from the selected meal catalogue
 3. Drag and drop it in the specific category of meal plan
-4. Check weather the meal is added to the specific category of meal plan for a particular day. Eg: In Lunch section for Monday, the selected meal should have been added.
-5. Check weather the meal added is also added in the database.
+4. Check whether the meal is added to the specific category of meal plan for a particular day. Eg: In the Lunch section for Monday, the selected meal should have been added.
+5. Check whether the meal added is also added to the database.
 
 ## Expected Behaviour:
-Should be able to select the meal from the selected meal catalog and add it to the specific category of meal plan
+Should be able to select the meal from the selected meal catalog and add it to the specific category of the meal plan
 
-
-## Test case ID: MP-DeleteMeal-005
+## <a id="005">Test case ID: MP-DeleteMeal-005</a>
 
 ## Test case name: 
-Delete meal in the specific category of meal plan
+Delete meals in the specific category of the meal plan
+
 ## Steps to follow:
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id 
-2. Verify when mouse hover the meal item in a specific category of meal plan is highlighted with green color and showing delete icon or not
+2. Verify when the mouse hovers the meal item in a specific category of the meal plan is highlighted with green colour and shows the delete icon or not
 3. check that the user is able to click on the delete icon/button
-4. Check that when the user clicks on the delete icon/button then the meal in the specific category of meal plan for a particular day gets deleted. Eg: In Lunch section for Monday, the selected meal should have been deleted
+4. Check that when the user clicks on the delete icon/button then the meal in the specific category of meal plan for a particular day gets deleted. Eg: In the Lunch section for Monday, the selected meal should have been deleted
 5. Check the meal is also deleted from the database.
 
 ## Expected Behaviour:
-Should be to able delete the meal in the specific category of meal plan when clicked on the delete icon
+Should be to able delete the meal in the specific category of the meal plan when clicking on the delete icon
 
-
-## Test case ID: MP-EditMealPlanName-006
+## <a id="006">Test case ID: MP-EditMealPlanName-006</a>
 
 ## Test case name: 
 Select User
+
 ## Steps to follow:
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id
-2. Check in the header section, when user clicks on the mealplan name make sure the previous mealplan name is highlighted.
+2. Check in the header section, when the user clicks on the meal plan name make sure the previous meal plan name is highlighted.
 3. Check to make sure it is editable such as "Vegetarian Meal Plan".
 4. Check to make sure that it is automatically saved in the database.
-5. Check that whether the mealplan name input box accepts alphabets A-Z.
-6. Check whether the mealplan name input box accepts both upper and lower case alphabets.
-7. Check whether the mealplan name input box accepts numeric, special characters and symbols.
+5. Check whether the meal plan name input box accepts alphabets A-Z.
+6. Check whether the meal plan name input box accepts both upper and lower case alphabets.
+7. Check whether the meal plan name input box accepts numeric, special characters and symbols.
 
 Expected Behaviour:
-User should be able to edit the mealplan name.
+The user should be able to edit the meal plan name.
 
-
-## Test case ID: MP-SelectUser-007
+## <a id="007">Test case ID: MP-SelectUser-007</a>
 
 ## Test case name: 
 Select User
+
 ## Steps to follow:
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id
-2. On the header section when Signed in check that whether the name of the user such as "Admin" is displayed
-3. Check that the Dropdown present in the header section and whether it is Clickable.
-4. Check that by clicking on the dropdown whether a list of users are displayed.
+2. On the header section when Signed in check whether the name of the user such as "Admin" is displayed
+3. Check that the Dropdown is present in the header section and whether it is Clickable.
+4. Check that by clicking on the dropdown a list of users is displayed.
 5. Check whether the dropdown is displaying all the users or only a few as the user clicks on the dropdown.
 6. Check that the user should be able to select different users such as "meal designer" in the dropdown.
 7. Check to make sure that the selected user name is automatically saved in the database.
@@ -163,97 +169,97 @@ Prerequisite: MP-Login-001
 Expected Behaviour:
 Should be able to select the user such as "meal designer" from the dropdown.
 
-## Test case ID: MP-AddTag-008
+## <a id="008">Test case ID: MP-AddTag-008</a>
 
 ## Test case name:
 Add tags to the meal plan
+
 ## Steps to follow:
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id 
-2. Check and make sure that on the header section there is an arrow key pointing downwards by default.
-3. Click on the arrow key pointing downwards to expand the view to display description and add tags details.
+2. Check and make sure that on the header section, there is an arrow key pointing downwards by default.
+3. Click on the arrow key pointing downwards to expand the view to display the description and add tag details.
 4. When the view is in expanded form as that of an arrow turning upwards check the add tag input box is displayed and if it's clickable.
 5. Click on the input textbox to enter the required text
-6. Check whether it takes only alpha characters(A-Z).
+6. Check whether it takes only alpha characters(A to Z).
 7. Check whether it takes Numeric characters (numbers 0-9)
 8. Make sure that after entering characters and when you click enter, a tag is added to the meal plan with the text that has been input in step 6
 9. Check to make sure that it is automatically saved in the database.
 10. Check whether there is an option to delete(X mark) the selected tag.
 11. Click on the delete button to delete the tag.
 12. Check to make sure that the tag is also deleted from the database.
-13. Check and make sure the arrow now pointing upwards and when clicking on it should collapse the view and hide description and tags
-
+13. Check and make sure the arrow now pointing upwards and when clicking on it should collapse the view and hide the description and tags
 
 ## Expected Behaviour:
 It should allow only Alphabets and Should be able to add tags to the meal plan and when clicked delete, the selected tag should be deleted.
 
-
-## Test case ID: MP-AddDescription-009
+## <a id="009">Test case ID: MP-AddDescription-009</a>
 
 ## Test case name: 
 Description of the meal plan
+
 ## Steps to follow:
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id
-2. Check and make sure that on the header section there is an arrow key pointing downwards by default.
-3. Click on the arrow key pointing downwards to expand the view to display description and add tag details.
+2. Check and make sure that on the header section, there is an arrow key pointing downwards by default.
+3. Click on the arrow key pointing downwards to expand the view to display the description and add tag details.
 4. When the view is in expanded form as that of an arrow turning upwards check the description input box is displayed and if it's clickable.
-5. Check whether the description input box accepts alphabets A-Z.
-6. Check whether the description input box accepts both upper and lower case alphabets.
+5. Check whether the description input box accepts alphabets A to Z.
+6. Check whether the description input box accepts both upper and lower-case alphabets.
 7. Check the maximum and minimum character length of the description box.
 8. Check whether the description box accepts numeric, special characters and symbols.
 9. Check to make sure that it is automatically saved in the database.
 10. Check whether the user is able to view the description, after the user gets logged out and sign-in again.
-11. Check and make sure the arrow now pointing upwards and when clicking on it should collapse the view and hide description and tags
-
+11. Check and make sure the arrow now pointing upwards and when clicking on it should collapse the view and hide the description and tags
 
 Expected Behaviour:
-User should be able to click on Description input box and be able to enter both Alphanumeric characters and user should be able view the saved description after the user logins again
+The user should be able to click on the Description input box and be able to enter both Alphanumeric characters and the user should be able to view the saved description after the user logins again
 
-
-## Test case ID: MP-Logout-010
+## <a id="010">Test case ID: MP-Logout-010</a>
 
 ## Test case name: 
-Check whether the user can logout successfully
+Check whether the user can log out successfully
+
 ## Steps to follow:
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id
 2. Check after successful login such as "Admin", the logout button is visible on the top right corner of the webpage.
 3. Check whether the logout button is clickable or not.
-4. Check whether the user is able to logout successfully by clicking on the logout button.
+4. Check whether the user is able to log out successfully by clicking on the logout button.
 5. After successful logout users should be able to view the sign-in page of the meal planner website.
-6. After logout check whether the user is able to login again by clicking on the back button on the sign-in page of the meal planner website.
-7. Check by logging into more than one browser and logout from any of them and check whether other accounts are properly working or all get logged out.
+6. After logout check whether the user is able to log in again by clicking on the back button on the sign-in page of the meal planner website.
+7. Check by logging into more than one browser and log out from any of them and check whether other accounts are properly working or all get logged out.
 8. Check the logout option should not be visible till the user is logged in.
-9. After logging in with correct user credentials, close the browser by clicking on (X) and again reopen the browser and check whether the user is logged in or auto logout from the meal planner website.
+9. After logging in with the correct user credentials, close the browser by clicking on (X) and again reopen the browser and check whether the user is logged in or automatically logged out from the meal planner website.
 
 ## Expected Behaviour:
-User should be able to logout successfully by clicking on the logout button.
+The user should be able to log out successfully by clicking on the logout button.
 
-## Test case ID: MP-Menu bar-011
+## <a id="011">Test case ID: MP-Menu bar-011</a>
 
 ## Test case name: 
 Check the menu is displayed properly on the top of the web page
+
 ## Steps to follow:
 
 Prerequisite: MP-Login-001
 1. Go to url/mealplan/:id
 2. Check the menus are displaying properly without any congestion and properly displayed.
-3. Check the menu is adjusting automatically or not based on the number of menus.
+3. Check whether the menu is adjusting automatically or not based on the number of menus.
 4. Check whether the menu item is clickable.
-5. When user clicks on the menu item such as "Plans", user should view "Plans" web page.
+5. When the user clicks on the menu item such as "Plans", the user should view the "Plans" web page.
 6. Check "Good Meal Plan" logo is properly visible on the menu bar of the web page.
 
 ## Expected Behaviour:
-When user clicks on the menu item such as "Plans", user should be able to view "Plans" web page.
+When a user clicks on the menu item such as "Plans", a user should be able to view the "Plans" web page.
 
 ## <a id="012">Test case ID: MP-MPCalendar-012</a>
 
 ## Test case name: 
-User not assigned should be shown as text in meal calendar 
+User not assigned should be shown as text in the meal calendar 
 
 ## Related Bug ID: #456
 
@@ -263,5 +269,91 @@ Pre-requisite: MP-Login-001
 2. Click on 'Create Meal Plan'
 3. Enter the meal plan name 'Veg' and do not assign a user
 4. Click on the created meal plan
-5. In the mealplan calendar view, notice there is no user field next to the meal plan name.
+5. In the meal plan calendar view, notice there is no user field next to the meal plan name.
+
+
+## <a id="013">Test case ID: MP-MPSearch-013</a>
+
+## Test case name:
+
+Search for a meal plan based on any word of the name
+
+## Related Bug ID: #372
+
+## Steps to follow:
+
+1. Pre-requisite: MP-Login-001
+2. Go to '/mealplans'
+3. Go to the ‘Select Meal from the list’ section of the page
+4. Locate the search bar designated for searching meal plans.
+5. Enter one or more characters from a word from the name of any existing meal plan into the search bar.
+6. Check whether the search results include the meal plan whose name contains the entered word.
+7. Verify that the search results display relevant meal plans matching the search criteria.
+8. Select any of the displayed meal plans from the search results.
+9. Add the meal to the proper timeslot of the Meal Plan table
+10. Confirm that the selected meal plan is navigated to and displayed on the screen.
+
+## Expected Behaviour:
+
+Upon entering a word from the name of any existing meal plan into the search bar and initiating the search, the system should return relevant search results containing meal plans whose names contain the entered word. Users should be able to select a meal plan from the search results, and upon selection, by adding the meal to the proper timeslot of the Meal Plan table the corresponding meal plan should be displayed on the screen.
+
+
+## <a id="014">Test case ID: AA-Autocomplete-014</a>
+
+## Test case name:
+
+Enable autocomplete feature for Products and Meals fields in admin app measure form
+
+## Related Bug ID: #482
+
+## Steps to follow:
+
+1. Pre-requisite: MP-Login-001.
+2. Log in to the admin app (AA). 
+3. From the Local Navigation Bar, access to the "Measures" form.
+4. Navigate to the Measure form in the admin app.
+6. Go to \Create
+5. From the input blocks in the form, locate the "Products" and "Meals" fields.
+7. Start typing in the Products or Meals field.
+8. Check whether the autocomplete feature suggests appropriate items based on characters of the user input.
+9. Verify that the dropdown displays all available products or meals matching the entered text.
+10. Select a product or meal from the autocomplete suggestions.
+11. Confirm that the selected item is populated in the corresponding field of the measure form.
+
+## Expected Behaviour:
+
+When users fill in step 9, when the Products or Meals fields in the admin app measure form, the autocomplete feature should suggest appropriate items based on the user input. Users should be able to select the correct product or meal from the autocomplete suggestions, improving the user experience and accuracy of data entry.
+
+**Failed Case: ** Autocomplete feature suggests inappropriate items when user types more than one character. For example trying to find "Onion" by typing "ONI", it suggests "Iodized Salt Table".
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/0bda33d0-9730-41de-a173-78c7759bab95)
+
+
+## <a id="015">Test case ID: MP-FilterByTags-015</a>
+
+## Test case name:
+
+Filter meal plans by tags
+
+## Related Feature: Filter by tags for meal plan #522
+
+## Steps to follow:
+
+1. Pre-requisite:MP-Login-001.
+2. Navigate to the meal plans section.
+3. Locate the "Filter by tags" view.
+4. Check whether the list of unique meal plan tags is automatically displayed.
+5. Verify that the listed tags include all tags associated with existing meal plans.
+6. Select one of the displayed tags from the list.
+7. Confirm that the meal plans displayed are filtered based on the selected tag.
+8. Select another tag from the list.
+9. Verify that the meal plans displayed are now filtered based on both selected tags.
+10. Clear the selected tags.
+11. Confirm that all meal plans are displayed again without any filtering.
+
+## Expected Behaviour:
+
+Upon accessing the "Filter by tags" view in the meal planner application, users should be able to view a list of unique meal plan tags automatically. The list should dynamically update to reflect any changes in meal plans, such as creation or deletion, ensuring that all tags associated with existing meal plans are accurately displayed. Users should be able to filter meal plans by selecting one or more tags from the list, with the displayed meal plans updating accordingly. Additionally, users should have the option to clear selected tags to view all meal plans without filtering.
+
+
 
