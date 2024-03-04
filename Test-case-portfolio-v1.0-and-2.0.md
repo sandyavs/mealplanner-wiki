@@ -35,6 +35,7 @@
 | 15 | [MP-FilterByTags-015](#015) | Filter meal plans by tags                                                |
 | 16 | [AA-MultipleTags-016](#016) | Verify creation of multiple tags for a product in Admin app product page   |
 | 17 | [MP-CalenderUsername-017](#017) | Verify display of "no user assigned" on meal plan calendar when no user is assigned |
+| 18 | [AA-DeleteMeal-018](#018) | Verify deletion of a meal from the meals table without foreign key constraint error |
 
 
 
@@ -418,3 +419,32 @@ Passed all the steps except the step 10. Instead of display "no user assigned", 
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/b5473120-fc36-4a1f-a42b-8a8994732b9b)
 
+
+## <a id="018">Test case ID: AA-DeleteMeal-018</a>
+
+## Test case name:
+Verify deletion of a meal from the meals table without foreign key constraint error
+
+## Related Bug: Deleting a meal from the meals table throws an error foreign key constraint #426
+
+## Steps to follow:
+1. Pre-requisite: MP-Login-001.
+2. Log in to the Admin App (AA). 
+3. Navigate to the Meals section in the Admin App.
+4. Identify a meal entry in the meals table that you want to delete.
+5. Click on the checkbox next to the meal entry to select it for deletion.
+6. Click on the 'Delete' button to initiate the deletion process.
+7. Verify that the system does not display any error message related to foreign key constraint violations.
+8. Confirm that the selected meal entry is deleted from the meals table.
+9. Refresh the page or navigate back to the meals table to ensure that the deleted meal entry is no longer present.
+
+## Expected Behaviour:
+Upon selecting and deleting a meal entry from the meals table, the system should successfully delete the entry without encountering any foreign key constraint errors. The meal entry should be removed from the meals table as expected.
+
+## Test Results:
+Passed.
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/bbbde30c-a13f-4af4-9446-c07bc36b59eb)
+
+After deleting the meal. 
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/ada028a6-a4cc-4b6a-afd0-e64582e1f315)
