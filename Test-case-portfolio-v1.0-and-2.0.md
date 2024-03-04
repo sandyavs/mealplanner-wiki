@@ -33,6 +33,8 @@
 | 13 | [MP-MPSearch-013](#013) | Search for a meal plan based on any word of the name |
 | 14 | [AA-Autocomplete-014](#014) | Enable autocomplete feature for Products and Meals fields in admin app measure form |
 | 15 | [MP-FilterByTags-015](#015) | Filter meal plans by tags                                                |
+| 16 | [AA-MultipleTags-016](#016) | Verify creation of multiple tags for a product in Admin app product page   |
+| 17 | [MP-CalenderUsername-017](#017) | Verify display of "no user assigned" on meal plan calendar when no user is assigned |
 
 
 
@@ -356,4 +358,63 @@ Filter meal plans by tags
 Upon accessing the "Filter by tags" view in the meal planner application, users should be able to view a list of unique meal plan tags automatically. The list should dynamically update to reflect any changes in meal plans, such as creation or deletion, ensuring that all tags associated with existing meal plans are accurately displayed. Users should be able to filter meal plans by selecting one or more tags from the list, with the displayed meal plans updating accordingly. Additionally, users should have the option to clear selected tags to view all meal plans without filtering.
 
 
+## <a id="016">Test case ID: AA-MultipleTags-016</a>
+
+## Test case name:
+
+Verify creation of multiple tags for a product in Admin app product page
+
+## Related Bug: [BUG] multiple tags are not getting created in Admin app product page #483
+
+## Steps to follow:
+
+1. Pre-requisite: MP-Login-001.
+2. Log in to the admin app (AA). 
+3. Navigate to the 'products/create' page or edit an existing product.
+4. Scroll down to the 'tags' entry field.
+5. Enter more than one tag separated by commas (e.g., "vegan,grocery") into the 'tags' field.
+6. Click the 'Save' button to save the product.
+7. Verify that the product is saved successfully without any error messages.
+8. Navigate back to the product details page or search for the product in the product list.
+9. Check the tags associated with the product.
+10. Confirm that all tags entered in the 'tags' field during creation/editing are displayed and associated with the product.
+
+## Expected Behaviour:
+
+When multiple tags are entered into the 'tags' field for a product during creation or editing, the system should correctly create and associate all tags with the product. Each tag entered should be treated as a separate tag, and the tags displayed for the product should reflect all entered tags without any loss or truncation.
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/6abed09d-03de-4c96-ad34-f53e1892f7b0)
+
+
+
+## <a id="017">Test case ID: MP-CalenderUsername-017</a>
+
+## Test case name:
+
+Verify display of "no user assigned" on meal plan calendar when no user is assigned
+
+## Related Bug: Username will be displayed as no user assigned on meal plan calendar #458
+
+## Steps to follow:
+
+1. Pre-requisite: MP-MPCalendar-002.
+2. Navigate to the meal plan calendar page where meal plans are displayed.
+3. Go to \Create.
+4. Create a new meal plan with a user assigned to it. 
+5. Verify that on the meal plan calendar, the username associated with the meal plan is displayed.
+6. Go to \Create.
+7. Create a new meal plan without assigning any user to it. 
+8. Check for a meal plan that has no user assigned to it.
+9. Refresh or navigate back to the meal plan calendar page.
+10. Confirm that "no user assigned" is displayed instead of the username.
+
+## Expected Behaviour:
+
+When a meal plan has no user assigned to it, the meal plan calendar should display "no user assigned" instead of a username. This ensures clarity and indicates that the meal plan is not assigned to any specific user. Upon assigning a user to the meal plan, the respective username should be displayed on the calendar.
+
+## Test Results:
+
+Passed all the steps except the step 10. Instead of display "no user assigned", it doesn't show anything. The screenshot attached the output. 
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/b5473120-fc36-4a1f-a42b-8a8994732b9b)
 
