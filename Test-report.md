@@ -9,4 +9,14 @@ Release name: v2
 |04-Mar-2024 | #483  | [AA-MultipleTags-016](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0/_edit#related-bug-bug-multiple-tags-are-not-getting-created-in-admin-app-product-page-483) | Verify creation of multiple tags for a product in Admin app product page |Passed |
 |04-Mar-2024 | #458  | [MP-CalenderUsername-017](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0/_edit#test-case-id-mp-calenderusernamedisplay-017) | Verify display of "no user assigned" on meal plan calendar when no user is assigned |Passed with exception |
 |04-Mar-2024 | #426  | [AA-DeleteMeal-018](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0/_edit#test-case-id-aa-deletemeal-018) | Verify deletion of a meal from the meals table without foreign key constraint error |Passed |
+|08-Mar-2024 | #413 | [MP-LoginErrorDisplay-019](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-mp-loginerrordisplay-019) | Verify display of error message when hitting enter with invalid credentials in the login page | Passed |
+|10-Mar-2024 | #377 | [MP-DuplicateMealPlan-020](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0/_edit#test-case-id-mp-duplicatemealplan-020) | Create a duplicate meal plan from an existing meal plan | Passed |
+
+
+
+
+
+
+
+
 
