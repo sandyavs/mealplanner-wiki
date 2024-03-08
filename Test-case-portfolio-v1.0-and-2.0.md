@@ -36,6 +36,8 @@
 | 16 | [AA-MultipleTags-016](#016) | Verify creation of multiple tags for a product in Admin app product page   |
 | 17 | [MP-CalenderUsername-017](#017) | Verify display of "no user assigned" on meal plan calendar when no user is assigned |
 | 18 | [AA-DeleteMeal-018](#018) | Verify deletion of a meal from the meals table without foreign key constraint error |
+| 19 | [MP-LoginErrorDisplay-019](#019) | Verify display of error message when hitting enter with invalid credentials in the login page |
+| 20 | [MP-DuplicateMealPlan-020](#020) | Create a duplicate meal plan from an existing meal plan |
 
 
 
@@ -448,3 +450,57 @@ Passed.
 
 After deleting the meal. 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/ada028a6-a4cc-4b6a-afd0-e64582e1f315)
+
+
+## <a id="019">Test case ID: MP-LoginErrorDisplay-019</a>
+
+## Test case name:
+Verify display of error message when hitting enter with invalid credentials in the login page
+
+## Related Bug: Error message is not displayed when you hit enter while using invalid credentials #413
+
+## Steps to follow:
+1. Pre-requisite: MP-Login-001.
+2. The meal planner app should be accessible and running.
+2. Navigate to the Login page of the meal planner app.
+3. Enter invalid credentials such as 'admin' for username and 'pass' for password.
+4. Press the 'Enter' key on the keyboard.
+5. Check if an error message indicating the login failure due to wrong credentials is displayed.
+6. Verify that the error message clearly states that "invalid user credentials".
+
+## Expected Behaviour:
+Upon entering invalid credentials and pressing the 'Enter' key, the system should display an error message indicating that the login failed due to wrong credentials. The error message should clearly inform the user about the incorrect credentials entered.
+
+## Test Results:
+Passed in all steps. 
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/cab4aed3-a0e9-4abe-b4c9-eeb3bb915afe)
+
+
+## <a id="020">Test case ID: MP-DuplicateMealPlan-020</a>
+
+## Test case name:
+
+Create a duplicate meal plan from an existing meal plan.
+
+## Related Bug: Duplicate meal plan #377
+
+## Steps to follow:
+
+1. Pre-requisite: MP-Login-001.
+2. Navigate to the existing meal plan that you want to duplicate.
+3. Open the meal plan and review its details.
+4. Look for an option or button to duplicate the meal plan.
+5. Click on the duplicate button.
+6. Provide a new name or identifier for the duplicated meal plan.
+7. Confirm the duplication process.
+8. Verify that the duplicated meal plan is created successfully.
+9. Check that the content of the duplicated meal plan matches the original one.
+10. Ensure that any assigned tags, descriptions, or other details are also copied to the duplicated meal plan.
+
+## Expected Behaviour:
+
+When duplicating a meal plan, the system should create an exact replica of the original meal plan, including all its content, tags, descriptions, and other associated details. The duplicated meal plan should have a new identifier to differentiate it from the original, and it should be created successfully without any loss of data.
+
+## Test Results:
+
+All steps passed successfully. The duplicated meal plan was created with the expected content and details matching the original meal plan.
