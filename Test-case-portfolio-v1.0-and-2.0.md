@@ -38,8 +38,8 @@
 | 18 | [AA-DeleteMeal-018](#018) | Verify deletion of a meal from the meals table without foreign key constraint error |
 | 19 | [MP-LoginErrorDisplay-019](#019) | Verify display of error message when hitting enter with invalid credentials in the login page |
 | 20 | [MP-DuplicateMealPlan-020](#020) | Create a duplicate meal plan from an existing meal plan |
-
-
+| 21 | [MP-FilterByTagMeals-021](#021) | Filter meals by tags on the meals page |
+| 22 | [MP-FilterByTagMeals-022](#022) | Filter meals by tags on the meals page |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -504,3 +504,55 @@ When duplicating a meal plan, the system should create an exact replica of the o
 ## Test Results:
 
 All steps passed successfully. The duplicated meal plan was created with the expected content and details matching the original meal plan.
+
+## <a id="021">Test case ID: MP-FilterByTagMeals-021</a>
+
+## Test case name:
+
+Filter meals by tags on the meals page.
+
+## Related Feature: Filter by tag for meals page #517
+
+## Steps to follow:
+
+1. Pre-requisite: MP-Login-001.
+2. Navigate to the meals page in the meal planner app.
+3. Look for the filter options menu.
+4. Check for the presence of the "Filter by tag" option.
+5. Click on the "Filter by tag" option.
+6. Verify that a list of available tags is displayed.
+7. Select one or more tags from the list.
+8. Confirm the selection.
+9. Check that the meals displayed on the page are filtered based on the selected tags.
+10. Ensure that only meals tagged with the selected tags are shown, while others are hidden.
+
+## Expected Behaviour:
+
+When filtering meals by tags, the system should provide a list of available tags to choose from. Upon selecting one or more tags, the meals page should display only those meals that are tagged with the selected tags. This helps users to quickly find meals based on specific criteria and improves navigation within the application.
+
+## Test Results:
+
+All steps passed successfully. The meals were filtered based on the selected tags, and only the relevant meals were displayed on the page.
+
+
+## <a id="022">Test case ID: AA-ProductDropdownDisplay-022</a>
+
+## Test case name:
+Verify all products are displayed in the product dropdown when creating a measure in Admin app.
+
+## Related Bug: [BUG] When creating measure, not all products displayed in Admin app #482
+
+## Steps to follow:
+
+1. Go to the 'measures/create' page in the Admin app.
+2. Click on the dropdown menu for selecting the product.
+3. Verify that all available products are listed in the dropdown menu.
+4. Check if the desired product for creating a measure is visible in the dropdown menu.
+
+## Expected Behavior:
+When creating a measure in the Admin app, the dropdown menu for selecting the product should display all available products. This ensures that users can select the desired product without any limitations.
+
+## Test Results:
+All steps passed as expected. All available products were displayed in the dropdown menu, allowing the user to select the desired product for creating a measure.
+
+
