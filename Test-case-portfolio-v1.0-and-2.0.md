@@ -39,7 +39,8 @@
 | 19 | [MP-LoginErrorDisplay-019](#019) | Verify display of error message when hitting enter with invalid credentials in the login page |
 | 20 | [MP-DuplicateMealPlan-020](#020) | Create a duplicate meal plan from an existing meal plan |
 | 21 | [MP-FilterByTagMeals-021](#021) | Filter meals by tags on the meals page |
-| 22 | [MP-FilterByTagMeals-022](#022) | Filter meals by tags on the meals page |
+| 22 | [AA-ProductDropdownDisplay-022](#022) | Verify all products are displayed in the product dropdown when creating a measure in Admin app.
+ |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
