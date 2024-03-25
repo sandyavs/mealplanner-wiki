@@ -13,6 +13,7 @@ Release name: v2
 |08-Mar-2024 | #377 | [MP-DuplicateMealPlan-020](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-mp-duplicatemealplan-020)| Create a duplicate meal plan from an existing meal plan | Passed |
 |08-Mar-2024 | #517 | [MP-FilterByTagMeals-021](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-mp-filterbytagmeals-021)| Filter meals by tags on the meals page | Passed |
 |08-Mar-2024 | #482 | [AA-ProductDropdownDisplay-022](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-aa-productdropdowndisplay-022)| Verify all products are displayed in the product dropdown when creating a measure in Admin app | Passed |
+|25-Mar-2024 | #505 | [AA-SearchBarProducts-023](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-SearchBarProducts-023)|  | Passed |
 
 
 
