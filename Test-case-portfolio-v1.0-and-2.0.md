@@ -40,6 +40,7 @@
 | 20 | [MP-DuplicateMealPlan-020](#020) | Create a duplicate meal plan from an existing meal plan |
 | 21 | [MP-FilterByTagMeals-021](#021) | Filter meals by tags on the meals page |
 | 22 | [AA-ProductDropdownDisplay-022](#022) | Verify all products are displayed in the product dropdown when creating a measure in Admin app.|
+| 23 | [AA-SearchBarProducts-023](#023) | Verify the presence and functionality of the search bar in Products section of the Admin App|
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -554,5 +555,27 @@ When creating a measure in the Admin app, the dropdown menu for selecting the pr
 
 ## Test Results:
 All steps passed as expected. All available products were displayed in the dropdown menu, allowing the user to select the desired product for creating a measure.
+
+
+## Test case ID: AA-SearchBarProducts-023
+
+## Test case name:
+Verify the presence and functionality of the search bar in the Admin App (Products)
+
+## Related Feature: No search bar on Admin App (Products) #505
+
+## Steps to follow:
+1. Open the Admin App and navigate to the Products section.
+2. Look for the presence of a search bar at the top of the Products page.
+3. Enter a specific keyword, product name, code, UPC, or tag in the search bar.
+4. Verify that the products displayed on the page are filtered based on the entered keyword.
+5. Confirm that the search results are relevant and match the entered criteria.
+
+## Expected Behaviour:
+The Products section in the Admin App should contain a search bar allowing users to search for products by name, code, UPC, or tags. Upon entering a search query, the displayed products should be filtered accordingly, presenting relevant search results to the user.
+
+## Test Results:
+The test passed successfully. The search bar was present in the Admin App (Products) section, and searching for specific keywords filtered the products appropriately.
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/3c92f0ff-7db4-4360-98b9-b3c8c742a833)
 
 
