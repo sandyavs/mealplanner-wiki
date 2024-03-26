@@ -14,13 +14,11 @@ Release name: v2
 |08-Mar-2024 | #517 | [MP-FilterByTagMeals-021](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-mp-filterbytagmeals-021)| Filter meals by tags on the meals page | Passed |
 |08-Mar-2024 | #482 | [AA-ProductDropdownDisplay-022](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-aa-productdropdowndisplay-022)| Verify all products are displayed in the product dropdown when creating a measure in Admin app | Passed |
 |25-Mar-2024 | #505 | [AA-SearchBarProducts-023](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-SearchBarProducts-023)| Verify the presence and functionality of the search bar in Products section of the Admin App | Failed |
-
-
-
-
-
-
-
+|26-Mar-2024 | #459 | [MP-IconHoverColor-024](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-mp-iconhovercolor-024) | Verify the hover effect of the trash can and shopping cart icons in the meal plans page | Passed |
+|26-Mar-2024 | #460 | [MP-ConfirmDelete-025](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-mp-confirmdelete-025) | Confirm deletion of a meal plan when clicking the trash icon | Passed |
+|26-Mar-2024 | #476 | [MP-FavouritesHover-026](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MP-FavouritesHover-026) | Verify favorites/heart icon turns red on mouse hover | Passed |
+|27-Mar-2024 | #489 |[MP-ProductQuantityUpdate-027](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MP-ProductQuantityUpdate-027)| Verify updating the Quantity and Unit for the product Lettuce | Passed |
+|27-Mar-2024 | #457 | [AA-SearchBarMeals-028](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-SearchBarMeals-028)| Verify the presence and functionality of the search bar in the Admin App (Meals) | Passed |
 
 
 
