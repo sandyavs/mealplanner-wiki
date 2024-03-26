@@ -45,6 +45,7 @@
 | 25 | [MP-ConfirmDelete-025](#025) | Confirm deletion of a meal plan when clicking the trash icon |
 | 26 | [MP-FavouritesHover-026](#026) | Verify favorites/heart icon turns red on mouse hover |
 | 27 | [MP-ProductQuantityUpdate-027](#027) | Verify updating the Quantity and Unit for the product Lettuce |
+| 27 | [AA-SearchBarMeals-027](#027)| Verify the presence and functionality of the search bar in the Admin App (Meals) | Passed |
 
 
 
@@ -685,3 +686,26 @@ After updating the quantity and unit for Lettuce, it should be correctly listed 
 
 ## Test Results:
 This test case is marked as obsolete since there is no lettuce in the database to perform the verification.
+
+
+## <a id="028">Test case ID: AA-SearchBarMeals-028</a>
+
+## Test case name:
+Verify the presence and functionality of the search bar in the Admin App (Meals)
+
+## Related Feature: No search bar on Admin App (Meals) #457
+
+## Steps to follow:
+1. Pre-requisite: MP-Login-001.
+2. Open the Admin App and navigate to the Meals section.
+3. Look for the presence of a search bar at the top of the Meals page.
+4. Enter a specific keyword, meal name, category, tag, or any other relevant information in the search bar.
+5. Verify that the meals displayed on the page are filtered based on the entered keyword.
+6. Confirm that the search results are relevant and match the entered criteria.
+
+## Expected Behaviour:
+The Meals section in the Admin App should contain a search bar allowing users to search for meals by name, category, tag, or any other relevant information. Upon entering a search query, the displayed meals should be filtered accordingly, presenting relevant search results to the user.
+
+## Test Results:
+The test passed. The search bar was present in the Admin App (Meals) section, and searching for specific keywords appropriately filtered the meals.
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/09ca4c34-9dda-4da5-8cd1-a1b994283959)
