@@ -39,8 +39,22 @@
 | 19 | [MP-LoginErrorDisplay-019](#019) | Verify display of error message when hitting enter with invalid credentials in the login page |
 | 20 | [MP-DuplicateMealPlan-020](#020) | Create a duplicate meal plan from an existing meal plan |
 | 21 | [MP-FilterByTagMeals-021](#021) | Filter meals by tags on the meals page |
-| 22 | [AA-ProductDropdownDisplay-022](#022) | Verify all products are displayed in the product dropdown when creating a measure in Admin app.|
+| 22 | [AA-ProductDropdownDisplay-022](#022) | Verify all products are displayed in the product dropdown when creating a measure in Admin app|
 | 23 | [AA-SearchBarProducts-023](#023) | Verify the presence and functionality of the search bar in Products section of the Admin App|
+| 24 | [MP-IconHoverColor-024](#024) | Verify the hover effect of the trash can and shopping cart icons in the meal plans page |
+| 25 | [MP-ConfirmDelete-025](#025) | Confirm deletion of a meal plan when clicking the trash icon |
+| 26 | [MP-FavouritesHover-026](#026) | Verify favorites/heart icon turns red on mouse hover |
+| 27 | [MP-ProductQuantityUpdate-027](#027) | Verify updating the Quantity and Unit for the product Lettuce |
+
+
+
+
+
+
+
+
+
+
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -557,8 +571,7 @@ When creating a measure in the Admin app, the dropdown menu for selecting the pr
 All steps passed as expected. All available products were displayed in the dropdown menu, allowing the user to select the desired product for creating a measure.
 
 
-## Test case ID: AA-SearchBarProducts-023
-
+## <a id="023">Test case ID: AA-SearchBarProducts-023</a>
 ## Test case name:
 Verify the presence and functionality of the search bar in the Admin App (Products)
 
@@ -575,7 +588,100 @@ Verify the presence and functionality of the search bar in the Admin App (Produc
 The Products section in the Admin App should contain a search bar allowing users to search for products by name, code, UPC, or tags. Upon entering a search query, the displayed products should be filtered accordingly, presenting relevant search results to the user.
 
 ## Test Results:
-The test failed. The search bar was present in the Admin App (Products) section, and searching for specific keywords filtered the products inappropriately.
+The test failed. The search bar was present in the Admin App (Products) section, but searching for specific keywords filtered the products inappropriately. Issue #593 addresses it. 
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/9db4c74b-b318-426a-88a8-703f569647bb)
 
+
+
+## <a id="024">Test case ID: MP-IconHoverColor-024</a>
+
+## Test case name:
+Verify the hover effect of the trash can and shopping cart icons in the meal plans page
+
+## Related Bug: [BUG] trash can and shopping cart icons not turning green when hovering the mouse over #459
+
+## Steps to follow:
+1. Pre-requisite: MP-Login-001.
+2. Open the meal plans page by navigating to '/mealplans'.
+3. Hover the mouse over the trash can icon.
+4. Hover the mouse over the shopping cart icon.
+5. Verify the trash can icon and shopping card icon should turn green when the mouse is hovered over it.
+
+
+## Expected Behaviour:
+- The trash can icon should turn green when the mouse is hovered over it.
+- The shopping cart icon should turn green when the mouse is hovered over it.
+
+## Test Results:
+The test passed as the trash can and shopping cart icons changed color to green when hovered over. 
+
+![Screenshot (3)](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/84db54a7-15ba-4142-9d37-6ebef28cc4b8)
+
+
+## <a id="025">Test case ID: MP-ConfirmDelete-025</a>
+
+### Description
+When deleting a meal plan from the meal plans page, a confirmation dialogue should be displayed to confirm the action.
+
+### Steps to Reproduce
+1. Pre-requisite: MP-Login-001.
+2. Navigate to the meal plans page '/mealplans'.
+3. Locate the meal plan you want to delete.
+4. Click on the trash can icon associated with the meal plan.
+   
+### Expected Behavior
+A confirmation dialogue should appear, asking the user to confirm the deletion of the meal plan.
+ 
+## Test Results:
+The test passed as dialogue appeared, asking the user to confirm the deletion of the meal plan.
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/96cccf0f-274d-4ae2-a36d-0c1a83ba4fad)
+
+
+## <a id="026">Test case ID: MP-FavouritesHover-026</a>
+
+## Test case name:
+Verify favourites/heart icon turns red on mouse hover
+
+## Related Bug: Favourites icon doesn't turn red on mouse hover #476
+
+## Steps to follow:
+1. Pre-requisite: Access to the meal plans page: MP-Login-001..
+2. Navigate to the meal plans page.
+3. Locate the favourites/heart icon.
+4. Hover the mouse over the favourites/heart icon.
+5. Observe the colour change of the icon.
+
+## Expected Behaviour:
+When the mouse is hovered over the favourites/heart icon, it should turn red, indicating that it is selected or active.
+
+## Test Results:
+The test passed as the favourites/heart icon changed color to red when hovered over. 
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/a5cd7fd2-8318-45f1-9a44-7969a69b8d10)
+
+
+## <a id="027">Test case ID: MP-ProductQuantityUpdate-027</a>
+
+## Test case name:
+Verify updating the Quantity and Unit for the product Lettuce
+
+## Related Bug: Updating the Quantity and Unit for the product Lettuce #489
+
+## Description:
+Ensure that the product Lettuce is correctly updated to be listed as 1 each in the products table, instead of 3 count.
+
+## Steps to follow:
+1. Pre-requisite: MP-Login-001.
+2. Open the Admin App and navigate to the Products section.
+3. Look for the presence of Lettuce in the Products page.
+2. Update the quantity and unit, the cost and product link for Lettuce in the recipes_seed.sql file to 1 each.
+4. Run the seed SQL script to populate the database with the updated data.
+5. Verify that Lettuce is listed as 1 ea in the products table.
+
+## Expected Behaviour:
+After updating the quantity and unit for Lettuce, it should be correctly listed as 1 ea in the products table.
+
+## Test Results:
+This test case is marked as obsolete since there is no lettuce in the database to perform the verification.
