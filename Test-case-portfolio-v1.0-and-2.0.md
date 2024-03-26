@@ -575,7 +575,7 @@ Verify the presence and functionality of the search bar in the Admin App (Produc
 The Products section in the Admin App should contain a search bar allowing users to search for products by name, code, UPC, or tags. Upon entering a search query, the displayed products should be filtered accordingly, presenting relevant search results to the user.
 
 ## Test Results:
-The test passed successfully. The search bar was present in the Admin App (Products) section, and searching for specific keywords filtered the products appropriately.
-![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/3c92f0ff-7db4-4360-98b9-b3c8c742a833)
+The test failed. The search bar was present in the Admin App (Products) section, and searching for specific keywords filtered the products inappropriately.
 
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/9db4c74b-b318-426a-88a8-703f569647bb)
 
