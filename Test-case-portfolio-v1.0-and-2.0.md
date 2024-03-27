@@ -45,7 +45,14 @@
 | 25 | [MP-ConfirmDelete-025](#025) | Confirm deletion of a meal plan when clicking the trash icon |
 | 26 | [MP-FavouritesHover-026](#026) | Verify favorites/heart icon turns red on mouse hover |
 | 27 | [MP-ProductQuantityUpdate-027](#027) | Verify updating the Quantity and Unit for the product Lettuce |
-| 27 | [AA-SearchBarMeals-027](#027)| Verify the presence and functionality of the search bar in the Admin App (Meals) | Passed |
+| 28 | [AA-SearchBarMeals-028](#028)| Verify the presence and functionality of the search bar in the Admin App (Meals) | 
+| 29 | [MP-InsertTooltip-029](#029) | Insert tooltip for name and description on the meal plan creation page |
+|30| [MP-FilterByTags-030](#030) | Verify automatic listing of meal plan tags for filtering |
+
+
+
+
+
 
 
 
@@ -709,3 +716,51 @@ The Meals section in the Admin App should contain a search bar allowing users to
 ## Test Results:
 The test passed. The search bar was present in the Admin App (Meals) section, and searching for specific keywords appropriately filtered the meals.
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/09ca4c34-9dda-4da5-8cd1-a1b994283959)
+
+
+
+## <a id="029">Test case ID: MP-InsertTooltip-029</a>
+
+## Test case name:
+Insert tooltip for name and description on the meal plan creation page
+
+## Related Feature: Insert a tooltip for name and description on the meal plan creation page #518
+
+## Steps to follow:
+Pre-requisite: MP-Login-001.
+1. Navigate to the meal plan creation page.
+2. Locate the input field for entering the meal plan name.
+3. Hover over the input field to trigger the tooltip.
+4. Verify that the tooltip suggests a convention for naming the meal plan, such as 'Client # Week #' for admins/designers, or 'Family member name Week #' for users.
+5. Repeat steps 2-4 for the description input field.
+6. Verify that the tooltip suggests adding notes based on the discussion with the client about their requirements and suggestions.
+
+## Expected Behaviour:
+When hovering over the input fields for meal plan name and description during creation, tooltips should appear suggesting naming conventions and providing guidance on what to include in the description, tailored to the user's role (admin/designer or user).
+
+## Test Results:
+Passed. 
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/5a2158ec-8809-45c6-9109-eae9d458b8ce)
+
+
+## <a id="030">Test case ID: MP-FilterByTags-030</a>
+## Test case name:
+Verify automatic listing of meal plan tags for filtering
+
+## Related Feature: Filter by tags for meal plan #522
+
+## Steps to follow:
+Pre-requisite: MP-Login-001.
+1. Create a meal plan.
+2. Navigate to the "Filter by tags" view in the meal planner.
+3. Verify that the list of meal plan tags is automatically updated to reflect the changes made in step 1.
+
+## Expected Behaviour:
+After creating or deleting a meal plan, the list of meal plan tags should be automatically updated on the "Filter by tags" view without requiring a page refresh or navigating to a different option.
+
+## Test Results:
+Passed as the list of meal plan tags automatically updated on the "Filter by tags" view without requiring a page refresh or navigating to a different option.
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/af3102a4-45c4-4053-9be0-b9a962997e5d)
+
