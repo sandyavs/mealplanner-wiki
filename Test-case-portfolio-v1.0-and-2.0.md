@@ -13,6 +13,7 @@
 | 9 | [MP-AddDescription-009](#009) | Description of the meal plan |
 | 10 | [MP-Logout-010](#010) | Check whether the user can log out successfully |
 | 11 | [MP-Menu bar-011](#011) | Check the menu is displayed properly on the top of the web page |
+| 12| [MP-DeleteMeasureTable-033](#033) | Verify deletion of measure table                                           |
 
 # Test case Portfolio v 2.0
 
@@ -812,11 +813,11 @@ Delete measure table
 ## Related Issue: #568
 
 ## Description:
-As a user, I should be able to delete the measure table to accommodate changes related to the match issue.
+Users should be able to delete the measure table to accommodate changes related to the match issue.
 
 ## Steps to follow:
- Pre-requisite: MP-Login-001.
-1. Navigate to the measure table section.
+ Pre-requisite: Go to v1 of the MealPlanner, MP-Login-001.
+1. Navigate to the measure table section from the shopping list .
 2. Locate the option to the measure table.
 4. Confirm the deletion of the measure table.
 
@@ -824,8 +825,7 @@ As a user, I should be able to delete the measure table to accommodate changes r
 Upon deletion, the measure table should be successfully removed from the system, allowing for changes related to the match issue.
 
 ## Test Results:
-Passed.
-
+Passed in V1, not available in v2 as according to the issue #603 Shopping list under the construction.
 
 ## <a id="034">Test case ID: AA-ProductKeywordsSpaces-034</a>
 
