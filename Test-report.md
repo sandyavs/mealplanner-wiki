@@ -19,6 +19,20 @@ Release name: v2
 |26-Mar-2024 | #476 | [MP-FavouritesHover-026](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MP-FavouritesHover-026) | Verify favorites/heart icon turns red on mouse hover | Passed |
 |27-Mar-2024 | #489 |[MP-ProductQuantityUpdate-027](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MP-ProductQuantityUpdate-027)| Verify updating the Quantity and Unit for the product Lettuce | Passed |
 |27-Mar-2024 | #457 | [AA-SearchBarMeals-028](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-SearchBarMeals-028)| Verify the presence and functionality of the search bar in the Admin App (Meals) | Passed |
+|27-Mar-2024 | #518 | [MP-InsertTooltip-029](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MP-InsertTooltip-029) | Insert tooltip for name and description on the meal plan creation page | Passed |
+|27-Mar-2024 | #522 | [MP-FilterByTags-030](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MP-FilterByTags-030)| Verify automatic listing of meal plan tags for filtering | Passed |
+|28-Mar-2024 | #548 | [MP-Template-031](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MP-Template-031)| Verify the functionality of creating and filtering meal plan templates | Passed |
+|28-Mar-2024 | #529      | [MP-AddPrepCookPortions-032](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MealUI-AddPrepCookPortions-032) | Verify addition of prep time, cook time, and portions to the Meal UI | Passed |
+|28-Mar-2024 | #568     | [MP-DeleteMeasureTable-033](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MP-DeleteMeasureTable-033) | Verify deletion of measure table                                   |        |
+
+
+
+
+
+
+
+
+
 
 
 
