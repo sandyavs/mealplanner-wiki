@@ -22,8 +22,11 @@ Release name: v2
 |27-Mar-2024 | #518 | [MP-InsertTooltip-029](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MP-InsertTooltip-029) | Insert tooltip for name and description on the meal plan creation page | Passed |
 |27-Mar-2024 | #522 | [MP-FilterByTags-030](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MP-FilterByTags-030)| Verify automatic listing of meal plan tags for filtering | Passed |
 |28-Mar-2024 | #548 | [MP-Template-031](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MP-Template-031)| Verify the functionality of creating and filtering meal plan templates | Passed |
-|28-Mar-2024 | #529      | [MP-AddPrepCookPortions-032](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MealUI-AddPrepCookPortions-032) | Verify addition of prep time, cook time, and portions to the Meal UI | Passed |
-|28-Mar-2024 | #568     | [MP-DeleteMeasureTable-033](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MP-DeleteMeasureTable-033) | Verify deletion of measure table                                   |        |
+|28-Mar-2024 | #529 | [MP-AddPrepCookPortions-032](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MealUI-AddPrepCookPortions-032) | Verify addition of prep time, cook time, and portions to the Meal UI | Passed |
+|28-Mar-2024 | #568 | [MP-DeleteMeasureTable-033](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MP-DeleteMeasureTable-033) | Verify deletion of measure table | Passed |
+|28-Mar-2024 | #584 | [AA-ProductKeywordsSpaces-034](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-ProductKeywordsSpaces-034) | Verify ability to use spaces in product keywords and tags in Admin UI | Passed |
+|28-Mar-2024 | #595 | [AA-IngredientCreationError-035](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-IngredientCreationError-035) | Verify successful creation of ingredients in Admin UI without error | Passed       |
+
 
 
 
