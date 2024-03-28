@@ -47,7 +47,10 @@
 | 27 | [MP-ProductQuantityUpdate-027](#027) | Verify updating the Quantity and Unit for the product Lettuce |
 | 28 | [AA-SearchBarMeals-028](#028)| Verify the presence and functionality of the search bar in the Admin App (Meals) | 
 | 29 | [MP-InsertTooltip-029](#029) | Insert tooltip for name and description on the meal plan creation page |
-|30| [MP-FilterByTags-030](#030) | Verify automatic listing of meal plan tags for filtering |
+| 30 | [MP-FilterByTags-030](#030) | Verify automatic listing of meal plan tags for filtering |
+| 31 | [MP-Template-031](#031) | Verify the functionality of creating and filtering meal plan templates |
+| 32 | [MP-AddPrepCookPortions-032](#032) | Verify addition of prep time, cook time, and portions to the Meal UI      |
+| 33 | [MP-DeleteMeasureTable-033](#033) | Verify deletion of measure table                                           |
 
 
 
@@ -764,3 +767,74 @@ Passed as the list of meal plan tags automatically updated on the "Filter by tag
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/af3102a4-45c4-4053-9be0-b9a962997e5d)
 
+## <a id="031">Test case ID: MP-Template-031</a>
+
+## Test case name:
+Verify the functionality of creating and filtering meal plan templates
+
+## Related Feature: Template for meal plan #548
+
+## Steps to follow:
+1. Log in as a meal designer or admin.
+2. Navigate to the meal planner section for creating a new meal plan.
+3. Create a new meal plan and select the option to save it as a template.
+4. Verify that the meal plan is saved successfully as a template and no user is assigned to it.
+5. Navigate to the search view in the meal planner.
+6. Apply a filter to display only the templates.
+7. Confirm that the list of meal plans shown now includes only the templates created in step 3.
+
+## Expected Behaviour:
+When creating a meal plan, the user should have the option to save it as a template, which will not assign any user to it. The user should then be able to filter the meal plans to display only templates, and the list should include the templates created by the user.
+
+## Test Results:
+Passed as the user is able to filter the meal plans to display only templates, and the list included the templates created by the user.
+
+## <a id="032">Test case ID: MP-AddPrepCookPortions-032</a>
+
+## Test case name:
+
+Verify addition of prep time, cook time, and portions to the Meal UI
+
+## Related Feature: [FEATURE] adding prep time, portions, cook time to the Meal UI #529
+
+## Steps to follow:
+ Pre-requisite: MP-Login-001.
+1. Access to the Meal UI with the ability to view and edit meal details.
+2. Navigate to the Meal UI page or the page where meal details are displayed.
+3. Check for the presence of UI elements that display prep time, cook time, and portions for each meal.
+4. Verify that there are distinct UI elements for displaying prep time, cook time, and portions.
+5. Create a new meal or edit an existing meal.
+6. Enter values for prep time, cook time, and portions in the respective UI elements.
+7. Save the changes to the meal.
+8. Confirm that the entered values for prep time, cook time, and portions are saved successfully.
+9. Navigate back to the Meal UI page or refresh the page to view the updated meal details.
+10. Check that the prep time, cook time, and portions for the meal are displayed correctly in the UI elements.
+
+## Expected Behaviour:
+
+The Meal UI should include dedicated UI elements for displaying prep time, cook time, and portions for each meal. Users should be able to enter values for these attributes when creating or editing a meal, and the entered values should be saved and displayed accurately in the UI.
+
+## Test Results:
+Passed.
+
+## <a id="033">Test case ID: MP-DeleteMeasureTable-033-033</a>
+
+## Test case name:
+Delete measure table
+
+## Related Issue: #568
+
+## Description:
+As a user, I should be able to delete the measure table to accommodate changes related to the match issue.
+
+## Steps to follow:
+ Pre-requisite: MP-Login-001.
+1. Navigate to the measure table section.
+2. Locate the option to the measure table.
+4. Confirm the deletion of the measure table.
+
+## Expected Behavior:
+Upon deletion, the measure table should be successfully removed from the system, allowing for changes related to the match issue.
+
+## Test Results:
+Passed.
