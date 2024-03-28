@@ -25,7 +25,8 @@ Release name: v2
 |28-Mar-2024 | #529 | [MP-AddPrepCookPortions-032](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MealUI-AddPrepCookPortions-032) | Verify addition of prep time, cook time, and portions to the Meal UI | Passed |
 |28-Mar-2024 | #568 | [MP-DeleteMeasureTable-033](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MP-DeleteMeasureTable-033) | Verify deletion of measure table | Passed |
 |28-Mar-2024 | #584 | [AA-ProductKeywordsSpaces-034](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-ProductKeywordsSpaces-034) | Verify ability to use spaces in product keywords and tags in Admin UI | Passed |
-|28-Mar-2024 | #595 | [AA-IngredientCreationError-035](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-IngredientCreationError-035) | Verify successful creation of ingredients in Admin UI without error | Passed       |
+|28-Mar-2024 | #595 | [AA-IngredientCreationError-035](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-IngredientCreationError-035) | Verify successful creation of ingredients in Admin UI without error | Passed |
+|29-Mar-2024 | #566  | [AA-ImageVideoEmbedding-036](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-ImageVideoEmbedding-036) | Verify embedding of images and videos for meals in the meal planner interface | Passed |
 
 
 
