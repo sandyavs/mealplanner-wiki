@@ -2,7 +2,7 @@
 
 | S.No | Test case ID   | Test case name                                         |
 |:-----|:---------------|--------------------------------------------------------|
-| 1 | [MP-Login-001](#001) | Login with meal designer credentials       |
+| 1 | [MP-Login-001](#001) | Login with meal designer credentials          |
 | 2 | [MP-MPCalendar-002](#002)|  View a specific Meal Plan in Desktop view |
 | 3 | [MP-SelectMeal-003](#003) | Select a meal based on the search criteria. |
 | 4 | [MP-AddMeal-004](#004) | Add meals in the specific category of meal plan |
@@ -853,7 +853,7 @@ Verify ability to use spaces in product keywords and tags in Admin UI
 
 In the Admin UI for managing products and tags, users should be able to use spaces in product keywords and tag names. Spaces should be accepted and processed correctly without any restrictions, allowing users to input phrases or multi-word descriptors for products and tags. This ensures flexibility and ease of use in managing product information and categorization.
 
-# Test Case:
+## Test Results:
 Passed as in the Admin UI for managing products and tags, users could use spaces in product keywords and tag names successfully. 
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/f4dea039-62a3-44a8-9b95-3ea082f14e3b)
@@ -885,5 +885,5 @@ Verify successful creation of ingredients in Admin UI without error
 
 In the Admin UI for managing meals, users should be able to create ingredients without encountering any errors. Upon filling up the required fields and saving the ingredient, the system should add it successfully to the meal without any issues. Any error messages or unexpected behavior during ingredient creation should be addressed to ensure smooth functionality of the system.
 
-# Test Case:
+## Test Results:
 Passed as in the Admin UI users is able to create ingredients without encountering any errors.
