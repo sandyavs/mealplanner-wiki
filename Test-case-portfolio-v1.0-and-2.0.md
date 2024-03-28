@@ -51,21 +51,8 @@
 | 31 | [MP-Template-031](#031) | Verify the functionality of creating and filtering meal plan templates |
 | 32 | [MP-AddPrepCookPortions-032](#032) | Verify addition of prep time, cook time, and portions to the Meal UI      |
 | 33 | [MP-DeleteMeasureTable-033](#033) | Verify deletion of measure table                                           |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| 34 | [AA-ProductKeywordsSpaces-034](#034) | Verify ability to use spaces in product keywords and tags in Admin UI   |
+| 35 | [AA-IngredientCreationError-035](#035) | Verify successful creation of ingredients in Admin UI without error   |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -838,3 +825,65 @@ Upon deletion, the measure table should be successfully removed from the system,
 
 ## Test Results:
 Passed.
+
+
+## <a id="034">Test case ID: AA-ProductKeywordsSpaces-034</a>
+
+## Test case name:
+
+Verify ability to use spaces in product keywords and tags in Admin UI
+
+## Related Bug: [BUG] In admin UI, tags and product keywords could not have spaces #584
+
+## Steps to follow:
+
+1. Pre-requisite: Access to the Admin UI with permissions to manage products and tags.
+2. Navigate to the Admin UI for managing products.
+3. Select a specific product for editing or creating a new product.
+4. Scroll down to the section for Product Keywords.
+5. Attempt to enter a product keyword containing spaces, such as 'egg noodles' or 'feta cheese'.
+6. Confirm whether the system allows entering spaces between words in the product keyword field.
+7. Similarly, navigate to the section for managing tags.
+8. Attempt to create or edit a tag containing spaces.
+9. Verify whether the system allows using spaces in tag names.
+10. If spaces are allowed, save the changes and ensure they are persisted correctly in the system.
+11. If spaces are not allowed, validate that the system displays appropriate error messages or warnings.
+
+## Expected Behaviour:
+
+In the Admin UI for managing products and tags, users should be able to use spaces in product keywords and tag names. Spaces should be accepted and processed correctly without any restrictions, allowing users to input phrases or multi-word descriptors for products and tags. This ensures flexibility and ease of use in managing product information and categorization.
+
+# Test Case:
+Passed as in the Admin UI for managing products and tags, users could use spaces in product keywords and tag names successfully. 
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/f4dea039-62a3-44a8-9b95-3ea082f14e3b)
+
+
+## <a id="035">Test case ID: AA-IngredientCreationError-035</a>
+
+## Test case name:
+
+Verify successful creation of ingredients in Admin UI without error
+
+## Related Bug: [BUG] When we try to create an ingredient we get an error #595
+
+## Steps to follow:
+
+1. Pre-requisite: Access to the Admin UI with permissions to manage ingredients.
+2. Navigate to the Admin UI for managing meals.
+3. Select a specific meal to which ingredients need to be added.
+4. Click on the "Ingredients" section within the meal details.
+5. Click on the "Create" button to add a new ingredient.
+6. Fill up the required fields with appropriate values, such as ingredient name, quantity, etc.
+7. Verify that all mandatory fields are properly filled.
+8. Attempt to save the ingredient by clicking on the "Save" or "Submit" button.
+9. Confirm whether the system successfully adds the ingredient without displaying any error messages.
+10. Check if the newly created ingredient appears in the list of ingredients for the selected meal.
+11. If any error message is displayed, note down the details of the error.
+
+## Expected Behaviour:
+
+In the Admin UI for managing meals, users should be able to create ingredients without encountering any errors. Upon filling up the required fields and saving the ingredient, the system should add it successfully to the meal without any issues. Any error messages or unexpected behavior during ingredient creation should be addressed to ensure smooth functionality of the system.
+
+# Test Case:
+Passed as in the Admin UI users is able to create ingredients without encountering any errors.
