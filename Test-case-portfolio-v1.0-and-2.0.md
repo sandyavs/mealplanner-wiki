@@ -56,6 +56,7 @@
 | 35 | [AA-IngredientCreationError-035](#035) | Verify successful creation of ingredients in Admin UI without error   |
 | 36 | [AA-ImageVideoEmbedding-036](#036) | Verify embedding of images and videos for meals in the meal planner interface |
 | 37  | [AA-IngredientCodeUnique-037](#037) | Ensure ingredient code is unique for each meal |
+| 38 | [AA-MealsShowPage-038](#038) | Verify the presence of a show page and show button for meals in the admin UI, and ensure that edit redirects to the show page instead of the meals list |
 
 
 
@@ -954,3 +955,38 @@ Passed successfully.
 
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/9f63b6ca-0450-410a-858b-2a58795ebab9)
+
+
+## <a id="038">Test case ID: AA-MealsShowPage-038</a>
+
+## Test case name:
+
+Verify the presence of a show page and show button for meals in the admin UI, and ensure that edit redirects to the show page instead of the meals list.
+
+## Related Feature: [FEATURE] Meals has a show page and a show button in admin UI and edit redirects to Show instead of meals list #590
+
+## Steps to follow:
+
+1. Pre-requisite: Access to the Admin UI with permissions to manage meals.
+2. Navigate to the Admin UI for managing meals.
+3. Select a specific meal for editing or viewing.
+4. Confirm the presence of a show button associated with the selected meal.
+5. Click on the show button to access the show page for the meal.
+6. Verify that the show page displays all relevant details and attributes of the meal, including its name, description, ingredients, and any other pertinent information.
+7. If available, navigate back to the list of meals.
+8. Repeat steps 3-5 for a different meal, ensuring consistency in the presence and functionality of the show button.
+9. Now, attempt to edit a meal by clicking on the edit button or link.
+10. After making changes to the meal, save the edits and observe the redirection behavior.
+11. Confirm whether the edit operation redirects the user to the corresponding show page for the edited meal instead of the meals list page.
+12. If necessary, navigate back to the list of meals and repeat the edit process for another meal to validate consistency in redirection behavior.
+
+## Expected Behaviour:
+
+In the Admin UI for managing meals, there should be a dedicated show page for each meal along with a show button for convenient access. When editing a meal, saving the changes should automatically redirect the user to the show page for the edited meal, enhancing user experience by eliminating the need to search for the edited meal again in the meals list.
+
+## Test Results:
+Passed successfully as there is a dedicated show page for each meal along with a show button for convenient access.
+
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/20897bca-c504-4325-9385-2ce7ef1c8d17)
+
