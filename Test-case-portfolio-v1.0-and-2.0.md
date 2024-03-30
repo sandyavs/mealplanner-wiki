@@ -54,6 +54,14 @@
 | 33 | [MP-DeleteMeasureTable-033](#033) | Verify deletion of measure table                                           |
 | 34 | [AA-ProductKeywordsSpaces-034](#034) | Verify ability to use spaces in product keywords and tags in Admin UI   |
 | 35 | [AA-IngredientCreationError-035](#035) | Verify successful creation of ingredients in Admin UI without error   |
+| 36 | [AA-ImageVideoEmbedding-036](#036) | Verify embedding of images and videos for meals in the meal planner interface |
+| 37  | [AA-IngredientCodeUnique-037](#037) | Ensure ingredient code is unique for each meal |
+
+
+
+
+
+
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -887,3 +895,62 @@ In the Admin UI for managing meals, users should be able to create ingredients w
 
 ## Test Results:
 Passed as in the Admin UI users is able to create ingredients without encountering any errors.
+
+## <a id="036">Test case ID: AA-ImageVideoEmbedding-036</a>
+
+## Test case name:
+
+Verify the embedding of images and videos for meals in the meal planner interface.
+
+## Related Feature: [FEATURE] Adding Image and Video as embedded rather than a URL or text #566
+
+## Steps to follow:
+1. Pre-requisite: Access to the Admin UI with permissions to manage ingredients.
+2. Navigate to the meal details page for a specific meal.
+3. Locate the sections for adding images and videos for the meal.
+4. Upload or provide links to images and videos associated with the meal.
+5. Check whether the images are embedded as thumbnails within the meal details.
+6. Verify that the videos are embedded and playable within the meal details.
+7. Ensure that the embedded images and videos are clearly distinguishable and identifiable.
+8. Attempt to click on the embedded images to view them in full size, if applicable.
+9. Try playing the embedded videos to confirm their functionality and quality.
+10. Repeat the above steps for multiple meals with different images and videos.
+
+## Expected Behaviour:
+
+In the meal planner interface, images and videos associated with meals should be embedded as thumbnails and playable content, respectively, rather than displayed as plain text or URLs. This enhancement should improve the user experience by providing a more visually appealing and intuitive way to view and interact with meal-related media.
+
+## Test Results:
+Passed
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/92612b0b-28ef-4a5a-a06d-8bcf3224f54f)
+
+
+## <a id="037">Test case ID: AA-IngredientCodeUnique-037</a>
+
+## Test case name:
+
+Ensure ingredient code is unique for each meal
+
+## Related Bug ID: #592
+
+## Steps to follow:
+
+1. Go to the admin page.
+2. Click on Meals.
+3. Select a meal, for example, "Amish Pie".
+4. Select Ingredients for the meal.
+5. Assign code "1" to the first ingredient.
+6. Select another meal.
+7. Select Ingredients for the second meal.
+8. Attempt to assign a code e.g., "112" to the first ingredient again.
+9. Verify if an error message "duplicate key value violates unique constraint 'ingredient_code_key'" is thrown.
+
+## Expected Behaviour:
+
+Ingredient codes should be unique for each meal, preventing the duplication of codes across different meals in the system.
+
+## Test Results:
+Passed successfully.
+
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/9f63b6ca-0450-410a-858b-2a58795ebab9)
