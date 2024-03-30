@@ -28,6 +28,7 @@ Release name: v2
 |28-Mar-2024 | #595 | [AA-IngredientCreationError-035](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-IngredientCreationError-035) | Verify successful creation of ingredients in Admin UI without error | Passed |
 |29-Mar-2024 | #566  | [AA-ImageVideoEmbedding-036](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-ImageVideoEmbedding-036) | Verify embedding of images and videos for meals in the meal planner interface | Passed |
 |30-Mar-2024 | #592  | [AA-IngredientCodeUnique-037](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-IngredientCodeUnique-037) | Ensure ingredient code is unique for each meal                 | Passed       |
+|30-Mar-2024 | #590   | [AA-MealsShowPage-038](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-MealsShowPage-038) | Verify the presence of a show page and show button for meals in the admin UI, and ensure that edit redirects to the show page instead of the meals list | |
 
 
 
