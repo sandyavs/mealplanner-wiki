@@ -58,7 +58,8 @@
 | 37 | [AA-IngredientCodeUnique-037](#037) | Ensure ingredient code is unique for each meal |
 | 38 | [AA-MealsShowPage-038](#038) | Verify the presence of a show page and show button for meals in the admin UI, and ensure that edit redirects to the show page instead of the meals list |
 | 39 | [MP-MyFavouriteMeal-039](#039) | Displaying user's favorite meals |
-| 40   | [MP-UpdateMealTable-040](#040) | Update meal table with prep time, cook time, and portions |
+| 40 | [MP-UpdateMealTable-040](#040) | Update meal table with prep time, cook time, and portions |
+| 41 | [AA-UpdateIngredientTable-041](#041) | Verify Admin UI changes for ingredient table and product table             |
 
 
 
@@ -1045,3 +1046,32 @@ The expected behavior is that after the update, the meal table should display th
 ### Test Results:
 - Test case passed: All steps were successfully executed, and the expected behavior was observed.
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/efc96cac-aeeb-42ad-ae56-0de3fd7a217a)
+
+## <a id="041">Test case ID: AA-UpdateIngredientTable-041</a>
+
+## Test case name:
+
+Verify Admin UI changes for ingredient table and product table
+
+## Related Feature: [FEATURE] Admin UI changes for ingredient table and product table #543
+
+## Steps to follow:
+
+1. Pre-requisite: Access to the Admin UI.
+2. Navigate to the ingredient table section in the Admin UI.
+3. Verify that the new ingredient table is displayed with the updated columns as per the solution described in the feature request.
+4. Check for options to create, edit, and delete columns in the ingredient table.
+5. Ensure that the Admin UI provides functionality to add, modify, and remove ingredients in the ingredient table.
+6. Navigate to the product table section in the Admin UI.
+7. Verify that the product table reflects the changes made in the ingredient table.
+8. Check for options to create, edit, and delete columns in the product table.
+9. Ensure that the Admin UI provides functionality to add, modify, and remove products in the product table.
+
+## Expected Behaviour:
+
+The Admin UI should accurately reflect the changes made to the ingredient table and product table as per the feature request #543. Users should be able to seamlessly create, edit, and delete columns, ingredients, and products using the updated Admin UI.
+
+## Test Results: 
+Passed.
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/7479967d-ea74-4f19-869b-80de3cec915d)
