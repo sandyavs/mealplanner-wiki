@@ -55,9 +55,10 @@
 | 34 | [AA-ProductKeywordsSpaces-034](#034) | Verify ability to use spaces in product keywords and tags in Admin UI   |
 | 35 | [AA-IngredientCreationError-035](#035) | Verify successful creation of ingredients in Admin UI without error   |
 | 36 | [AA-ImageVideoEmbedding-036](#036) | Verify embedding of images and videos for meals in the meal planner interface |
-| 37  | [AA-IngredientCodeUnique-037](#037) | Ensure ingredient code is unique for each meal |
+| 37 | [AA-IngredientCodeUnique-037](#037) | Ensure ingredient code is unique for each meal |
 | 38 | [AA-MealsShowPage-038](#038) | Verify the presence of a show page and show button for meals in the admin UI, and ensure that edit redirects to the show page instead of the meals list |
-
+| 39 | [MP-MyFavouriteMeal-039](#039) | Displaying user's favorite meals |
+| 40   | [MP-UpdateMealTable-040](#040) | Update meal table with prep time, cook time, and portions |
 
 
 
@@ -877,8 +878,8 @@ Verify successful creation of ingredients in Admin UI without error
 ## Related Bug: [BUG] When we try to create an ingredient we get an error #595
 
 ## Steps to follow:
-
-1. Pre-requisite: Access to the Admin UI with permissions to manage ingredients.
+Pre-requisite: MP-Login-001.
+1. Access to the Admin UI with permissions to manage ingredients.
 2. Navigate to the Admin UI for managing meals.
 3. Select a specific meal to which ingredients need to be added.
 4. Click on the "Ingredients" section within the meal details.
@@ -906,6 +907,7 @@ Verify the embedding of images and videos for meals in the meal planner interfac
 ## Related Feature: [FEATURE] Adding Image and Video as embedded rather than a URL or text #566
 
 ## Steps to follow:
+Pre-requisite: MP-Login-001.
 1. Pre-requisite: Access to the Admin UI with permissions to manage ingredients.
 2. Navigate to the meal details page for a specific meal.
 3. Locate the sections for adding images and videos for the meal.
@@ -935,7 +937,7 @@ Ensure ingredient code is unique for each meal
 ## Related Bug ID: #592
 
 ## Steps to follow:
-
+Pre-requisite: MP-Login-001.
 1. Go to the admin page.
 2. Click on Meals.
 3. Select a meal, for example, "Amish Pie".
@@ -966,7 +968,7 @@ Verify the presence of a show page and show button for meals in the admin UI, an
 ## Related Feature: [FEATURE] Meals has a show page and a show button in admin UI and edit redirects to Show instead of meals list #590
 
 ## Steps to follow:
-
+Pre-requisite: MP-Login-001.
 1. Pre-requisite: Access to the Admin UI with permissions to manage meals.
 2. Navigate to the Admin UI for managing meals.
 3. Select a specific meal for editing or viewing.
@@ -990,3 +992,56 @@ Passed successfully as there is a dedicated show page for each meal along with a
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/20897bca-c504-4325-9385-2ce7ef1c8d17)
 
+
+## <a id="039">Test case ID: MP-MyFavouriteMeal-039</a>
+
+## Test case name:
+Displaying user's favorite meals
+
+## Related Feature ID: #516
+
+## Description:
+This feature allows users to view their favorite meals easily.
+
+## Steps to follow:
+Pre-requisite: MP-Login-001.
+1. Log in to the application with valid credentials.
+2. Navigate to the "My Favorite Meals" section.
+3. Ensure that only the favorite meals of the currently logged-in user are displayed.
+4. Verify that the favorite meals are listed in a user-friendly format.
+5. Check if there is an option to select or interact with the favorite meals for further actions.
+
+## Expected Behavior:
+- Only the favorite meals of the currently logged-in user should be displayed.
+- The favorite meals should be presented in a clear and understandable format.
+- Users should be able to easily select or interact with their favorite meals as needed.
+
+## Test Results:
+Passed as only the favorite meals of the currently logged-in user is displayed.
+
+
+
+## <a id="040">Test case ID: MP-UpdateMealTable-040</a>
+
+### Test case name:
+Update meal table with prep time, cook time, and portions
+
+### Related Feature ID: #537
+
+### Description:
+This feature updates the meal table to include columns for preparation time, cooking time, and portions.
+
+### Steps to follow:
+Pre-requisite: MP-Login-001.
+1. Log in to the application with valid credentials.
+2. Navigate to the "Meal" section or any relevant page displaying meal information.
+3. Check for the presence of columns labeled "Prep Time," "Cook Time," and "Portions" in the meal table.
+4. Verify that the data displayed in these columns corresponds to the preparation time, cooking time, and portions of each meal.
+5. Ensure that the columns are labeled correctly and clearly visible to users.
+
+### Expected Behavior:
+The expected behavior is that after the update, the meal table should display three new columns: "Prep Time," "Cook Time," and "Portions." These columns should accurately reflect the preparation time, cooking time, and portions of each meal respectively. The data in these columns should be clearly visible and properly aligned with the corresponding meal entries in the table. Additionally, the labels for these columns should be correctly displayed.
+
+### Test Results:
+- Test case passed: All steps were successfully executed, and the expected behavior was observed.
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/efc96cac-aeeb-42ad-ae56-0de3fd7a217a)
