@@ -60,6 +60,7 @@
 | 39 | [MP-MyFavouriteMeal-039](#039) | Displaying user's favorite meals |
 | 40 | [MP-UpdateMealTable-040](#040) | Update meal table with prep time, cook time, and portions |
 | 41 | [AA-UpdateIngredientTable-041](#041) | Verify Admin UI changes for ingredient table and product table             |
+| 42 | [AA-MealDesignerModify-042](#042) | Verify meal designer's ability to modify meals, products, and nutrition using admin UI |
 
 
 
@@ -1044,7 +1045,7 @@ Pre-requisite: MP-Login-001.
 The expected behavior is that after the update, the meal table should display three new columns: "Prep Time," "Cook Time," and "Portions." These columns should accurately reflect the preparation time, cooking time, and portions of each meal respectively. The data in these columns should be clearly visible and properly aligned with the corresponding meal entries in the table. Additionally, the labels for these columns should be correctly displayed.
 
 ### Test Results:
-- Test case passed: All steps were successfully executed, and the expected behavior was observed.
+Test case passed: All steps were successfully executed, and the expected behavior was observed.
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/efc96cac-aeeb-42ad-ae56-0de3fd7a217a)
 
 ## <a id="041">Test case ID: AA-UpdateIngredientTable-041</a>
@@ -1075,3 +1076,34 @@ The Admin UI should accurately reflect the changes made to the ingredient table 
 Passed.
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/7479967d-ea74-4f19-869b-80de3cec915d)
+
+## <a id="042">Test case ID: AA-MealDesignerModify-042</a>
+
+## Test case name:
+
+Verify meal designer's ability to modify meals, products, and nutrition using admin UI
+
+## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
+
+## Steps to follow:
+
+1. Pre-requisite: Access to the Admin UI with permissions assigned as a meal designer.
+2. Navigate to the meals section in the Admin UI.
+3. Verify that as a meal designer, you have access to modify existing meals, including recipes, ingredients, products, and nutrition details.
+4. Check for options to add, edit, and delete meals.
+5. Ensure that the Admin UI provides functionality to modify ingredients, products, and nutrition associated with meals.
+6. Navigate to the products section in the Admin UI.
+7. Verify that as a meal designer, you can modify existing products used in meal recipes.
+8. Check for options to add, edit, and delete products.
+9. Ensure that the Admin UI provides functionality to modify details such as ingredients, nutrition, and availability for products.
+10. Navigate to the nutrition section in the Admin UI.
+11. Verify that as a meal designer, you have access to modify nutrition information for meals and products.
+12. Check for options to add, edit, and delete nutrition details.
+13. Ensure that the Admin UI provides functionality to update nutritional values and specifications for meals and products.
+
+## Expected Behaviour:
+
+Meal designers should be able to utilize the Admin UI to modify meals, products, and nutrition details as described in the feature request #588. They should have access to the necessary functionalities to manage recipes, ingredients, and nutritional information while excluding user administration capabilities typically reserved for admins.
+
+### Test Results:
+Test case passed. 
