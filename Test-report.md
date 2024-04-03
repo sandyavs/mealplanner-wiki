@@ -33,6 +33,7 @@ Release name: v2
 | 1-Apr-2024  | #537  | [MP-UpdateMealTable-040](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MP-UpdateMealTable-040) |  Update meal table with prep time, cook time, and portions | Passed |
 | 2-Apr-2024  | #543  | [AA-UpdateIngredientTable-041](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-UpdateIngredientTable-041) | Verify Admin UI changes for ingredient table and product table     | Passed |
 | 3-Apr-2024  |  #588 | [AA-MealDesignerModify-042](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-MealDesignerModify-042) | Verify meal designer's ability to modify meals, products, and nutrition using admin UI | Passed |
+| 3-Apr-2024 |  #564 | [AA-AssignMealIngredientCode-043]((https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-AssignMealIngredientCode-043) | Verify the ability to assign a unique code to meals and ingredients        | Passed |
 
 
 
