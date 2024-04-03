@@ -61,6 +61,7 @@
 | 40 | [MP-UpdateMealTable-040](#040) | Update meal table with prep time, cook time, and portions |
 | 41 | [AA-UpdateIngredientTable-041](#041) | Verify Admin UI changes for ingredient table and product table             |
 | 42 | [AA-MealDesignerModify-042](#042) | Verify meal designer's ability to modify meals, products, and nutrition using admin UI |
+| 43 | [AA-AssignMealIngredientCode-043](#043) | Verify the ability to assign a unique code to meals and ingredients |
 
 
 
@@ -1107,3 +1108,32 @@ Meal designers should be able to utilize the Admin UI to modify meals, products,
 
 ### Test Results:
 Test case passed. 
+
+## <a id="043">Test case ID: AA-AssignMealIngredientCode-043</a>
+
+## Test case name:
+
+Verify the ability to assign a unique code to meals and ingredients
+
+## Related Feature: [FEATURE] Assign a meal code and ingredient code #564
+
+## Steps to follow:
+
+1. Pre-requisite: Access to the Admin UI with permissions assigned as an admin or meal designer.
+2. Navigate to the meals section in the Admin UI.
+3. Check for the option to assign a unique code to each meal.
+4. Verify that the assigned meal codes are unique and consistent across the system.
+5. Navigate to the ingredients section in the Admin UI.
+6. Check for the option to assign a unique code to each ingredient.
+7. Verify that the assigned ingredient codes are unique and consistent across the system.
+8. Create new meals and ingredients and observe the automatic assignment of codes.
+9. Delete meals and ingredients and ensure that the codes are not reused.
+10. Update existing meals and ingredients and verify that the codes remain consistent.
+
+## Expected Behaviour:
+
+Users, whether admin or meal designers, should have the ability to assign unique codes to meals and ingredients in the Admin UI. These codes should serve as consistent identifiers for each item, ensuring data integrity and ease of management. The system should automatically generate and maintain these codes, avoiding conflicts and inconsistencies even with changes in the database.
+
+### Test Results:
+Test case passed. 
+
