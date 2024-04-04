@@ -778,9 +778,10 @@ Verify the functionality of creating and filtering meal plan templates
 ## Related Feature: Template for meal plan #548
 
 ## Steps to follow:
+Pre-requisite: MP-Login-001.
 1. Log in as a meal designer or admin.
-2. Navigate to the meal planner section for creating a new meal plan.
-3. Create a new meal plan and select the option to save it as a template.
+2. In the navigation bar to the meal section. 
+3. Create a new meal and select the option to save it as a template.
 4. Verify that the meal plan is saved successfully as a template and no user is assigned to it.
 5. Navigate to the search view in the meal planner.
 6. Apply a filter to display only the templates.
