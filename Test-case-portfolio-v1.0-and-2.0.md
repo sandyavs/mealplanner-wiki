@@ -62,6 +62,8 @@
 | 41 | [AA-UpdateIngredientTable-041](#041) | Verify Admin UI changes for ingredient table and product table             |
 | 42 | [AA-MealDesignerModify-042](#042) | Verify meal designer's ability to modify meals, products, and nutrition using admin UI |
 | 43 | [AA-AssignMealIngredientCode-043](#043) | Verify the ability to assign a unique code to meals and ingredients |
+| 44 | [MP-TemplateMealPlan-044](#044) | Verify the ability to create template meal plans by meal designers and admins |
+| 45 | [AA-FieldNamesChange-045](#045) | Verify the consistency of field names for recipes and ingredients with the database schema |
 
 
 
@@ -941,15 +943,14 @@ Ensure ingredient code is unique for each meal
 
 ## Steps to follow:
 Pre-requisite: MP-Login-001.
-1. Go to the admin page.
-2. Click on Meals.
-3. Select a meal, for example, "Amish Pie".
-4. Select Ingredients for the meal.
-5. Assign code "1" to the first ingredient.
-6. Select another meal.
-7. Select Ingredients for the second meal.
-8. Attempt to assign a code e.g., "112" to the first ingredient again.
-9. Verify if an error message "duplicate key value violates unique constraint 'ingredient_code_key'" is thrown.
+1.Go to 'admin' page
+2.Click on Meals
+3.Select a meal "Amish Pie"
+4.Select Ingredients
+5.Select the first ingredient and assign code 1.
+6.Select another meal
+7.Select the first ingredient and assign code 1
+8.Throws the error "duplicate key value violates unique constraint "ingredient_code_key"
 
 ## Expected Behaviour:
 
@@ -1134,6 +1135,64 @@ Verify the ability to assign a unique code to meals and ingredients
 
 Users, whether admin or meal designers, should have the ability to assign unique codes to meals and ingredients in the Admin UI. These codes should serve as consistent identifiers for each item, ensuring data integrity and ease of management. The system should automatically generate and maintain these codes, avoiding conflicts and inconsistencies even with changes in the database.
 
-### Test Results:
+## Test Results:
 Test case passed. 
 
+
+## <a id="044">Test case ID: MP-TemplateMealPlan-044</a>
+
+## Test case name:
+
+Verify the ability to create template meal plans by meal designers and admins
+
+## Related Feature: [548 template meal plan #551](https://github.com/CivicTechFredericton/mealplanner/issues/551)
+
+## Steps to follow:
+
+Pre-requisite: MP-Login-001.
+1. Log in to the application with valid credentials.
+2. Navigate to the meal plans section as the Admin.
+3. Check for the option to create a new template for meal plans.
+4. Verify that both meal designers and admins have access to create templates.
+5. Create a new template for a meal plan and specify the necessary details.
+6. Ensure that the template can be saved without assigning a user to it.
+7. Check that the created template is displayed correctly in the list of available templates.
+8. Verify that templates can be edited and deleted by meal designers and admins.
+9. Test that the template functionality does not interfere with regular meal plan creation and assignment.
+
+## Expected Behaviour:
+
+Meal designers and admins should have the ability to create templates for meal plans in the Admin UI. These templates should allow for customization of meal plan details without assigning a user to them, effectively serving as reusable blueprints for future meal plans. The system should handle template creation, editing, and deletion seamlessly, ensuring that they do not disrupt regular meal planning operations.
+
+## Test Results:
+Test case passed. 
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/15ec3d2b-985d-43da-bae8-43248f9e8cc6)
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/d7b2b081-df99-45ba-b5bf-edebc7e5bbec)
+
+
+## <a id="045">Test case ID: AA-FieldNamesChange-045</a>
+
+## Test case name:
+
+Verify the consistency of field names for recipes and ingredients with the database schema
+
+## Related Issue: [#547](https://github.com/CivicTechFredericton/mealplanner/issues/562)
+
+## Steps to follow:
+
+1. Pre-requisite: Access to the Admin UI with permissions to view recipe and ingredient details.
+2. Log in to the application with valid credentials.
+3. Navigate to the "Recipes" section.
+4. Verify that the field names for recipes (such as "Recipe Name," "Ingredients," "Instructions,") match the corresponding fields in the database schema.
+5. Similarly, navigate to the "Ingredients" section or any relevant page displaying ingredient information.
+6. Confirm that the field names for ingredients (such as "Ingredient Name," "Category," "Quantity," etc.) align with the corresponding fields in the database schema.
+7. Check that any changes made to the field names reflect accurately in the UI.
+8. Test the functionality related to adding, editing, and deleting recipes and ingredients to ensure compatibility with the updated field names.
+
+## Expected Behaviour:
+
+The field names for recipes and ingredients should match the corresponding fields in the database schema to maintain consistency and accuracy in data representation. Any changes made to the field names should be reflected accurately in the UI, and users should be able to interact with the application seamlessly following the update.
+
+## Test Results:
+Test case passed. 
