@@ -34,6 +34,9 @@ Release name: v2
 | 2-Apr-2024  | #543  | [AA-UpdateIngredientTable-041](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-UpdateIngredientTable-041) | Verify Admin UI changes for ingredient table and product table     | Passed |
 | 3-Apr-2024  |  #588 | [AA-MealDesignerModify-042](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-MealDesignerModify-042) | Verify meal designer's ability to modify meals, products, and nutrition using admin UI | Passed |
 | 3-Apr-2024 |  #564 | [AA-AssignMealIngredientCode-043](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-AssignMealIngredientCode-043) | Verify the ability to assign a unique code to meals and ingredients        | Passed |
+| 4-Apr-2024  | #551 | [MP-TemplateMealPlan-044](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-MP-TemplateMealPlan-044) | Verify the ability to create template meal plans by meal designers and admins | Passed   |
+| 4-Apr-2024 | #562 | [AA-FieldNamesChange-045](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-FieldNamesChange-045) | Verify the consistency of field names for recipes and ingredients with the database schema | Passed   |
+
 
 
 
