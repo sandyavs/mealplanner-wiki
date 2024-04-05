@@ -97,7 +97,6 @@ Users should be able to log in successfully when the valid username and password
 View a specific Meal Plan in the Desktop view
 
 ## Steps to follow:
-Pre-requisite: MP-Login-001
 1. Go to url/mealplan/:id
 2. Check the meal plan name is displayed in tabular form
 3. Check whether the 7 days (Sunday, Monday, Tuesday, Wednesday, Thursday, Friday) are listed
@@ -572,7 +571,7 @@ Verify all products are displayed in the product dropdown when creating a measur
 ## Related Bug: [BUG] When creating measure, not all products displayed in Admin app #482
 
 ## Steps to follow:
-
+Pre-requisite: MP-Login-001
 1. Go to the 'measures/create' page in the Admin app.
 2. Click on the dropdown menu for selecting the product.
 3. Verify that all available products are listed in the dropdown menu.
@@ -592,6 +591,7 @@ Verify the presence and functionality of the search bar in the Admin App (Produc
 ## Related Feature: No search bar on Admin App (Products) #505
 
 ## Steps to follow:
+Pre-requisite: MP-Login-001
 1. Open the Admin App and navigate to the Products section.
 2. Look for the presence of a search bar at the top of the Products page.
 3. Enter a specific keyword, product name, code, UPC, or tag in the search bar.
@@ -661,7 +661,7 @@ Verify favourites/heart icon turns red on mouse hover
 ## Related Bug: Favourites icon doesn't turn red on mouse hover #476
 
 ## Steps to follow:
-1. Pre-requisite: Access to the meal plans page: MP-Login-001..
+1. Pre-requisite: MP-Login-001..
 2. Navigate to the meal plans page.
 3. Locate the favourites/heart icon.
 4. Hover the mouse over the favourites/heart icon.
@@ -835,7 +835,7 @@ Users should be able to delete the measure table to accommodate changes related 
  Pre-requisite: Go to v1 of the MealPlanner, MP-Login-001.
 1. Navigate to the measure table section from the shopping list .
 2. Locate the option to the measure table.
-4. Confirm the deletion of the measure table.
+3. Confirm the deletion of the measure table.
 
 ## Expected Behavior:
 Upon deletion, the measure table should be successfully removed from the system, allowing for changes related to the match issue.
@@ -852,8 +852,8 @@ Verify ability to use spaces in product keywords and tags in Admin UI
 ## Related Bug: [BUG] In admin UI, tags and product keywords could not have spaces #584
 
 ## Steps to follow:
-
-1. Pre-requisite: Access to the Admin UI with permissions to manage products and tags.
+Pre-requisite: MP-Login-001
+1. Access to the Admin UI with permissions to manage products and tags.
 2. Navigate to the Admin UI for managing products.
 3. Select a specific product for editing or creating a new product.
 4. Scroll down to the section for Product Keywords.
@@ -1060,8 +1060,8 @@ Verify Admin UI changes for ingredient table and product table
 ## Related Feature: [FEATURE] Admin UI changes for ingredient table and product table #543
 
 ## Steps to follow:
-
-1. Pre-requisite: Access to the Admin UI.
+Pre-requisite: MP-Login-001
+1. Access to the Admin UI.
 2. Navigate to the ingredient table section in the Admin UI.
 3. Verify that the new ingredient table is displayed with the updated columns as per the solution described in the feature request.
 4. Check for options to create, edit, and delete columns in the ingredient table.
@@ -1089,8 +1089,8 @@ Verify meal designer's ability to modify meals, products, and nutrition using ad
 ## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
 
 ## Steps to follow:
-
-1. Pre-requisite: Access to the Admin UI with permissions assigned as a meal designer.
+Pre-requisite: MP-Login-001
+1. Access to the Admin UI with permissions assigned as a meal designer.
 2. Navigate to the meals section in the Admin UI.
 3. Verify that as a meal designer, you have access to modify existing meals, including recipes, ingredients, products, and nutrition details.
 4. Check for options to add, edit, and delete meals.
@@ -1120,8 +1120,8 @@ Verify the ability to assign a unique code to meals and ingredients
 ## Related Feature: [FEATURE] Assign a meal code and ingredient code #564
 
 ## Steps to follow:
-
-1. Pre-requisite: Access to the Admin UI with permissions assigned as an admin or meal designer.
+Pre-requisite: MP-Login-001
+1. Access to the Admin UI with permissions assigned as an admin or meal designer.
 2. Navigate to the meals section in the Admin UI.
 3. Check for the option to assign a unique code to each meal.
 4. Verify that the assigned meal codes are unique and consistent across the system.
@@ -1181,8 +1181,8 @@ Verify the consistency of field names for recipes and ingredients with the datab
 ## Related Issue: [#547](https://github.com/CivicTechFredericton/mealplanner/issues/562)
 
 ## Steps to follow:
-
-1. Pre-requisite: Access to the Admin UI with permissions to view recipe and ingredient details.
+Pre-requisite: MP-Login-001
+1. Access to the Admin UI with permissions to view recipe and ingredient details.
 2. Log in to the application with valid credentials.
 3. Navigate to the "Recipes" section.
 4. Verify that the field names for recipes (such as "Recipe Name," "Ingredients," "Instructions,") match the corresponding fields in the database schema.
