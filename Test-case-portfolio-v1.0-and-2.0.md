@@ -1181,7 +1181,7 @@ Verify the consistency of field names for recipes and ingredients with the datab
 ## Related Issue: [#547](https://github.com/CivicTechFredericton/mealplanner/issues/562)
 
 ## Steps to follow:
-Pre-requisite: MP-Login-001
+Pre-requisite: MP-Login-001, MP-SelectUser-007
 1. Access to the Admin UI with permissions to view recipe and ingredient details.
 2. Log in to the application with valid credentials.
 3. Navigate to the "Recipes" section.
@@ -1197,3 +1197,372 @@ The field names for recipes and ingredients should match the corresponding field
 
 ## Test Results:
 Test case passed. 
+
+## <a id="046">Test case ID: AA-CreateUser-046</a>
+
+## Test case name:
+
+Verify the ability to create a user with the role of 'meal designer'
+
+## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
+
+## Steps to follow:
+Pre-requisite: MP-Login-001, MP-SelectUser-007
+1. Create a new user with the role of 'meal designer'.
+3. Verify that the user with the role of 'meal designer' has access to the Admin UI.
+4. Check whether the options to manage meals, products, and nutrition are visible for the meal designer role.
+5. Ensure that the meal designer role does not have visibility or access to user administration functionalities.
+
+## Expected Behaviour:
+
+A user with the role of 'meal designer' should be successfully created and granted access to the Admin UI with specific permissions related to managing meals, products, and nutrition, excluding user administration capabilities.
+
+### Test Results:
+Test case passed.
+
+
+## <a id="047">Test case ID: AA-ModifyMeal-047</a>
+
+## Test case name:
+
+Verify the ability to modify meals in the Admin UI
+
+## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access the Admin UI with permissions assigned as a meal designer.
+2. Navigate to the meals section.
+3. Locate and select the meal intended for modification.
+4. Verify that options to edit and update meal details, including recipes and nutritional information, are available.
+5. Apply modifications to the meal as necessary.
+6. Confirm the changes are successfully applied.
+
+## Expected Behaviour:
+
+Meal designers should be able to utilize the Admin UI to modify meal details such as recipes and nutritional information, ensuring changes are accurately reflected.
+
+### Test Results:
+Test case passed.
+
+
+## <a id="048">Test case ID: AA-ShowMeal-048</a>
+
+## Test case name:
+
+Verify the ability to view meal details in the Admin UI
+
+## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access the Admin UI with permissions assigned as a meal designer.
+2. Navigate to the meals section.
+3. Verify that all existing meals are visible and accessible for viewing.
+4. Check whether meal details including recipes and nutritional information are displayed accurately.
+
+## Expected Behaviour:
+
+Meal designers should be able to view meal details including recipes and nutritional information within the Admin UI.
+
+### Test Results:
+Test case passed.
+
+
+## <a id="049">Test case ID: AA-ShowIngredients-049</a>
+
+## Test case name:
+
+Verify the ability to view ingredients in the Admin UI
+
+## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access the Admin UI with permissions assigned as a meal designer.
+2. Navigate to the ingredients section.
+3. Verify that all existing ingredients are visible and accessible for viewing.
+4. Check whether ingredient details are displayed accurately.
+
+## Expected Behaviour:
+
+Meal designers should be able to view ingredient details within the Admin UI.
+
+### Test Results:
+Test case passed.
+
+## <a id="050">Test case ID: AA-CreateIngredient-050</a>
+
+## Test case name:
+
+Verify the ability to create a new ingredient in the Admin UI
+
+## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access the Admin UI with permissions assigned as a meal designer.
+2. Navigate to the ingredients section.
+3. Locate the option to create a new ingredient.
+4. Provide necessary details for the new ingredient such as name, type, and nutritional information.
+5. Confirm the creation of the new ingredient.
+
+## Expected Behaviour:
+
+Meal designers should be able to create new ingredients within the Admin UI, providing necessary details for future reference and utilization.
+
+### Test Results:
+Test case passed.
+
+
+## <a id="051">Test case ID: AA-EditIngredient-051</a>
+
+## Test case name:
+
+Verify the ability to edit an existing ingredient in the Admin UI
+
+## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access the Admin UI with permissions assigned as a meal designer.
+2. Navigate to the ingredients section.
+3. Locate and select the existing ingredient intended for modification.
+4. Edit the necessary details for the ingredient.
+5. Confirm the changes are successfully applied.
+
+## Expected Behaviour:
+
+Meal designers should be able to edit existing ingredients within the Admin UI, ensuring updated details are accurately reflected.
+
+### Test Results:
+Test case passed.
+
+
+## <a id="052">Test case ID: AA-MatchIngredientToProduct-052</a>
+
+## Test case name:
+
+Verify the ability to match an ingredient to a product in the Admin UI
+
+## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access the Admin UI with permissions assigned as a meal designer.
+2. Navigate to the ingredients section.
+3. Select the ingredient intended for matching.
+4. Choose the corresponding product from the available options.
+5. Confirm the matching process.
+
+## Expected Behaviour:
+
+Meal designers should be able to match ingredients to corresponding products within the Admin UI, facilitating accurate meal preparation and nutritional tracking.
+
+### Test Results:
+Test case passed.
+
+
+## <a id="053">Test case ID: AA-DeleteIngredient-053</a>
+
+## Test case name:
+
+Verify the ability to delete an existing ingredient in the Admin UI
+
+## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access the Admin UI with permissions assigned as a meal designer.
+2. Navigate to the ingredients section.
+3. Locate and select the existing ingredient intended for deletion.
+4. Confirm the deletion action.
+
+## Expected Behaviour:
+
+Meal designers should be able to delete existing ingredients within the Admin UI, ensuring accurate management of ingredient inventory.
+
+### Test Results:
+Test case passed.
+
+
+## <a id="054">Test case ID: AA-CreateProduct-054</a>
+
+## Test case name:
+
+Verify the ability to create a new product in the Admin UI
+
+## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access the Admin UI with permissions assigned as a meal designer.
+2. Navigate to the products section.
+3. Locate the option to create a new product.
+4. Provide necessary details for the new product such as name, type, and nutritional information.
+5. Confirm the creation of the new product.
+
+## Expected Behaviour:
+
+Meal designers should be able to create new products within the Admin UI, providing necessary details for future reference and utilization.
+
+### Test Results:
+Test case passed.
+
+## <a id="055">Test case ID: AA-EditProduct-055</a>
+
+## Test case name:
+
+Verify the ability to edit an existing product in the Admin UI
+
+## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access the Admin UI with permissions assigned as a meal designer.
+2. Navigate to the products section.
+3. Locate and select the existing product intended for modification.
+4. Edit the necessary details for the product.
+5. Confirm the changes are successfully applied.
+
+## Expected Behaviour:
+
+Meal designers should be able to edit existing products within the Admin UI, ensuring updated details are accurately reflected.
+
+### Test Results:
+Test case passed.
+
+## <a id="056">Test case ID: AA-DeleteProduct-056</a>
+
+## Test case name:
+
+Verify the ability to delete an existing product in the Admin UI
+
+## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access the Admin UI with permissions assigned as a meal designer.
+2. Navigate to the products section.
+3. Locate and select the existing product intended for deletion.
+4. Confirm the deletion action.
+
+## Expected Behaviour:
+
+Meal designers should be able to delete existing products within the Admin UI, ensuring accurate management of product inventory.
+
+### Test Results:
+Test case passed.
+
+## <a id="057">Test case ID: AA-CreateUserAsAdmin-057</a>
+
+## Test case name:
+
+Verify the ability to create a user with the role of 'meal designer' as an admin
+
+## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access the Admin UI with permissions assigned as an admin.
+2. Navigate to the user management section.
+3. Choose to create a new user with the role of 'meal designer'.
+4. Provide necessary details for the new user.
+5. Confirm the creation of the new user.
+
+## Expected Behaviour:
+
+Admins should be able to create new users with the role of 'meal designer' within the Admin UI, facilitating user management processes.
+
+### Test Results:
+Test case passed.
+
+## <a id="058">Test case ID: AA-AssignRoleMealDesigner-058</a>
+
+## Test case name:
+
+Verify the ability to assign the role of 'meal designer' to a user as an admin
+
+## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access the Admin UI with permissions assigned as an admin.
+2. Navigate to the user management section.
+3. Locate and select the user intended for role assignment.
+4. Choose to assign the role of 'meal designer' to the selected user.
+5. Confirm the role assignment.
+
+## Expected Behaviour:
+
+Admins should be able to assign the role of 'meal designer' to existing users within the Admin UI, facilitating user management processes.
+
+### Test Results:
+Test case passed.
+
+## <a id="059">Test case ID: AA-AssignRoleAdmin-059</a>
+
+## Test case name:
+
+Verify the ability to assign the role of 'admin' to a user as an admin
+
+## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access the Admin UI with permissions assigned as an admin.
+2. Navigate to the user management section.
+3. Locate and select the user intended for role assignment.
+4. Choose to assign the role of 'admin' to the selected user.
+5. Confirm the role assignment.
+
+## Expected Behaviour:
+
+Admins should be able to assign the role of 'admin' to existing users within the Admin UI, facilitating user management processes.
+
+### Test Results:
+Test case passed.
+
+
+## <a id="060">Test case ID: AA-AssignRoleClient-060</a>
+
+## Test case name:
+
+Verify the inability to assign the role of 'client' to a user as an admin
+
+## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access the Admin UI with permissions assigned as an admin.
+2. Navigate to the user management section.
+3. Locate and select the user intended for role assignment.
+4. Attempt to assign the role of 'client' to the selected user.
+5. Verify that the option to assign the role of 'client' is not available.
+
+## Expected Behaviour:
+
+Admins should not be able to assign the role of 'client' to users within the Admin UI, as this role is not intended for administrative access.
+
+### Test Results:
+Test case passed.
+
+## <a id="061">Test case ID: AA-ClientLoginForbidden-061</a>
+
+## Test case name:
+
+Verify the inability of a user with the role of 'client' to login to the Admin UI
+
+## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
+
+## Steps to follow:
+1. Attempt to log in to the Admin UI with credentials of a user assigned the role of 'client'.
+2. Verify that the login attempt is unsuccessful.
+3. Ensure that users with the role of 'client' cannot access the Admin UI.
+
+## Expected Behaviour:
+
+Users with the role of 'client' should not be able to login to the Admin UI, as this role is not intended for administrative access.
+
+### Test Results:
+Test case passed.
