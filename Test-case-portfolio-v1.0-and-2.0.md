@@ -64,7 +64,22 @@
 | 43 | [AA-AssignMealIngredientCode-043](#043) | Verify the ability to assign a unique code to meals and ingredients |
 | 44 | [MP-TemplateMealPlan-044](#044) | Verify the ability to create template meal plans by meal designers and admins |
 | 45 | [AA-FieldNamesChange-045](#045) | Verify the consistency of field names for recipes and ingredients with the database schema |
-
+| 46 | [AA-CreateUser-046](#046) | Verify the ability to create a user with the role of 'meal designer' |
+| 47 | [AA-ModifyMeal-047](#047) | Verify the ability to modify meals in the Admin UI |
+| 48 | [AA-ShowMeal-048](#048) | Verify the ability to view meal details in the Admin UI |
+| 49 | [AA-ShowIngredients-049](#049) | Verify the ability to view ingredients in the Admin UI |
+| 50 | [AA-CreateIngredient-050](#050) | Verify the ability to create a new ingredient in the Admin UI |
+| 51 | [AA-EditIngredient-051](#051) | Verify the ability to edit an existing ingredient in the Admin UI |
+| 52 | [AA-MatchIngredientToProduct-052](#052) | Verify the ability to match an ingredient to a product in the Admin UI |
+| 53 | [AA-DeleteIngredient-053](#053) | Verify the ability to delete an existing ingredient in the Admin UI |
+| 54 | [AA-CreateProduct-054](#054) | Verify the ability to create a new product in the Admin UI |
+| 55 | [AA-EditProduct-055](#055) | Verify the ability to edit an existing product in the Admin UI |
+| 56 | [AA-DeleteProduct-056](#056) | Verify the ability to delete an existing product in the Admin UI |
+| 57 | [AA-CreateUserAsAdmin-057](#057) | Verify the ability to create a user with the role of 'meal designer' as an admin |
+| 58 | [AA-AssignRoleMealDesigner-058](#058) | Verify the ability to assign the role of 'meal designer' to a user as an admin |
+| 59 | [AA-AssignRoleAdmin-059](#059) | Verify the ability to assign the role of 'admin' to a user as an admin |
+| 60 | [AA-AssignRoleClient-060](#060) | Verify the inability to assign the role of 'client' to a user as an admin |
+| 61 | [AA-ClientLoginForbidden-061](#061) | Verify the inability of a user with the role of 'client' to login to the Admin UI |
 
 
 
