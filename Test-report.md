@@ -52,7 +52,7 @@ Release name: v2
 | 5-Apr-2024 | #588  | [AA-AssignRoleAdmin-059](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-AssignRoleAdmin-059) | Verify the ability to assign the role of 'admin' to a user as an admin                            | Passed |
 | 5-Apr-2024 | #588  | [AA-AssignRoleClient-060](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-AssignRoleClient-060) | Verify the inability to assign the role of 'client' to a user as an admin                         | Passed |
 | 5-Apr-2024 | #588  | [AA-ClientLoginForbidden-061](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-ClientLoginForbidden-061) | Verify the inability of a user with the role of 'client' to login to the Admin UI         | Passed |
-| 8-Apr-2024 | #593  | [BB-SearchProductBug-062](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-BB-SearchProductBug-062) | Verify the functionality of the search feature for products in the admin UI | Passed  |
+| 8-Apr-2024 | #593  | [AA-SearchProductBug-062](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-SearchProductBug-062) | Verify the functionality of the search feature for products in the admin UI | Passed  |
 
 
 
