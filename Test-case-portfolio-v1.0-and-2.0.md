@@ -81,6 +81,7 @@
 | 60 | [AA-AssignRoleClient-060](#060) | Verify the inability to assign the role of 'client' to a user as an admin |
 | 61 | [AA-ClientLoginForbidden-061](#061) | Verify the inability of a user with the role of 'client' to login to the Admin UI |
 | 62 | [AA-SearchProductBug-062](#062) | Verify the functionality of the search feature for products in the admin UI |
+| 63 | MP-ViewMealWithoutLogin-063(#063) | Viewing a specific meal without logging in |
 
 
 
@@ -1608,3 +1609,25 @@ Verify the functionality of the search feature for products in the admin UI
 When searching for a product in the admin UI, all records from the database should be listed, and the search functionality should yield accurate results corresponding to the searched phrase. Specifically, if a product like 'Lasagna' exists in the database, it should be included in the search results when searching for 'Lasagna'.
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/7337825e-170b-4f06-84d3-ab6b40088bd6)
+
+
+## <a id="063">Test case ID: MP-ViewMealWithoutLogin-063</a>
+
+## Test case name:
+Viewing a specific meal without logging in
+
+## Related Issue: #560
+
+## Description:
+This test case verifies the functionality of allowing users to view specific meal pages without requiring them to log in. 
+
+## Steps to follow:
+1. Navigate to the Meals page of Greener Village without logging in.
+2. Click on a specific meal to view its details.
+3. Verify that the meal page loads successfully and displays the details of the selected meal.
+4. Confirm that the user is not prompted to log in during the process.
+
+## Expected Behavior:
+Individual meal pages should be accessible to users without the need to log in, ensuring that anonymous users can view meal recipes seamlessly.
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/82a50b84-45ad-4bc8-b9a1-3a9f125eeae1)
