@@ -81,7 +81,7 @@
 | 60 | [AA-AssignRoleClient-060](#060) | Verify the inability to assign the role of 'client' to a user as an admin |
 | 61 | [AA-ClientLoginForbidden-061](#061) | Verify the inability of a user with the role of 'client' to login to the Admin UI |
 | 62 | [AA-SearchProductBug-062](#062) | Verify the functionality of the search feature for products in the admin UI |
-| 63 | MP-ViewMealWithoutLogin-063(#063) | Viewing a specific meal without logging in |
+| 63 | [MP-ViewMealWithoutLogin-063](#063) | Viewing a specific meal without logging in |
 
 
 
