@@ -80,8 +80,7 @@
 | 59 | [AA-AssignRoleAdmin-059](#059) | Verify the ability to assign the role of 'admin' to a user as an admin |
 | 60 | [AA-AssignRoleClient-060](#060) | Verify the inability to assign the role of 'client' to a user as an admin |
 | 61 | [AA-ClientLoginForbidden-061](#061) | Verify the inability of a user with the role of 'client' to login to the Admin UI |
-
-
+| 62 | [AA-SearchProductBug-062](#062) | Verify the functionality of the search feature for products in the admin UI |
 
 
 
@@ -1581,3 +1580,31 @@ Users with the role of 'client' should not be able to login to the Admin UI, as 
 
 ### Test Results:
 Test case passed.
+
+
+## <a id="062">Test case ID: AA-SearchProductBug-062</a>
+
+## Test case name:
+
+Verify the functionality of the search feature for products in the admin UI
+
+## Related Issue: [#593](https://github.com/CivicTechFredericton/mealplanner/issues/593)
+
+## Steps to follow:
+
+1. Pre-requisite: Access to the Admin UI with permissions to view product details.
+2. Log in to the application with valid credentials.
+3. Navigate to the "Products" section in the Admin UI.
+4. Verify that the list of products displayed in the table includes all records from the database.
+5. Attempt to search for a specific product using the search functionality.
+6. Enter a search query, such as the name or part of the name of a known product, in the search bar.
+7. Check that the search results accurately reflect the products matching the search query.
+8. If the product 'Lasagna' is present in the database, ensure that it appears in the search results.
+9. If the product 'Lasagna' does not appear in the search results, verify that there are no issues with the product data or search functionality.
+10. Test different search queries to ensure that the search feature is working as expected for various input scenarios.
+
+## Expected Behaviour:
+
+When searching for a product in the admin UI, all records from the database should be listed, and the search functionality should yield accurate results corresponding to the searched phrase. Specifically, if a product like 'Lasagna' exists in the database, it should be included in the search results when searching for 'Lasagna'.
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/7337825e-170b-4f06-84d3-ab6b40088bd6)
