@@ -13,3 +13,5 @@ Designs are in Figma [here](https://www.figma.com/file/RP5Xa8kDT0CaJH98gnL6FL/Me
 For Issues, Sprints and Release planning - go to the [Zenhub Board](https://app.zenhub.com/workspaces/mealplanner-5df0313f541828745932eb9c/board?repos=215406496) !
 
 There's also a page describing the release [[Mealplanner Release 1]]
+
+Introduction on features uptil v2 for user documentation - meant for internal use - [Shanthi gave an overview of v2 features to new team members](https://drive.google.com/drive/folders/1wb69mHyJzkFx04NwyL8DyV8iG-UF5N3u?usp=sharing)
