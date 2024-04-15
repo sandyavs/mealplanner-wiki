@@ -80,8 +80,9 @@
 | 59 | [AA-AssignRoleAdmin-059](#059) | Verify the ability to assign the role of 'admin' to a user as an admin |
 | 60 | [AA-AssignRoleClient-060](#060) | Verify the inability to assign the role of 'client' to a user as an admin |
 | 61 | [AA-ClientLoginForbidden-061](#061) | Verify the inability of a user with the role of 'client' to login to the Admin UI |
-
-
+| 62 | [AA-SearchProductBug-062](#062) | Verify the functionality of the search feature for products in the admin UI |
+| 63 | [MP-ViewMealWithoutLogin-063](#063) | Viewing a specific meal without logging in |
+| 64 | [MP-DisplayTemplates-064](#064) | Displaying templates along with all meal plans |
 
 
 
@@ -910,14 +911,14 @@ Pre-requisite: MP-Login-001.
 8. Attempt to save the ingredient by clicking on the "Save" or "Submit" button.
 9. Confirm whether the system successfully adds the ingredient without displaying any error messages.
 10. Check if the newly created ingredient appears in the list of ingredients for the selected meal.
-11. If any error message is displayed, note down the details of the error.
 
 ## Expected Behaviour:
 
 In the Admin UI for managing meals, users should be able to create ingredients without encountering any errors. Upon filling up the required fields and saving the ingredient, the system should add it successfully to the meal without any issues. Any error messages or unexpected behavior during ingredient creation should be addressed to ensure smooth functionality of the system.
 
 ## Test Results:
-Passed as in the Admin UI users is able to create ingredients without encountering any errors.
+Passed.
+
 
 ## <a id="036">Test case ID: AA-ImageVideoEmbedding-036</a>
 
@@ -1164,6 +1165,7 @@ Verify the ability to create template meal plans by meal designers and admins
 ## Related Feature: [548 template meal plan #551](https://github.com/CivicTechFredericton/mealplanner/issues/551)
 
 ## Steps to follow:
+
 Pre-requisite: MP-Login-001.
 1. Log in to the application with valid credentials.
 2. Navigate to the meal plans section as the Admin.
@@ -1570,7 +1572,6 @@ Verify the inability of a user with the role of 'client' to login to the Admin U
 ## Related Feature: [FEATURE] Meal designer should be able to use admin UI to modify meals, products, nutrition #588
 
 ## Steps to follow:
-Pre-requisite: MP-Login-001
 1. Attempt to log in to the Admin UI with credentials of a user assigned the role of 'client'.
 2. Verify that the login attempt is unsuccessful.
 3. Ensure that users with the role of 'client' cannot access the Admin UI.
@@ -1578,6 +1579,81 @@ Pre-requisite: MP-Login-001
 ## Expected Behaviour:
 
 Users with the role of 'client' should not be able to login to the Admin UI, as this role is not intended for administrative access.
+
+### Test Results:
+Test case passed.
+
+
+## <a id="062">Test case ID: AA-SearchProductBug-062</a>
+
+## Test case name:
+
+Verify the functionality of the search feature for products in the admin UI
+
+## Related Issue: [#593](https://github.com/CivicTechFredericton/mealplanner/issues/593)
+
+## Steps to follow:
+
+1. Pre-requisite: Access to the Admin UI with permissions to view product details.
+2. Log in to the application with valid credentials.
+3. Navigate to the "Products" section in the Admin UI.
+4. Verify that the list of products displayed in the table includes all records from the database.
+5. Attempt to search for a specific product using the search functionality.
+6. Enter a search query, such as the name or part of the name of a known product, in the search bar.
+7. Check that the search results accurately reflect the products matching the search query.
+8. If the product 'Lasagna' is present in the database, ensure that it appears in the search results.
+9. If the product 'Lasagna' does not appear in the search results, verify that there are no issues with the product data or search functionality.
+10. Test different search queries to ensure that the search feature is working as expected for various input scenarios.
+
+## Expected Behaviour:
+
+When searching for a product in the admin UI, all records from the database should be listed, and the search functionality should yield accurate results corresponding to the searched phrase. Specifically, if a product like 'Lasagna' exists in the database, it should be included in the search results when searching for 'Lasagna'.
+
+### Test Results:
+Test case passed.
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/7337825e-170b-4f06-84d3-ab6b40088bd6)
+
+
+## <a id="063">Test case ID: MP-ViewMealWithoutLogin-063</a>
+
+## Test case name:
+Viewing a specific meal without logging in
+
+## Related Issue: #560
+
+## Description:
+This test case verifies the functionality of allowing users to view specific meal pages without requiring them to log in. 
+
+## Steps to follow:
+1. Navigate to the Meals page of Greener Village without logging in.
+2. Click on a specific meal to view its details.
+3. Verify that the meal page loads successfully and displays the details of the selected meal.
+4. Confirm that the user is not prompted to log in during the process.
+
+## Expected Behavior:
+Individual meal pages should be accessible to users without the need to log in, ensuring that anonymous users can view meal recipes seamlessly.
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/82a50b84-45ad-4bc8-b9a1-3a9f125eeae1)
+
+## <a id="064">Test case ID: MP-DisplayTemplates-064</a>
+
+## Test case name:
+Displaying templates along with all meal plans
+
+## Related Issue: #602
+
+## Description:
+This test case verifies the functionality of displaying templates along with all meal plans in the list.
+
+## Steps to follow:
+1. Navigate to the "Meal Plan" section of the application.
+2. Click on the option to create a new template.
+3. View the list of meal plans to observe the presence of templates.
+4. Check whether templates are visible by default without applying any filters.
+
+## Expected Behavior:
+When viewing the list of meal plans, templates should be displayed along with all other meal plans, without requiring any specific filter selection. This ensures that templates are readily accessible and visible to users.
 
 ### Test Results:
 Test case passed.
