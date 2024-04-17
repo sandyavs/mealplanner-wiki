@@ -84,6 +84,8 @@
 | 63 | [MP-ViewMealWithoutLogin-063](#063) | Viewing a specific meal without logging in |
 | 64 | [MP-DisplayTemplates-064](#064) | Displaying templates along with all meal plans |
 | 65 | [AdminUI-SearchMeals-065](#065) | Verify functionality of search for meals in Admin UI                      |
+| 66 | [AdminUI-ResetPassword-066](#066) | Verify functionality of reset password for users in Admin UI              |
+| 67 | [MP-DisplayTemplates-067](#067) | Verify that templates are displayed along with all meal plans |
 
 
 
@@ -1656,7 +1658,7 @@ This test case verifies the functionality of displaying templates along with all
 ## Expected Behavior:
 When viewing the list of meal plans, templates should be displayed along with all other meal plans, without requiring any specific filter selection. This ensures that templates are readily accessible and visible to users.
 
-### Test Results:
+## Test Results:
 Test case passed.
 
 ## <a id="065">Test case ID: AA-SearchMeals-065</a>
@@ -1681,4 +1683,69 @@ Verify functionality of search for meals in Admin UI
 ## Expected Behaviour:
 
 When searching for meals using the keyword 'bread' in the Admin UI, the system should retrieve and display all relevant results matching the search criteria. The displayed results should include all meals containing the keyword 'bread', matching the expected results as shown in the test server screenshot provided.
+
+## Test Results:
+Test case passed.
+
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/591002eb-466d-4cc1-8cc3-9be6f42905ef)
+
+## <a id="066">Test case ID: AA-ResetPassword-066</a>
+
+## Test case name:
+
+Verify functionality of reset password for users in Admin UI
+
+## Related Issue: Reset password in admin UI throws error and does not update password #XXX
+
+## Steps to follow:
+
+1. Pre-requisite: [MP-Login-001](#001)
+2. Navigate to the Admin UI.
+3. Click on the 'Users' section to access the users page.
+4. Select any user from the list for whom the password needs to be reset.
+5. Locate the 'RESET PASSWORD' button associated with the selected user.
+6. Enter a new password in the provided field.
+7. Click on the 'RESET PASSWORD' button to initiate the password reset process.
+8. Monitor for any response from the UI after clicking the button.
+9. Check the JavaScript console for any errors or warnings.
+10. Verify that the password is updated successfully for the selected user.
+11. Confirm that the UI displays an appropriate success message indicating that the password has been updated.
+
+## Expected Behaviour:
+
+When resetting the password for a user in the Admin UI, the system should update the password successfully without any errors. Upon clicking the 'RESET PASSWORD' button, the UI should display a confirmation message indicating that the password has been updated. Additionally, the password reset process should redirect the user to the appropriate page within the Admin UI.
+
+## Test Results:
+Test case passed.
+
+
+## <a id="067">Test case ID: MP-DisplayTemplates-067</a>
+
+## Test case name:
+
+Verify that templates are displayed along with all meal plans
+
+## Related Issue: Templates should be displayed with all meal plans #602
+
+## Steps to follow:
+
+1. Pre-requisite: [MP-Login-001](#001), [MP-Template-031](#031)
+2. Go to the 'Meal Plan' page.
+3. Click on the 'Create Template' button to create a new template.
+4. View the list of meal plans to verify the presence of the template.
+5. Confirm that the template is visible in the list along with other meal plans.
+6. Check if the template is visible without any additional filter applied.
+7. Create a new meal plan without selecting the 'Template' filter.
+8. Verify that the newly created meal plan, including the template, is displayed in the list.
+9. Repeat the steps with different browsers if necessary.
+10. Check for consistency across different platforms.
+
+## Expected Behaviour:
+
+When navigating to the 'Meal Plan' page and creating a template, the template should be visible in the list of meal plans along with other non-template meal plans. Templates should not be hidden by default and should be displayed along with all meal plans without the need for any additional filters. This behavior should be consistent across different browsers and platforms.
+
+## Test Results:
+Test case passed.
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/83dfe5ea-0f61-490c-9f75-dd1f4df4ec66)
+
