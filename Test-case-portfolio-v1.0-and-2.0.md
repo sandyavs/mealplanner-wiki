@@ -86,6 +86,8 @@
 | 65 | [AdminUI-SearchMeals-065](#065) | Verify functionality of search for meals in Admin UI                      |
 | 66 | [AdminUI-ResetPassword-066](#066) | Verify functionality of reset password for users in Admin UI              |
 | 67 | [MP-RemoveFavoriteIcon-067](#067) | Verify removal of favorite icon from meal plan card                       |
+| 68 | [MP-IngredientsTable-068](#068) | Verify visibility of ingredients in Meal page                             |
+| 69 | [AA-MealInIngredientPage-069](#069) | Verify display of meal name in ingredient page of Admin UI            |
 
 
 
@@ -1749,4 +1751,61 @@ Test case passed.
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/f1675b4f-bd45-4134-ba1a-07a012ecc34d)
 
+
+
+## <a id="068">Test case ID: MP-IngredientsTable-068</a>
+
+## Test case name:
+
+Verify visibility of ingredients in Meal page
+
+## Related Issue: Ingredients needs to be visible in Meal page #609
+
+## Steps to follow:
+
+1. Pre-requisite:[MP-Login-001](#001)
+2. Navigate to the Meal page of the application.
+3. Select a meal and click on it to view its details.
+4. Check for the presence of ingredients listed along with their quantity and unit in a table at the bottom left of the screen.
+5. Verify that each ingredient listed matches the ingredients used in the meal recipe.
+6. Ensure that the ingredients are displayed clearly and legibly for easy readability.
+7. Click on each ingredient to verify if it provides additional details or options (if applicable).
+8. Repeat the above steps for multiple meals with different recipes to ensure consistency.
+
+## Expected Behaviour:
+
+Upon accessing the Meal page, users should be able to view a list of ingredients for each meal, along with their respective quantities and units. The displayed ingredients should accurately reflect those used in the meal recipe. The ingredients list should be presented in a clear and organized manner for easy reference by users.
+
+## Test Results:
+Test case passed.
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/77e91d44-d96a-4b59-8c55-d43e5f4a9282)
+
+
+## <a id="069">Test case ID: AA-MealInIngredientPage-069</a>
+
+## Test case name:
+
+Verify display of meal name in ingredient page of Admin UI
+
+## Related Issue: [BUG] Meal name should appear in the ingredient page of admin UI #621
+
+## Steps to follow:
+
+1. Pre-requisite: [MP-Login-001](#001)
+2. Navigate to the Meals section in the admin UI.
+3. Select a specific meal, for example, "Chicken Curry".
+4. Click on the show icon to see details of the meal.
+5. Click on the Ingredients tab to view the ingredients associated with the selected meal.
+6. Check whether the meal name is displayed prominently on the Ingredients page.
+7. Verify that the meal name is clearly visible and identifiable, above ingredient table, indicating which meal the listed ingredients belong to.
+8. Ensure that the meal name is consistently displayed at the top or in a prominent position on the Ingredients page for easy reference.
+
+## Expected Behaviour:
+
+Upon accessing the Ingredients page of a specific meal in the admin UI, the meal name should be prominently displayed to indicate which meal the listed ingredients belong to. Users should be able to easily identify the associated meal by viewing its name on the Ingredients page.
+
+## Test Results:
+Test case passed.
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/24744da8-8cce-455a-83d4-ad235b7b15d1)
 
