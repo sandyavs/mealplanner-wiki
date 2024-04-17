@@ -85,7 +85,7 @@
 | 64 | [MP-DisplayTemplates-064](#064) | Displaying templates along with all meal plans |
 | 65 | [AdminUI-SearchMeals-065](#065) | Verify functionality of search for meals in Admin UI                      |
 | 66 | [AdminUI-ResetPassword-066](#066) | Verify functionality of reset password for users in Admin UI              |
-| 67 | [MP-DisplayTemplates-067](#067) | Verify that templates are displayed along with all meal plans |
+| 67 | [MP-RemoveFavoriteIcon-067](#067) | Verify removal of favorite icon from meal plan card                       |
 
 
 
@@ -1650,6 +1650,7 @@ Displaying templates along with all meal plans
 This test case verifies the functionality of displaying templates along with all meal plans in the list.
 
 ## Steps to follow:
+Pre-requisites: [MP-Login-001](#001), [MP-Template-031](#031)
 1. Navigate to the "Meal Plan" section of the application.
 2. Click on the option to create a new template.
 3. View the list of meal plans to observe the presence of templates.
@@ -1660,6 +1661,8 @@ When viewing the list of meal plans, templates should be displayed along with al
 
 ## Test Results:
 Test case passed.
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/83dfe5ea-0f61-490c-9f75-dd1f4df4ec66)
+
 
 ## <a id="065">Test case ID: AA-SearchMeals-065</a>
 
@@ -1671,7 +1674,7 @@ Verify functionality of search for meals in Admin UI
 
 ## Steps to follow:
 
-1. Pre-requisite: Access to the Admin UI with the ability to search for meals.
+1. Pre-requisite: [MP-Login-001](#001)
 2. Navigate to the Admin UI.
 3. Click on the 'Meals' section to access the meals page.
 4. In the search bar provided, enter the keyword 'bread' to search for meals containing the word 'bread'.
@@ -1719,33 +1722,31 @@ When resetting the password for a user in the Admin UI, the system should update
 Test case passed.
 
 
-## <a id="067">Test case ID: MP-DisplayTemplates-067</a>
+## <a id="067">Test case ID: MP-RemoveFavoriteIcon-067</a>
 
 ## Test case name:
 
-Verify that templates are displayed along with all meal plans
+Verify removal of favorite icon from meal plan card
 
-## Related Issue: Templates should be displayed with all meal plans #602
+## Related Issue: Remove favorite icon from meal plan #623
 
 ## Steps to follow:
 
-1. Pre-requisite: [MP-Login-001](#001), [MP-Template-031](#031)
-2. Go to the 'Meal Plan' page.
-3. Click on the 'Create Template' button to create a new template.
-4. View the list of meal plans to verify the presence of the template.
-5. Confirm that the template is visible in the list along with other meal plans.
-6. Check if the template is visible without any additional filter applied.
-7. Create a new meal plan without selecting the 'Template' filter.
-8. Verify that the newly created meal plan, including the template, is displayed in the list.
-9. Repeat the steps with different browsers if necessary.
-10. Check for consistency across different platforms.
+1. Pre-requisite: [MP-Login-001](#001), [MP-MPCalendar-002](#002)
+2. Navigate to the meal plan section of the application.
+3. Locate a meal plan card.
+6. Confirm that the favorite icon is no longer displayed on the meal plan card.
+7. Check if there are any changes in functionality or layout after the removal of the favorite icon.
+8. Navigate to other meal plan cards to ensure the favorite icon has been removed universally.
+9. Perform a page refresh and re-verify that the favorite icon is still absent from the meal plan cards.
 
 ## Expected Behaviour:
 
-When navigating to the 'Meal Plan' page and creating a template, the template should be visible in the list of meal plans along with other non-template meal plans. Templates should not be hidden by default and should be displayed along with all meal plans without the need for any additional filters. This behavior should be consistent across different browsers and platforms.
+The icon should no longer be visible, indicating that the favorite functionality has been removed successfully. The layout and functionality of the meal planner application should remain unaffected by the removal of the favorite icon.
 
 ## Test Results:
 Test case passed.
 
-![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/83dfe5ea-0f61-490c-9f75-dd1f4df4ec66)
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/f1675b4f-bd45-4134-ba1a-07a012ecc34d)
+
 
