@@ -359,7 +359,7 @@ Upon entering a word from the name of any existing meal plan into the search bar
 
 Enable autocomplete feature for Products and Meals fields in admin app measure form
 
-## Related Bug ID: #482
+## Related Bug ID: #515
 
 ## Steps to follow:
 
