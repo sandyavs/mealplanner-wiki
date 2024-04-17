@@ -88,7 +88,8 @@
 | 67 | [MP-RemoveFavoriteIcon-067](#067) | Verify removal of favorite icon from meal plan card                       |
 | 68 | [MP-IngredientsTable-068](#068) | Verify visibility of ingredients in Meal page                             |
 | 69 | [AA-MealInIngredientPage-069](#069) | Verify display of meal name in ingredient page of Admin UI            |
-
+| 70 | [MP-NutritionData-070](#070) | Display nutrition data of meal in the Mealplanner UI                       |
+| 71 | [MP-MealPlanAvatar-071](#071) | Visual differentiation for Meal Plan Card                                 |
 
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
@@ -883,8 +884,6 @@ Pre-requisite: MP-Login-001
 7. Similarly, navigate to the section for managing tags.
 8. Attempt to create or edit a tag containing spaces.
 9. Verify whether the system allows using spaces in tag names.
-10. If spaces are allowed, save the changes and ensure they are persisted correctly in the system.
-11. If spaces are not allowed, validate that the system displays appropriate error messages or warnings.
 
 ## Expected Behaviour:
 
@@ -1809,3 +1808,63 @@ Test case passed.
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/24744da8-8cce-455a-83d4-ad235b7b15d1)
 
+
+
+## <a id="070">Test case ID: MP-NutritionData-070</a>
+
+## Test case name:
+
+Display nutrition data of meal in the Mealplanner UI
+
+## Related Feature: Nutrition Data of Meal to be displayed in the Mealplanner UI #614
+
+## Steps to follow:
+
+1. Pre-requisite: [MP-Login-001](#001)
+2. Navigate to the Mealplanner UI.
+3. Locate a meal with existing nutrition data.
+4. Hover over the Nutrition star icon associated with the meal.
+5. Verify that when there is no data for the meal in the nutrition table, 'No data' is displayed upon hovering over the icon.
+6. If nutrition data is available, ensure that only the relevant values with data are displayed upon hovering over the icon.
+7. Check that the displayed nutrition values are accurate and correspond to the actual data entered in the nutrition table.
+8. Repeat the above steps for multiple meals with varying nutrition data entries.
+9. Ensure that the display of nutrition data is consistent across different meals and accurately reflects the data entered in the nutrition table.
+
+## Expected Behaviour:
+
+In the Mealplanner UI, users should be able to hover over the Nutrition star icon associated with a meal to view its nutrition data. When there is no data available for the meal, 'No data' should be displayed upon hovering over the icon. If nutrition data exists, only the relevant values with data should be displayed. The displayed nutrition data should be accurate and consistent with the entries made in the nutrition table.
+
+## Test Results:
+Test case passed.
+
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/f3f919f4-ecbb-4c2b-863a-b1ba1f3486c8)
+
+## <a id="071">Test case ID: MP-MealPlanAvatar-071</a>
+
+## Test case name:
+
+Visual differentiation for Meal Plan Card
+
+## Related Feature: Meal Plan Card: The user circle should show empty for no user and T with grey for template #622
+
+## Steps to follow:
+
+1. Pre-requisite: [MP-Login-001](#001)
+2. Navigate to the Meal Plans page.
+3. Locate the Meal Plan cards displayed on the page.
+4. Verify that for Meal Plans without any user assigned, the user circle is displayed as empty.
+5. Confirm that for Meal Plans designated as templates, the user circle is displayed as grey with the letter 'T'.
+6. Hover over the user circle to ensure that a tooltip indicating 'No User Assigned' appears for Meal Plans without users, and 'Template' appears for template Meal Plans.
+7. Check that the visual differentiation between Meal Plans with no user assigned and template Meal Plans is clear and easily distinguishable.
+8. Ensure that the visual representation of the Meal Plan card remains consistent across different views and screen sizes.
+
+## Expected Behaviour:
+
+In the Mealplanner UI, Meal Plan cards should visually differentiate between Meal Plans with no user assigned and template Meal Plans. The user circle should be displayed as empty for Meal Plans without any user assigned, and grey with the letter 'T' for template Meal Plans. Hovering over the user circle should display appropriate tooltips indicating the status of the Meal Plan. This visual differentiation will enhance clarity and user experience while browsing through Meal Plans.
+
+## Test Results:
+Test case passed.
+
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/ad741559-b166-4737-b420-d5fa883fb3c5)
