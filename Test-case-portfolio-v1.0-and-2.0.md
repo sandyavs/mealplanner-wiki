@@ -83,6 +83,7 @@
 | 62 | [AA-SearchProductBug-062](#062) | Verify the functionality of the search feature for products in the admin UI |
 | 63 | [MP-ViewMealWithoutLogin-063](#063) | Viewing a specific meal without logging in |
 | 64 | [MP-DisplayTemplates-064](#064) | Displaying templates along with all meal plans |
+| 65 | [AdminUI-SearchMeals-065](#065) | Verify functionality of search for meals in Admin UI                      |
 
 
 
@@ -1657,3 +1658,27 @@ When viewing the list of meal plans, templates should be displayed along with al
 
 ### Test Results:
 Test case passed.
+
+## <a id="065">Test case ID: AA-SearchMeals-065</a>
+
+## Test case name:
+
+Verify functionality of search for meals in Admin UI
+
+## Related Issue: Admin UI: Search for meals is not working as before #624
+
+## Steps to follow:
+
+1. Pre-requisite: Access to the Admin UI with the ability to search for meals.
+2. Navigate to the Admin UI.
+3. Click on the 'Meals' section to access the meals page.
+4. In the search bar provided, enter the keyword 'bread' to search for meals containing the word 'bread'.
+5. Press the Enter key or click on the search icon to initiate the search.
+6. Verify the search results displayed on the page.
+7. Check that the search results include all meals containing the keyword 'bread'.
+8. Compare the search results with the expected results from the test server screenshot provided.
+
+## Expected Behaviour:
+
+When searching for meals using the keyword 'bread' in the Admin UI, the system should retrieve and display all relevant results matching the search criteria. The displayed results should include all meals containing the keyword 'bread', matching the expected results as shown in the test server screenshot provided.
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/591002eb-466d-4cc1-8cc3-9be6f42905ef)
