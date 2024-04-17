@@ -1854,7 +1854,7 @@ Visual differentiation for Meal Plan Card
 3. Locate the Meal Plan cards displayed on the page.
 4. Verify that for Meal Plans without any user assigned, the user circle is displayed as empty.
 5. Confirm that for Meal Plans designated as templates, the user circle is displayed as grey with the letter 'T'.
-6. Hover over the user circle to ensure that a tooltip indicating 'No User Assigned' appears for Meal Plans without users, and 'Template' appears for template Meal Plans.
+6.  In place of the user on the meal plan card, bellow meal plan name, indicating 'No User Assigned' appears for Meal Plans without users, and nothing appears for template Meal Plans.
 7. Check that the visual differentiation between Meal Plans with no user assigned and template Meal Plans is clear and easily distinguishable.
 8. Ensure that the visual representation of the Meal Plan card remains consistent across different views and screen sizes.
 
