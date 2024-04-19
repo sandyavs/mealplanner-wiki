@@ -633,24 +633,25 @@ The test failed. The search bar was present in the Admin App (Products) section,
 ## <a id="024">Test case ID: MP-IconHoverColor-024</a>
 
 ## Test case name:
-Verify the hover effect of the trash can and shopping cart icons in the meal plans page
+Verify the hover effect of the trash can, duplicate, and shopping cart icons in the meal plans page
 
-## Related Bug: [BUG] trash can and shopping cart icons not turning green when hovering the mouse over #459
-
+## Related Bug: [BUG] trash can, duplicate, and shopping cart icons not turning green when hovering the mouse over #459
 ## Steps to follow:
 1. Pre-requisite: MP-Login-001.
 2. Open the meal plans page by navigating to '/mealplans'.
 3. Hover the mouse over the trash can icon.
 4. Hover the mouse over the shopping cart icon.
-5. Verify the trash can icon and shopping card icon should turn green when the mouse is hovered over it.
+5. Hover the mouse over the duplicate icon. 
+6. Verify the trash can icon, duplicate icon, and shopping card icon should turn green when the mouse is hovered over it.
 
 
 ## Expected Behaviour:
 - The trash can icon should turn green when the mouse is hovered over it.
 - The shopping cart icon should turn green when the mouse is hovered over it.
+- The duplicate icon icon should turn green when the mouse is hovered over it.
 
 ## Test Results:
-The test passed as the trash can and shopping cart icons changed color to green when hovered over. 
+The test passed as the trash can, duplicate icon, and shopping cart icons changed color to green when hovered over.
 
 ![Screenshot (3)](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/84db54a7-15ba-4142-9d37-6ebef28cc4b8)
 
