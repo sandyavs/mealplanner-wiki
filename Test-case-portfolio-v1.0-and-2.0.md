@@ -90,6 +90,7 @@
 | 69 | [AA-MealInIngredientPage-069](#069) | Verify display of meal name in ingredient page of Admin UI            |
 | 70 | [MP-NutritionData-070](#070) | Display nutrition data of meal in the Mealplanner UI                       |
 | 71 | [MP-MealPlanAvatar-071](#071) | Visual differentiation for Meal Plan Card                                 |
+| 72 | [MP-MatchProductsToIngredient-72](#072) | Match multiple products to an ingredient                        |
 
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
@@ -1868,3 +1869,41 @@ Test case passed.
 
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/ad741559-b166-4737-b420-d5fa883fb3c5)
+
+## <a id="072">Test case ID: MP-MatchProductsToIngredient-072</a>
+
+
+## Test case name:
+Match multiple products to an ingredient
+
+## Related Issue: #570
+
+## Description:
+This test case verifies admin can match multiple products to an ingredient and the products are displayed in the shopping list.
+
+## Steps to follow:
+Pre-requisite: MP-TemplateMealPlan-044
+1. Access to the Admin UI as an admin.
+2. Click on the "show" button on the targeted meal "Tourtiere".
+3. Navigate to the ingredients section.
+4. Click on "Match" on the targted ingredient "Onion".
+5. Select the products that matchs the ingredient "Onion, Red, 3 lb Bag", "Red Onions, Sold in singles, 0.16 - 0.30 kg".
+5. Click "save".
+6. On mealplanner ui Select "Tourtiere" from the selected meal catalogue.
+7. Drag and drop it in the specific category of meal plan.
+8. Navigate  back to "meal plans"
+9. Click on the shopping icon
+10. Verify that th Onion has "Onion, Red, 3 lb Bag" and "Red Onions, Sold in singles, 0.16 - 0.30 kg" are displayed on the Suggested Product coloumn.
+
+
+
+## Expected Behavior:
+the matched Products are displayed in the shopping list.
+
+### Test Results:
+Test case passed.
+
+![Screenshot from 2024-04-16 14-00-31](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/cadf732e-64e5-45b8-9180-83cd3e7c304b)
+![Screenshot from 2024-04-16 14-00-01](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/d6037fc1-1bfe-4cfb-8439-2c2ad9b8c55c)
+
+
