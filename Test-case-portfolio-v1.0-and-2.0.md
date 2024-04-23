@@ -1997,7 +1997,7 @@ Test case passed (disabled button without error message).
 ![Screenshot from 2024-04-23 13-19-41](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/411638c9-4d13-4d10-9779-becf5ac479fd)
 
 
-## <a id="076">Test case ID: MP-TagsAlignedCorrectry-076/a>
+## <a id="076">Test case ID: MP-TagsAlignedCorrectry-076</a>
 
 
 ## Test case name:
