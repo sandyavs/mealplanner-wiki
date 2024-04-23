@@ -92,6 +92,7 @@
 | 71 | [MP-MealPlanAvatar-071](#071) | Visual differentiation for Meal Plan Card                                 |
 | 72 | [MP-MatchProductsToIngredient-72](#072) | Match multiple products to an ingredient                        |
 | 73 | [MP-CreateTwoTemplates-73](#073) | verify creating more than one meal plan or template without the need to refresh the page   |
+| 74 | [MP-DisplayCivicTechLogo-074](#074) | verify displaying Civic Tech logo and name in the printout of the recipe (meal)    |
 
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
@@ -1939,3 +1940,33 @@ the meal plans are created and displayed correctly
 
 ### Test Results:
 Test case failed
+
+## <a id="074">Test case ID: MP-DisplayCivicTechLogo-074</a>
+
+
+## Test case name:
+verify displaying Civic Tech logo and name in the printout of the recipe (meal) 
+
+## Related Issue: #469
+
+## Description:
+This test case verifies displaying Civic Tech logo and name in the printout of the recipe (meal)  in the footer of every page.
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Navigate to the meals page.
+2. Click on "Apple Fritters" meal to display is.
+3. Click on the print icon on the Apple Fritters page.
+4. Verify that in the footer of every page Civic Tech logo and name are displayed.
+
+
+
+## Expected Behavior:
+Civic Tech logo and name in the printout of the recipe (meal) are displayed in the footer of every page..
+
+### Test Results:
+Test case failed.
+
+![Screenshot from 2024-04-16 13-33-50](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/00450c26-cb1e-433f-921b-1a565f94a44c)
+
+![Screenshot from 2024-04-16 13-33-58](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/5ff1b2a6-5318-46d2-aa4e-f055978fb849)
+
