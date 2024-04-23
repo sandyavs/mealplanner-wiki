@@ -91,6 +91,7 @@
 | 70 | [MP-NutritionData-070](#070) | Display nutrition data of meal in the Mealplanner UI                       |
 | 71 | [MP-MealPlanAvatar-071](#071) | Visual differentiation for Meal Plan Card                                 |
 | 72 | [MP-MatchProductsToIngredient-72](#072) | Match multiple products to an ingredient                        |
+| 73 | [MP-CreateTwoTemplates-73](#073) | verify creating more than one meal plan or template without the need to refresh the page   |
 
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
@@ -1904,6 +1905,37 @@ the matched Products are displayed in the shopping list.
 Test case passed.
 
 ![Screenshot from 2024-04-16 14-00-31](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/cadf732e-64e5-45b8-9180-83cd3e7c304b)
+
 ![Screenshot from 2024-04-16 14-00-01](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/d6037fc1-1bfe-4cfb-8439-2c2ad9b8c55c)
 
 
+## <a id="073">Test case ID: MP-CreateTwoTemplates-073</a>
+
+
+## Test case name:
+Creating two meal plans
+
+## Related Issue: #629
+
+## Description:
+This test case verifies creating more than one meal plan or template without the need to refresh the page
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Navigate to the "Meal Plan" section of the application.
+2. Click on the "Create Meal Plan" button to create the first meal plan.
+3. Choose "Create New Meal Plan"
+4. Fill  the input name field for the first meal plan
+5. Click on Create button
+6. Click on the "Create Meal Plan" button to create the second meal plan.
+7. Choose "Create New Meal Plan"
+8. Fill thename input field for the second meal plan
+9. Click on Create button
+10. Check if the meal plans are displayed.
+
+
+## Expected Behavior:
+the meal plans are created and displayed correctly
+
+### Test Results:
+Test case failed
