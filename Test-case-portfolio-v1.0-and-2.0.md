@@ -1984,7 +1984,7 @@ This test case verifies empty meal cannot be created in the admin UI
 Pre-requisite: MP-Login-001
 1. Access to the Admin UI as an admin.
 2. Click on the "create" button.
-3. leave all fields blanck.
+3. leave all fields black.
 4. Verify that no meal is created
 
 
