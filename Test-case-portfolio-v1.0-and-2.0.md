@@ -1993,7 +1993,7 @@ Pre-requisite: MP-Login-001
 empty meal cannot be created
 
 ### Test Results:
-Test case passed.
+Test case passed (disabled button without error message).
 
 ![Screenshot from 2024-04-23 13-19-41](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/411638c9-4d13-4d10-9779-becf5ac479fd)
 
