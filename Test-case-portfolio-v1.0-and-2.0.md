@@ -1930,7 +1930,7 @@ Pre-requisite: MP-Login-001
 5. Click on Create button
 6. Click on the "Create Meal Plan" button to create the second meal plan.
 7. Choose "Create New Meal Plan"
-8. Fill thename input field for the second meal plan
+8. Fill the name input field for the second meal plan
 9. Click on Create button
 10. Check if the meal plans are displayed.
 
@@ -1939,7 +1939,7 @@ Pre-requisite: MP-Login-001
 the meal plans are created and displayed correctly
 
 ### Test Results:
-Test case failed
+Test case passed
 
 ## <a id="074">Test case ID: MP-DisplayCivicTechLogo-074</a>
 
