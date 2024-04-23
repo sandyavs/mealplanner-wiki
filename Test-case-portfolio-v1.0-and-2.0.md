@@ -92,9 +92,9 @@
 | 71 | [MP-MealPlanAvatar-071](#071) | Visual differentiation for Meal Plan Card                                 |
 | 72 | [MP-MatchProductsToIngredient-072](#072) | Match multiple products to an ingredient                        |
 | 73 | [MP-CreateTwoTemplates-073](#073) | Verify creating more than one meal plan or template without the need to refresh the page   |
-| 74 | [MP-DisplayCivicTechLogo-074](#074) | verify displaying Civic Tech logo and name in the printout of the recipe (meal)    |
-| 75 | [AA-CreateEmptyMeal-075](#075) | verify empty meal cannot be created  |
-| 76 | [MP-TagsAlignedCorrectry-076](#076) | verify tags are being aligned in multiple lines. |
+| 74 | [MP-DisplayCivicTechLogo-074](#074) | Verify displaying Civic Tech logo and name in the printout of the recipe (meal)    |
+| 75 | [AA-CreateEmptyMeal-075](#075) | Verify empty meal cannot be created  |
+| 76 | [MP-TagsAlignedCorrectry-076](#076) | Verify tags are being aligned in multiple lines. |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
