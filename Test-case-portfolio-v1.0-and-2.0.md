@@ -94,6 +94,7 @@
 | 73 | [MP-CreateTwoTemplates-73](#073) | verify creating more than one meal plan or template without the need to refresh the page   |
 | 74 | [MP-DisplayCivicTechLogo-074](#074) | verify displaying Civic Tech logo and name in the printout of the recipe (meal)    |
 | 75 | [AA-CreateEmptyMeal-075](#075) | verify empty meal cannot be created  |
+| 76 | [MP-TagsAlignedCorrectry-076](#076) | verify empty meal cannot be created  |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -1954,7 +1955,7 @@ This test case verifies displaying Civic Tech logo and name in the printout of t
 ## Steps to follow:
 Pre-requisite: MP-Login-001
 1. Navigate to the meals page.
-2. Click on "Apple Fritters" meal to display is.
+2. Click on "Apple Fritters" meal to display it.
 3. Click on the print icon on the Apple Fritters page.
 4. Verify that in the footer of every page Civic Tech logo and name are displayed.
 
@@ -1995,4 +1996,28 @@ Test case passed (disabled button without error message).
 
 ![Screenshot from 2024-04-23 13-19-41](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/411638c9-4d13-4d10-9779-becf5ac479fd)
 
+
+## <a id="076">Test case ID: MP-TagsAlignedCorrectry-076/a>
+
+
+## Test case name:
+verify tags are being aligned in multiple lines.
+
+## Related Issue: #355
+
+## Description:
+This test case verifies that tags are being aligned in multiple lines to the given width of the main page.
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Navigate to the meals page.
+2. Click on Tags radio button.
+3. Verify that the tags aligned in multiple lines to the given width of the main page.
+
+## Expected Behavior:
+ tags should be aligned in multiple lines to the given width of the main page.
+
+### Test Results:
+Test case passed
+
+![Screenshot from 2024-04-23 18-58-15](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/227e2b12-09d1-42f8-b40f-4294a975725e)
 
