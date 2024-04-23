@@ -1979,7 +1979,7 @@ verify empty meal cannot be created
 ## Related Issue: #355
 
 ## Description:
-This test case verifies empty meal cannot be created
+This test case verifies empty meal cannot be created in the admin UI
 ## Steps to follow:
 Pre-requisite: MP-Login-001
 1. Access to the Admin UI as an admin.
