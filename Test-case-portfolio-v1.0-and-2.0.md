@@ -2003,7 +2003,7 @@ Test case passed (disabled button without error message).
 ## Test case name:
 verify tags are being aligned in multiple lines.
 
-## Related Issue: #355
+## Related Issue: #580
 
 ## Description:
 This test case verifies that tags are being aligned in multiple lines to the given width of the main page.
