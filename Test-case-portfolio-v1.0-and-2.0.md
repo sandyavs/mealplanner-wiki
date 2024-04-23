@@ -1959,13 +1959,11 @@ Pre-requisite: MP-Login-001
 3. Click on the print icon on the Apple Fritters page.
 4. Verify that in the footer of every page Civic Tech logo and name are displayed.
 
-
-
 ## Expected Behavior:
-Civic Tech logo and name in the printout of the recipe (meal) are displayed in the footer of every page..
+Civic Tech logo and name in the printout of the recipe (meal) are displayed in the footer of every page.
 
 ### Test Results:
-Test case failed.
+The test case requires revision.
 
 ![Screenshot from 2024-04-16 13-33-50](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/00450c26-cb1e-433f-921b-1a565f94a44c)
 
