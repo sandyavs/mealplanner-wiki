@@ -94,7 +94,7 @@
 | 73 | [MP-CreateTwoTemplates-73](#073) | verify creating more than one meal plan or template without the need to refresh the page   |
 | 74 | [MP-DisplayCivicTechLogo-074](#074) | verify displaying Civic Tech logo and name in the printout of the recipe (meal)    |
 | 75 | [AA-CreateEmptyMeal-075](#075) | verify empty meal cannot be created  |
-| 76 | [MP-TagsAlignedCorrectry-076](#076) | verify empty meal cannot be created  |
+| 76 | [MP-TagsAlignedCorrectry-076](#076) | verify tags are being aligned in multiple lines. |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
