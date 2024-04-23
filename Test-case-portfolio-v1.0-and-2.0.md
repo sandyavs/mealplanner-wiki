@@ -90,8 +90,8 @@
 | 69 | [AA-MealInIngredientPage-069](#069) | Verify display of meal name in ingredient page of Admin UI            |
 | 70 | [MP-NutritionData-070](#070) | Display nutrition data of meal in the Mealplanner UI                       |
 | 71 | [MP-MealPlanAvatar-071](#071) | Visual differentiation for Meal Plan Card                                 |
-| 72 | [MP-MatchProductsToIngredient-72](#072) | Match multiple products to an ingredient                        |
-| 73 | [MP-CreateTwoTemplates-73](#073) | verify creating more than one meal plan or template without the need to refresh the page   |
+| 72 | [MP-MatchProductsToIngredient-072](#072) | Match multiple products to an ingredient                        |
+| 73 | [MP-CreateTwoTemplates-073](#073) | Verify creating more than one meal plan or template without the need to refresh the page   |
 | 74 | [MP-DisplayCivicTechLogo-074](#074) | verify displaying Civic Tech logo and name in the printout of the recipe (meal)    |
 | 75 | [AA-CreateEmptyMeal-075](#075) | verify empty meal cannot be created  |
 | 76 | [MP-TagsAlignedCorrectry-076](#076) | verify tags are being aligned in multiple lines. |
