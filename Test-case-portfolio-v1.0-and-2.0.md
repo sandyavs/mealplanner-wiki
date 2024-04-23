@@ -93,7 +93,7 @@
 | 72 | [MP-MatchProductsToIngredient-72](#072) | Match multiple products to an ingredient                        |
 | 73 | [MP-CreateTwoTemplates-73](#073) | verify creating more than one meal plan or template without the need to refresh the page   |
 | 74 | [MP-DisplayCivicTechLogo-074](#074) | verify displaying Civic Tech logo and name in the printout of the recipe (meal)    |
-| 75 | [MP-CreateEmptyMeal-075](#075) | verify empty meal cannot be created  |
+| 75 | [AA-CreateEmptyMeal-075](#075) | verify empty meal cannot be created  |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -1970,7 +1970,7 @@ Test case failed.
 
 ![Screenshot from 2024-04-16 13-33-58](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/5ff1b2a6-5318-46d2-aa4e-f055978fb849)
 
-## <a id="075">Test case ID: MP-CreateEmptyMeal-075</a>
+## <a id="075">Test case ID: AA-CreateEmptyMeal-075</a>
 
 
 ## Test case name:
