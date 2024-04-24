@@ -1995,6 +1995,8 @@ A meal with no name cannot be created
 ### Test Results:
 Test case passed 
 
+![Screenshot 2024-04-24 162633](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/6391c0ca-afe9-4e40-9f29-aacea206cbd0)
+
 ![Screenshot 2024-04-24 162406](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/aad49b04-834b-414a-ba6a-1c92c80a812c)
 
 
