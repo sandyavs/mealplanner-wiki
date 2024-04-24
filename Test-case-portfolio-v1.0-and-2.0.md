@@ -1973,26 +1973,29 @@ The test case requires revision.
 
 
 ## Test case name:
-verify empty meal cannot be created
+verify meal with no name cannot be created
 
 ## Related Issue: #355
 
 ## Description:
-This test case verifies empty meal cannot be created in the admin UI
+This test case verifies meal with no name cannot be created in the admin UI
+
 ## Steps to follow:
 Pre-requisite: MP-Login-001
 1. Access to the Admin UI as an admin.
-2. Click on the "create" button.
-3. leave all fields blank.
-4. Verify that no meal is created
+2. Leave the Name en field blank
+3. Insert any character in any other field to enable the save button
+4. leave all the other fields blank.
+5. Click on the "Create" button.
+6. Verify that no meal is created without the minimum requirement which is the Name en field.
 
 ## Expected Behavior:
-empty meal cannot be created
+A meal with no name cannot be created
 
 ### Test Results:
-Test case passed (disabled button without error message).
+Test case passed 
 
-![Screenshot from 2024-04-23 13-19-41](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/411638c9-4d13-4d10-9779-becf5ac479fd)
+![Screenshot 2024-04-24 162406](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/aad49b04-834b-414a-ba6a-1c92c80a812c)
 
 
 ## <a id="076">Test case ID: MP-TagsAlignedCorrectry-076</a>
