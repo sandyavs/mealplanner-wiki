@@ -94,7 +94,7 @@
 | 73 | [MP-CreateTwoTemplates-073](#073) | Verify creating more than one meal plan or template without the need to refresh the page   |
 | 74 | [MP-DisplayCivicTechLogo-074](#074) | Verify displaying Civic Tech logo and name in the printout of the recipe (meal)    |
 | 75 | [AA-CreateEmptyMeal-075](#075) | Verify empty meal cannot be created  |
-| 76 | [MP-TagsAlignedCorrectry-076](#076) | Verify tags are being aligned in multiple lines. |
+| 76 | [MP-TagsAlignedCorrectly-076](#076) | Verify tags are being aligned in multiple lines. |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -1901,7 +1901,7 @@ Pre-requisite: MP-TemplateMealPlan-044
 
 
 ## Expected Behavior:
-the matched Products are displayed in the shopping list.
+The matched Products are displayed in the shopping list.
 
 ### Test Results:
 Test case passed.
@@ -1937,7 +1937,7 @@ Pre-requisite: MP-Login-001
 
 
 ## Expected Behavior:
-the meal plans are created and displayed correctly
+The meal plans are created and displayed correctly
 
 ### Test Results:
 Test case passed
@@ -1946,7 +1946,7 @@ Test case passed
 
 
 ## Test case name:
-verify displaying Civic Tech logo and name in the printout of the recipe (meal) 
+Verify displaying Civic Tech logo and name in the printout of the recipe (meal) 
 
 ## Related Issue: #469
 
@@ -1973,7 +1973,7 @@ The test case requires revision.
 
 
 ## Test case name:
-verify meal with no name cannot be created
+Verify meal with no name cannot be created
 
 ## Related Issue: #355
 
@@ -2000,11 +2000,11 @@ Test case passed
 ![Screenshot 2024-04-24 162406](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/aad49b04-834b-414a-ba6a-1c92c80a812c)
 
 
-## <a id="076">Test case ID: MP-TagsAlignedCorrectry-076</a>
+## <a id="076">Test case ID: MP-TagsAlignedCorrectly-076</a>
 
 
 ## Test case name:
-verify tags are being aligned in multiple lines.
+Verify tags are being aligned in multiple lines.
 
 ## Related Issue: #580
 
@@ -2013,11 +2013,11 @@ This test case verifies that tags are being aligned in multiple lines to the giv
 ## Steps to follow:
 Pre-requisite: MP-Login-001
 1. Navigate to the meals page.
-2. Click on Tags radio button.
-3. Verify that the tags aligned in multiple lines to the given width of the main page.
+2. Click on the Tags radio button.
+3. Verify that the tags are aligned in multiple lines to the given width of the main page.
 
 ## Expected Behavior:
- tags should be aligned in multiple lines to the given width of the main page.
+Tags should be aligned in multiple lines to the given width of the main page.
 
 ### Test Results:
 Test case passed
