@@ -1889,15 +1889,16 @@ Pre-requisite: MP-TemplateMealPlan-044
 1. Access to the Admin UI as an admin.
 2. Click on the "show" button on the targeted meal "Tourtiere".
 3. Navigate to the ingredients section.
-4. Click on "Match" on the targted ingredient "Onion".
-5. Select the products that matchs the ingredient "Onion, Red, 3 lb Bag", "Red Onions, Sold in singles, 0.16 - 0.30 kg".
-5. Click "save".
-6. On mealplanner ui Select "Tourtiere" from the selected meal catalogue.
-7. Drag and drop it in the specific category of meal plan.
-8. Navigate  back to "meal plans"
-9. Click on the shopping icon
-10. Verify that th Onion has "Onion, Red, 3 lb Bag" and "Red Onions, Sold in singles, 0.16 - 0.30 kg" are displayed on the Suggested Product coloumn.
-
+4. Click on "Match" on the targeted ingredient "Onion".
+5. Select the products that match the ingredients "Onion, Red, 3 lb Bag", and "Red Onions, Sold in singles, 0.16 - 0.30 kg".
+6. Select "Red Onions, Sold in singles" as the best product.
+7. Click "save".
+8. On mealplanner ui Select "Tourtiere" from the selected meal catalogue.
+9. Drag and drop it in the specific category of the meal plan.
+10. Navigate  back to "meal plans"
+11. Click on the shopping icon
+12. Verify that the Onion has "Onion, Red, 3 lb Bag" and "Red Onions, Sold in singles, 0.16 - 0.30 kg" are displayed in the Suggested Product column.
+13. Verify that the Onion has "Red Onions, Sold in singles, 0.16 - 0.30 kg" as the best product on the top of the Suggested Product column.
 
 
 ## Expected Behavior:
@@ -1907,6 +1908,8 @@ The matched Products are displayed in the shopping list.
 Test case passed.
 
 ![Screenshot from 2024-04-16 14-00-31](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/cadf732e-64e5-45b8-9180-83cd3e7c304b)
+
+![Screenshot 2024-04-26 102336](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/5f514435-6757-4072-b21a-3db49b8b7b67)
 
 ![Screenshot from 2024-04-16 14-00-01](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/d6037fc1-1bfe-4cfb-8439-2c2ad9b8c55c)
 
