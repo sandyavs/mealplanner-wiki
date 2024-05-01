@@ -15,3 +15,5 @@ For Issues, Sprints and Release planning - go to the [Zenhub Board](https://app.
 There's also a page describing the release [[Mealplanner Release 1]]
 
 Introduction on features uptil v2 for user documentation - meant for internal use - [Shanthi gave an overview of v2 features to new team members](https://drive.google.com/drive/folders/1wb69mHyJzkFx04NwyL8DyV8iG-UF5N3u?usp=sharing)
+
+Shanthi gave an intro on how in a recipe, the meal, ingredients and products relate to each other at [Meal data entry QA](https://drive.google.com/file/d/12zVEr61zRS_votSd-igAlQXVfwLmJ-3l/view?usp=sharing)
