@@ -1957,20 +1957,25 @@ Verify displaying Civic Tech logo and name in the printout of the recipe (meal)
 This test case verifies displaying Civic Tech logo and name in the printout of the recipe (meal)  in the footer of every page.
 ## Steps to follow:
 Pre-requisite: MP-Login-001
-1. Navigate to the meals page.
+1. From the navigation bar, click on "meal" to navigate to the meals page.
 2. Click on "Apple Fritters" meal to display it.
 3. Click on the print icon on the Apple Fritters page.
-4. Verify that in the footer of every page Civic Tech logo and name are displayed.
+4. Verify that in the footer of every page Civic Tech logo and name are displayed in both Orientation, portrait and landscape .
 
 ## Expected Behavior:
 Civic Tech logo and name in the printout of the recipe (meal) are displayed in the footer of every page.
 
 ### Test Results:
-The test case requires revision.
+The test case passed.
 
-![Screenshot from 2024-04-16 13-33-50](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/00450c26-cb1e-433f-921b-1a565f94a44c)
+![Screenshot from 2024-05-06 09-33-31](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/ae35f7e2-bb0c-4f29-aae4-991a129fefdf)
 
-![Screenshot from 2024-04-16 13-33-58](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/5ff1b2a6-5318-46d2-aa4e-f055978fb849)
+![Screenshot from 2024-05-06 09-33-40](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/d869e965-bb65-41d5-80c6-2bb62880c749)
+
+![Screenshot from 2024-05-06 09-33-56](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/4ab1ae91-5324-48e3-94cb-2cb1ebfa05d1)
+
+![Screenshot from 2024-05-06 09-34-01](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/5cd50774-844c-4273-8b22-e67d87ee8ce7)
+
 
 ## <a id="075">Test case ID: AA-CreateEmptyMeal-075</a>
 
