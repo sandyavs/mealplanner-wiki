@@ -1738,7 +1738,7 @@ Verify removal of favorite icon from meal plan card
 ## Steps to follow:
 
 1. Pr-requisite: [MP-Login-001](#001)
-2. From the Navigation bar, go to the "meal plans" page.
+2. From the navigation bar, click on  "meal plans" to go to the meal plans page.
 3. Locate a meal plan card.
 6. Confirm that the favorite icon is no longer displayed on the meal plan card.
 7. Check if there are any changes in functionality or layout after the removal of the favorite icon.
