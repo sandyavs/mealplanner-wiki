@@ -95,6 +95,7 @@
 | 74 | [MP-DisplayCivicTechLogo-074](#074) | Verify displaying Civic Tech logo and name in the printout of the recipe (meal)    |
 | 75 | [AA-CreateEmptyMeal-075](#075) | Verify empty meal cannot be created  |
 | 76 | [MP-TagsAlignedCorrectly-076](#076) | Verify tags are being aligned in multiple lines. |
+| 77 | [MP-CheckPrimaryIngredient-077](#077) | Verify the primary ingredient are displayed when there are substitutes for ingredients in a meal. |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2031,4 +2032,43 @@ Tags should be aligned in multiple lines to the given width of the main page.
 Test case passed
 
 ![Screenshot from 2024-04-23 18-58-15](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/227e2b12-09d1-42f8-b40f-4294a975725e)
+
+
+## <a id="077">Test case ID: MP-CheckPrimaryIngredient-077</a>
+
+
+## Test case name:
+Verify The primary ingredient are displayed when there are substitutes for ingredients in a meal.
+
+## Related Issue: #644
+
+## Description:
+This test case verifies that The primary ingredient are displayed when there are substitutes for ingredients in a meal.
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access to the Admin UI as an admin.
+2. In the left navigation menu, select the section ‘Meals’.
+3. Click on 'Bread and Butter Pudding'.
+4. Check the ingredients list. This has Butter and Margarine as well as Apricot Jam, Raspberry Jam, Marmalade.
+5. Go to 'Mealplanner UI'
+6. Navigate to "meals" page from the navigation bar.
+7. Search for "Bread and Butter Pudding".
+8. Verify that Butter, and Apricot Jam are displayed.
+
+
+## Expected Behavior:
+The primary ingredient are displayed when there are substitutes for ingredients in a meal.
+
+### Test Results:
+Test case require revision.
+
+![Screenshot from 2024-05-06 10-13-23](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/72097115-73fc-4821-b112-96d715c5a9ad)
+
+![Screenshot from 2024-05-06 10-13-28](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/2869e3ae-9668-4cce-bf79-3703a055cc23)
+
+
+![Screenshot from 2024-05-06 10-13-47](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/95c63285-0802-4ccd-b141-01f94dd12c65)
+
+
+![Screenshot from 2024-05-06 10-13-54](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/f414074d-76c4-4712-bd2c-1703bca56677)
 
