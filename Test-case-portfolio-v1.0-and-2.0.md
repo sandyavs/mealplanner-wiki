@@ -1896,7 +1896,7 @@ Match multiple products to an ingredient
 This test case verifies admin can match multiple products to an ingredient and the products are displayed in the shopping list.
 
 ## Steps to follow:
-Pre-requisite: MP-TemplateMealPlan-044
+Pre-requisite: MP-Template-031
 1. Access to the Admin UI as an admin.
 2. Click on the "show" button on the targeted meal "Tourtiere".
 3. Navigate to the ingredients section.
@@ -2125,7 +2125,7 @@ Verify display the reason for substitute ingredient.
 This test case verifies that the reason for substitute ingredient is displayed.
 
 ## Steps to follow:
-Pre-requisite: MP-TemplateMealPlan-044
+Pre-requisite: MP-Template-031
 1. Navigate  to "meal plans" from the navigation bar.
 2. Select "Breakfast Burrito" from the selected meal catalogue.
 3. Drag and drop it in the specific category of the meal plan.
