@@ -70,3 +70,5 @@ Release name: v2
 | 06-May-2024 |  #644| [MP-CheckPrimaryIngredient-077](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#077) |  Verify The primary ingredient are displayed when there are substitutes for ingredients in a meal. |  require revision    |
 | 10-May-2024 |  #656| [AA-SearchProductByAnyWord-078](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#078)| Verify Search product is working for any word in the product name. |  Passed   |
 | 10-May-2024 |  #637|[MP-DisplaySubstituteReason-079](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#079)| Verify display the reason for substitute ingredient. |  Passed   |
+| 10-May-2024 |  #637|[AA-PriceAndQuantityType-080](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#080)| Verify the type of the price and the quantity is number.|  Passed   |
+
