@@ -943,24 +943,32 @@ Verify the embedding of images and videos for meals in the meal planner interfac
 
 ## Steps to follow:
 Pre-requisite: MP-Login-001.
-1. Pre-requisite: Access to the Admin UI with permissions to manage ingredients.
-2. Navigate to the meal details page for a specific meal.
-3. Locate the sections for adding images and videos for the meal.
-4. Upload or provide links to images and videos associated with the meal.
+1. Access to the Admin UI as an admin.
+2. In the left navigation menu, select the section "Meals".
+3. Click on "Create" button on the right corner.
+4. Fill the name field with "Marinara Sauce".
+5. Fill the Photo url field with "https://goodmealplan.com/pictures/Marinara%20Sauce.jpg".
+5. Fill the viedo url field with "https://www.youtube.com/watch?v=q35rhlsJ-v0&list=PLqPFmHMS2sqbICX3CKlJFOBGa30iO8vO9&index=9".
 5. Check whether the images are embedded as thumbnails within the meal details.
 6. Verify that the videos are embedded and playable within the meal details.
 7. Ensure that the embedded images and videos are clearly distinguishable and identifiable.
 8. Attempt to click on the embedded images to view them in full size, if applicable.
-9. Try playing the embedded videos to confirm their functionality and quality.
-10. Repeat the above steps for multiple meals with different images and videos.
+
 
 ## Expected Behaviour:
 
 In the meal planner interface, images and videos associated with meals should be embedded as thumbnails and playable content, respectively, rather than displayed as plain text or URLs. This enhancement should improve the user experience by providing a more visually appealing and intuitive way to view and interact with meal-related media.
 
 ## Test Results:
-Passed
-![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/92612b0b-28ef-4a5a-a06d-8bcf3224f54f)
+Require revision
+![Screenshot from 2024-05-10 13-39-30](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/c0ef8146-7850-4274-b33f-f4e356079e22)
+
+![Screenshot from 2024-05-10 13-46-49](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/eaa02f21-66c5-4acb-b00a-036fb4d6178d)
+
+![Screenshot from 2024-05-10 13-46-59](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/017b8f15-1100-4c4d-af23-81f2af4e3530)
+
+
+
 
 
 ## <a id="037">Test case ID: AA-IngredientCodeUnique-037</a>
