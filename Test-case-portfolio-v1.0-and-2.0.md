@@ -98,7 +98,7 @@
 | 77 | [MP-CheckPrimaryIngredient-077](#077) | Verify the primary ingredient are displayed when there are substitutes for ingredients in a meal. |
 | 78 | [AA-SearchProductByAnyWord-078](#078) | Verify Search product is working for any word in the product name. |
 | 79 | [MP-DisplaySubstituteReason-079](#079) | Verify display the reason for substitute ingredient. |
-| 78 | [AA-PriceAndQuantityType-080](#080) | Verify the type of the price and the quantity is number. |
+| 80 | [AA-PriceAndQuantityType-080](#080) | Verify the type of the price and the quantity is number. |
 
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
