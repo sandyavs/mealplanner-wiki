@@ -2134,3 +2134,33 @@ Test case passed.
 ![Screenshot from 2024-05-10 12-30-45](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/64ea204b-520f-4b20-81a6-3b6644a5c742)
 
 
+## <a id="080">Test case ID: AA-PriceAndQuantityType-080</a>
+
+## Test case name:
+Verify the type of the price and the quantity is number.
+
+## Related Issue: #637
+
+## Description:
+This test case verifies that the type of the price and the quantity is number..
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access to the Admin UI as an admin.
+2. In the left navigation menu, select the section "Products".
+3. Click on "Create" button on the right corner. 
+4. Type "d" letter in the price field.
+5. Click on the "save" button.
+6. Verify that error message is displayed.
+7. Type "d" letter in the quantity field.
+8. Verify that error message is displayed.
+
+## Expected Behavior:
+An error message displays when the type if the price or the quantity is not a number.
+
+### Test Results:
+
+Test case passed.
+![Screenshot from 2024-05-10 12-38-41](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/1d208ea0-098d-41df-b95a-d9518a83302c)
+
+![Screenshot from 2024-05-10 12-38-56](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/98e27c3d-c9af-4362-b25b-3e2ec6d1dcdf)
