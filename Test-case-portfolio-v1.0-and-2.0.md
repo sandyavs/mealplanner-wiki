@@ -96,6 +96,7 @@
 | 75 | [AA-CreateEmptyMeal-075](#075) | Verify empty meal cannot be created  |
 | 76 | [MP-TagsAlignedCorrectly-076](#076) | Verify tags are being aligned in multiple lines. |
 | 77 | [MP-CheckPrimaryIngredient-077](#077) | Verify the primary ingredient are displayed when there are substitutes for ingredients in a meal. |
+| 78 | [AA-SearchProductByAnyWord-078](#078) | Verify Search product is working for any word in the product name. |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2050,7 +2051,7 @@ Pre-requisite: MP-Login-001
 2. In the left navigation menu, select the section ‘Meals’.
 3. Click on 'Bread and Butter Pudding'.
 4. Check the ingredients list. This has Butter and Margarine as well as Apricot Jam, Raspberry Jam, Marmalade.
-5. Go to 'Mealplanner UI'
+5. Go to 'Mealplanner UI'.
 6. Navigate to "meals" page from the navigation bar.
 7. Search for "Bread and Butter Pudding".
 8. Verify that Butter, and Apricot Jam are displayed.
@@ -2071,4 +2072,35 @@ Test case require revision.
 
 
 ![Screenshot from 2024-05-06 10-13-54](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/f414074d-76c4-4712-bd2c-1703bca56677)
+
+## <a id="078">Test case ID: AA-SearchProductByAnyWord-078</a>
+
+
+## Test case name:
+Verify Search product is working for any word in the product name.
+
+## Related Issue: #656
+
+## Description:
+This test case verifies that The  Search product is working for any word in the product name.
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access to the Admin UI as an admin.
+2. In the left navigation menu, select the section ‘Products’.
+3. Search for "peppercorns".
+4. Check the number of the products that returned in the list.
+5. Perform the search again with "peppercorn" in the singular.
+6. Verify that the search results for "peppercorn" and "peppercorns" are the same.
+
+
+## Expected Behavior:
+Search should work for any word in the product name.
+
+### Test Results:
+Test case passed.
+
+![Screenshot from 2024-05-10 11-48-51](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/a117d02b-7978-43d9-ab23-d46fff033915)
+
+![Screenshot from 2024-05-10 11-48-58](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/0e078250-8b45-4236-a133-7bc7b967554e)
 
