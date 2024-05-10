@@ -97,6 +97,7 @@
 | 76 | [MP-TagsAlignedCorrectly-076](#076) | Verify tags are being aligned in multiple lines. |
 | 77 | [MP-CheckPrimaryIngredient-077](#077) | Verify the primary ingredient are displayed when there are substitutes for ingredients in a meal. |
 | 78 | [AA-SearchProductByAnyWord-078](#078) | Verify Search product is working for any word in the product name. |
+| 79 | [MP-DisplaySubstituteReason-079](#079) | Verify display the reason for substitute ingredient. |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -1898,7 +1899,7 @@ Pre-requisite: MP-TemplateMealPlan-044
 8. On mealplanner ui Select "Tourtiere" from the selected meal catalogue.
 9. Drag and drop it in the specific category of the meal plan.
 10. Navigate  back to "meal plans"
-11. Click on the shopping icon
+11. Click on the shopping icon.
 12. Verify that the Onion has "Onion, Red, 3 lb Bag" and "Red Onions, Sold in singles, 0.16 - 0.30 kg" are displayed in the Suggested Product column.
 13. Verify that the Onion has "Red Onions, Sold in singles, 0.16 - 0.30 kg" as the best product on the top of the Suggested Product column.
 
@@ -2103,4 +2104,33 @@ Test case passed.
 ![Screenshot from 2024-05-10 11-48-51](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/a117d02b-7978-43d9-ab23-d46fff033915)
 
 ![Screenshot from 2024-05-10 11-48-58](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/0e078250-8b45-4236-a133-7bc7b967554e)
+
+
+## <a id="079">Test case ID: MP-DisplaySubstituteReason-079</a>
+
+## Test case name:
+Verify display the reason for substitute ingredient.
+
+## Related Issue: #637
+
+## Description:
+This test case verifies that the reason for substitute ingredient is displayed.
+
+## Steps to follow:
+Pre-requisite: MP-TemplateMealPlan-044
+1. Navigate  to "meal plans" from the navigation bar.
+2. Select "Breakfast Burrito" from the selected meal catalogue.
+3. Drag and drop it in the specific category of the meal plan.
+4. Navigate  back to "meal plans".
+5. Click on the shopping icon.
+6. Verify that the red pepper has reason for substitute displayed.
+
+## Expected Behavior:
+The reason for substitute ingredient is displayed.
+
+### Test Results:
+Test case passed.
+
+![Screenshot from 2024-05-10 12-30-45](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/64ea204b-520f-4b20-81a6-3b6644a5c742)
+
 
