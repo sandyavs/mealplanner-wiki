@@ -963,11 +963,9 @@ In the meal planner interface, images and videos associated with meals should be
 Require revision
 ![Screenshot from 2024-05-10 13-39-30](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/c0ef8146-7850-4274-b33f-f4e356079e22)
 
-![Screenshot from 2024-05-10 13-46-49](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/eaa02f21-66c5-4acb-b00a-036fb4d6178d)
+
 
 ![Screenshot from 2024-05-10 13-46-59](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/017b8f15-1100-4c4d-af23-81f2af4e3530)
-
-
 
 
 
