@@ -98,6 +98,8 @@
 | 77 | [MP-CheckPrimaryIngredient-077](#077) | Verify the primary ingredient are displayed when there are substitutes for ingredients in a meal. |
 | 78 | [AA-SearchProductByAnyWord-078](#078) | Verify Search product is working for any word in the product name. |
 | 79 | [MP-DisplaySubstituteReason-079](#079) | Verify display the reason for substitute ingredient. |
+| 78 | [AA-PriceAndQuantityType-080](#080) | Verify the type of the price and the quantity is number. |
+
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2161,6 +2163,7 @@ An error message displays when the type if the price or the quantity is not a nu
 ### Test Results:
 
 Test case passed.
+
 ![Screenshot from 2024-05-10 12-38-41](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/1d208ea0-098d-41df-b95a-d9518a83302c)
 
 ![Screenshot from 2024-05-10 12-38-56](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/98e27c3d-c9af-4362-b25b-3e2ec6d1dcdf)
