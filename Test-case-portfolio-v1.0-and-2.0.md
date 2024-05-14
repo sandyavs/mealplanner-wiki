@@ -1643,15 +1643,19 @@ Viewing a specific meal without logging in
 This test case verifies the functionality of allowing users to view specific meal pages without requiring them to log in. 
 
 ## Steps to follow:
-1. Navigate to the Meals page of Greener Village without logging in.
-2. Click on a specific meal to view its details.
+1. Go to 'https://develop.goodmealplan.com/#/meals/'.
+2. Click on a 'Salsa Cruda' meal to view its details.
 3. Verify that the meal page loads successfully and displays the details of the selected meal.
 4. Confirm that the user is not prompted to log in during the process.
 
 ## Expected Behavior:
 Individual meal pages should be accessible to users without the need to log in, ensuring that anonymous users can view meal recipes seamlessly.
+![Screenshot from 2024-05-14 11-20-25](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/2a187619-8031-4d0a-8d64-b44deb19d807)
+![Screenshot from 2024-05-14 11-20-25](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/2a187619-8031-4d0a-8d64-b44deb19d807)
+![Screenshot from 2024-05-14 11-20-31](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/fd2ea86e-7d3e-4045-9d41-99e6e893ce5c)
+![Screenshot from 2024-05-14 11-20-31](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/fd2ea86e-7d3e-4045-9d41-99e6e893ce5c)
 
-![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/82a50b84-45ad-4bc8-b9a1-3a9f125eeae1)
+
 
 ## <a id="064">Test case ID: MP-DisplayTemplates-064</a>
 
