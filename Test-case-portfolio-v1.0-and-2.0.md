@@ -948,7 +948,7 @@ Pre-requisite: MP-Login-001.
 3. Click on "Create" button on the right corner.
 4. Fill the name field with "Marinara Sauce".
 5. Fill the Photo url field with "https://goodmealplan.com/pictures/Marinara%20Sauce.jpg".
-5. Fill the viedo url field with "https://www.youtube.com/watch?v=q35rhlsJ-v0&list=PLqPFmHMS2sqbICX3CKlJFOBGa30iO8vO9&index=9".
+5. Fill the viedo url field with "https://www.youtube.com/watch?v=q35rhlsJ-v0".
 5. Check whether the images are embedded as thumbnails within the meal details.
 6. Verify that the videos are embedded and playable within the meal details.
 7. Ensure that the embedded images and videos are clearly distinguishable and identifiable.
