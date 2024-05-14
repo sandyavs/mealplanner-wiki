@@ -960,12 +960,10 @@ Pre-requisite: MP-Login-001.
 In the meal planner interface, images and videos associated with meals should be embedded as thumbnails and playable content, respectively, rather than displayed as plain text or URLs. This enhancement should improve the user experience by providing a more visually appealing and intuitive way to view and interact with meal-related media.
 
 ## Test Results:
-Require revision
-![Screenshot from 2024-05-10 13-39-30](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/c0ef8146-7850-4274-b33f-f4e356079e22)
+Test Case Passed.
 
+![Screenshot from 2024-05-14 10-25-00](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/e01fbe71-8636-45ef-9ee5-5502a92fdfb2)
 
-
-![Screenshot from 2024-05-10 13-46-59](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/017b8f15-1100-4c4d-af23-81f2af4e3530)
 
 
 
