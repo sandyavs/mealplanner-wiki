@@ -1651,10 +1651,8 @@ This test case verifies the functionality of allowing users to view specific mea
 ## Expected Behavior:
 Individual meal pages should be accessible to users without the need to log in, ensuring that anonymous users can view meal recipes seamlessly.
 ![Screenshot from 2024-05-14 11-20-25](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/2a187619-8031-4d0a-8d64-b44deb19d807)
-![Screenshot from 2024-05-14 11-20-25](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/2a187619-8031-4d0a-8d64-b44deb19d807)
-![Screenshot from 2024-05-14 11-20-31](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/fd2ea86e-7d3e-4045-9d41-99e6e893ce5c)
-![Screenshot from 2024-05-14 11-20-31](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/fd2ea86e-7d3e-4045-9d41-99e6e893ce5c)
 
+![Screenshot from 2024-05-14 11-20-31](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/fd2ea86e-7d3e-4045-9d41-99e6e893ce5c)
 
 
 ## <a id="064">Test case ID: MP-DisplayTemplates-064</a>
