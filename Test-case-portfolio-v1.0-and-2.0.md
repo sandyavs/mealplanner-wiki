@@ -99,7 +99,7 @@
 | 78 | [AA-SearchProductByAnyWord-078](#078) | Verify Search product is working for any word in the product name. |
 | 79 | [MP-DisplaySubstituteReason-079](#079) | Verify display the reason for substitute ingredient. |
 | 80 | [AA-PriceAndQuantityType-080](#080) | Verify the type of the price and the quantity is number. |
-
+| 81 | [AA-BackToMeal-081](#081) | Verify the ingredient page has a link back to Meal from the meal name |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2176,3 +2176,33 @@ Test case passed.
 ![Screenshot from 2024-05-10 12-38-41](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/1d208ea0-098d-41df-b95a-d9518a83302c)
 
 ![Screenshot from 2024-05-10 12-38-56](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/98e27c3d-c9af-4362-b25b-3e2ec6d1dcdf)
+
+## <a id="081">Test case ID: AA-BackToMeal-081</a>
+
+## Test case name:
+Verify the ingredients page has a link back to Meal from the meal name
+
+## Related Issue: #[645](https://github.com/CivicTechFredericton/mealplanner/issues/645)
+
+## Description:
+This test case verifies that the ingredients page has a link back to Meal from the meal name.
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access to the Admin UI as an admin.
+2. In the left navigation menu, select the section "Meals".
+3. Click on "Show" button on the right corner of 'Chicken Curry' meal. 
+4. Click on "ingredients" on the bottom to go to the ingredients page
+5. Verify that page has a link to the "Chicken Curry" meal on the top left side.
+6. Click on "Chicken Curry" on the top left side.
+7. Verify that you navigated back to the "Chicken Curry" meal page.
+
+## Expected Behavior:
+when I go to the ingredients list, to navigate back, the ingredients page has the meal name as a link that when click on it navigate back to the meal page.
+
+### Test Results:
+
+Test case passed.
+
+![Screenshot from 2024-05-15 17-55-21](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/e145f546-4b93-4de9-a083-aa76c5839173)
+
