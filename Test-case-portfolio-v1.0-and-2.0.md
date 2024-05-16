@@ -903,6 +903,7 @@ In the Admin UI for managing products and tags, users should be able to use spac
 
 ## Test Results:
 Passed as in the Admin UI for managing products, users could use spaces in product keywords names successfully. 
+Comment : (no spaces after the comma is allowed)
 
 ![Screenshot from 2024-05-16 12-57-39](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/99441f50-3577-4e9a-8036-985837c1b955)
 
