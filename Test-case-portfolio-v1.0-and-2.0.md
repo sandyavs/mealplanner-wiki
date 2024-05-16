@@ -2215,7 +2215,7 @@ AA-MealNameOnIngredientPage-082](#082) | Verify the ingredient page has the meal
 ## Test case name:
 Verify the ingredient page has the meal name.
 
-## Related Issue: #[645](https://github.com/CivicTechFredericton/mealplanner/issues/645)
+## Related Issue: #[621](https://github.com/CivicTechFredericton/mealplanner/issues/621)
 
 ## Description:
 This test case verifies that the ingredient page has the meal name.
