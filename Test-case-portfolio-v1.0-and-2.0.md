@@ -2264,6 +2264,7 @@ Pre-requisite: MP-Login-001
 In the Admin UI for managing products and tags, users should be able to use spaces in tags. Spaces should be accepted and processed correctly without any restrictions, allowing users to input phrases or multi-word descriptors for products. This ensures flexibility and ease of use in managing product information and categorization.
 
 ## Test Results:
+Passed as in the Admin UI for managing products, users could use spaces in  tag names successfully. 
+
 ![Screenshot from 2024-05-16 12-57-57](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/891dcdac-ef27-48a2-a258-5b710b5a8021)
 
-Passed as in the Admin UI for managing products, users could use spaces in  tag names successfully. 
