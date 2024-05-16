@@ -100,6 +100,7 @@
 | 79 | [MP-DisplaySubstituteReason-079](#079) | Verify display the reason for substitute ingredient. |
 | 80 | [AA-PriceAndQuantityType-080](#080) | Verify the type of the price and the quantity is number. |
 | 81 | [AA-BackToMeal-081](#081) | Verify the ingredient page has a link back to Meal from the meal name |
+| 82 | [AA-MealNameOnIngredientPage-082](#082) | Verify the ingredient page has the meal name |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2208,4 +2209,31 @@ when I go to the ingredients list, to navigate back, the ingredients page has th
 Test case passed.
 
 ![Screenshot from 2024-05-15 17-55-21](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/e145f546-4b93-4de9-a083-aa76c5839173)
+AA-MealNameOnIngredientPage-082](#082) | Verify the ingredient page has the meal name
+## <a id="082">Test case ID: AA-MealNameOnIngredientPage-082</a>
 
+## Test case name:
+Verify the ingredient page has the meal name.
+
+## Related Issue: #[645](https://github.com/CivicTechFredericton/mealplanner/issues/645)
+
+## Description:
+This test case verifies that the ingredient page has the meal name.
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access to the Admin UI as an admin.
+2. In the left navigation menu, select the section "Meals".
+3. Click on "Show" button on the right corner of 'Chicken Curry' meal. 
+4. Click on "ingredients" on the bottom to go to the ingredients page
+5. Verify that page has the "Chicken Curry" meal name on the top left side.
+
+
+## Expected Behavior:
+when I go to the ingredients list, meal name should be displayed in the ingredients page. 
+
+### Test Results:
+
+Test case passed.
+
+![Screenshot from 2024-05-15 17-55-21](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/e145f546-4b93-4de9-a083-aa76c5839173)
