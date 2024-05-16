@@ -790,8 +790,11 @@ Verify automatic listing of meal plan tags for filtering
 
 ## Steps to follow:
 Pre-requisite: MP-Login-001.
-1. Create a meal plan.
-2. Navigate to the "Filter by tags" view in the meal planner.
+1. Navigate to the 'Meal plan' page from the navigation bar.
+2. Click on 'Create meal plan' button.
+3. Fill the name field with "test2" and tags with 'Keto'.
+4. Click on 'create' button to create the meal plan
+5. On the top of the page click on 'tags' radio button to display all the tags.
 3. Verify that the list of meal plan tags is automatically updated to reflect the changes made in step 1.
 
 ## Expected Behaviour:
@@ -799,8 +802,8 @@ After creating or deleting a meal plan, the list of meal plan tags should be aut
 
 ## Test Results:
 Passed as the list of meal plan tags automatically updated on the "Filter by tags" view without requiring a page refresh or navigating to a different option.
+![Screenshot from 2024-05-16 12-32-46](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/bcf9e1e0-b6f4-4e8d-a0de-c27f2a3b3f32)
 
-![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/af3102a4-45c4-4053-9be0-b9a962997e5d)
 
 ## <a id="031">Test case ID: MP-Template-031</a>
 
