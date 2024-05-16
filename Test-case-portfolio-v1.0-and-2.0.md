@@ -101,6 +101,7 @@
 | 80 | [AA-PriceAndQuantityType-080](#080) | Verify the type of the price and the quantity is number. |
 | 81 | [AA-BackToMeal-081](#081) | Verify the ingredient page has a link back to Meal from the meal name |
 | 82 | [AA-MealNameOnIngredientPage-082](#082) | Verify the ingredient page has the meal name |
+| 83 | [AA-TagSpaces-034](#034) | Verify ability to use spaces in tags and tags in Admin UI   |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -901,7 +902,7 @@ Pre-requisite: MP-Login-001
 In the Admin UI for managing products and tags, users should be able to use spaces in product keywords. Spaces should be accepted and processed correctly without any restrictions, allowing users to input phrases or multi-word descriptors for products. This ensures flexibility and ease of use in managing product information and categorization.
 
 ## Test Results:
-Passed as in the Admin UI for managing products, users could use spaces in product keywords and tag names successfully. 
+Passed as in the Admin UI for managing products, users could use spaces in product keywords names successfully. 
 
 ![Screenshot from 2024-05-16 12-57-39](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/99441f50-3577-4e9a-8036-985837c1b955)
 
@@ -2238,3 +2239,31 @@ when I go to the ingredients list, meal name should be displayed in the ingredie
 Test case passed.
 
 ![Screenshot from 2024-05-15 17-55-21](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/e145f546-4b93-4de9-a083-aa76c5839173)
+
+
+## <a id="083">Test case ID: AA-TagSpaces-083</a>
+
+## Test case name:
+
+Verify ability to use spaces in tags in Admin UI
+
+## Related Bug: [BUG] In admin UI, tags and tags could not have spaces #584
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access to the Admin UI as an admin.
+2. In the left navigation menu, select the section "products".
+3. Click on "Edit" on the left side in "Great Value Parmesan Cheese, 280 g" product.
+4. Scroll down to the section for tags.
+5. Enter a product keyword  'Test tag'.
+6. Confirm whether the system allows entering spaces between words in the tagfield.
+
+
+## Expected Behaviour:
+
+In the Admin UI for managing products and tags, users should be able to use spaces in tags. Spaces should be accepted and processed correctly without any restrictions, allowing users to input phrases or multi-word descriptors for products. This ensures flexibility and ease of use in managing product information and categorization.
+
+## Test Results:
+![Screenshot from 2024-05-16 12-57-57](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/891dcdac-ef27-48a2-a258-5b710b5a8021)
+
+Passed as in the Admin UI for managing products, users could use spaces in  tag names successfully. 
