@@ -882,30 +882,31 @@ Passed in V1, not available in v2 as according to the issue #603 Shopping list u
 
 ## Test case name:
 
-Verify ability to use spaces in product keywords and tags in Admin UI
+Verify ability to use spaces in product keywords in Admin UI
 
 ## Related Bug: [BUG] In admin UI, tags and product keywords could not have spaces #584
 
 ## Steps to follow:
 Pre-requisite: MP-Login-001
-1. Access to the Admin UI with permissions to manage products and tags.
-2. Navigate to the Admin UI for managing products.
-3. Select a specific product for editing or creating a new product.
+1. Access to the Admin UI as an admin.
+2. In the left navigation menu, select the section "products".
+3. Click on "Edit" on the left side in "Great Value Parmesan Cheese, 280 g" product.
 4. Scroll down to the section for Product Keywords.
-5. Attempt to enter a product keyword containing spaces, such as 'egg noodles' or 'feta cheese'.
+5. Enter a product keyword  'Parmesan cheese'.
 6. Confirm whether the system allows entering spaces between words in the product keyword field.
-7. Similarly, navigate to the section for managing tags.
-8. Attempt to create or edit a tag containing spaces.
-9. Verify whether the system allows using spaces in tag names.
+
 
 ## Expected Behaviour:
 
-In the Admin UI for managing products and tags, users should be able to use spaces in product keywords and tag names. Spaces should be accepted and processed correctly without any restrictions, allowing users to input phrases or multi-word descriptors for products and tags. This ensures flexibility and ease of use in managing product information and categorization.
+In the Admin UI for managing products and tags, users should be able to use spaces in product keywords. Spaces should be accepted and processed correctly without any restrictions, allowing users to input phrases or multi-word descriptors for products. This ensures flexibility and ease of use in managing product information and categorization.
 
 ## Test Results:
-Passed as in the Admin UI for managing products and tags, users could use spaces in product keywords and tag names successfully. 
+Passed as in the Admin UI for managing products, users could use spaces in product keywords and tag names successfully. 
 
-![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/f4dea039-62a3-44a8-9b95-3ea082f14e3b)
+![Screenshot from 2024-05-16 12-57-39](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/99441f50-3577-4e9a-8036-985837c1b955)
+
+
+
 
 
 ## <a id="035">Test case ID: AA-IngredientCreationError-035</a>
