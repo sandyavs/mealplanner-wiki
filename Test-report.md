@@ -73,3 +73,4 @@ Release name: v2
 | 10-May-2024 |  #637|[AA-PriceAndQuantityType-080](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#080)| Verify the type of the price and the quantity is number.|  Passed   |
 | 15-May-2024 | #645|[AA-BackToMeal-081](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#081) 	| Verify the ingredient page has a link back to Meal from the meal name | Passed |
 | 16-May-2024 | #621|[AA-MealNameOnIngredientPage-082](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#082) 	| Verify the ingredient page has the meal name| Passed |
+|16-May-2024 | #584 | [AA-TagSpaces-034](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#083) | Verify ability to use spaces in tags in Admin UI | Passed |
