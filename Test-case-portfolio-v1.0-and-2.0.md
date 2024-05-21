@@ -2210,6 +2210,7 @@ when I go to the ingredients list, to navigate back, the ingredients page has th
 Test case passed.
 
 ![Screenshot from 2024-05-15 17-55-21](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/e145f546-4b93-4de9-a083-aa76c5839173)
+
 AA-MealNameOnIngredientPage-082](#082) | Verify the ingredient page has the meal name
 ## <a id="082">Test case ID: AA-MealNameOnIngredientPage-082</a>
 
