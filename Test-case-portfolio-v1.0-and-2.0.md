@@ -1050,11 +1050,11 @@ This feature allows users to view their favorite meals easily.
 
 ## Steps to follow:
 Pre-requisite: MP-Login-001.
-1. Log in to the application with valid credentials.
-2. Navigate to the "My Favorite Meals" section.
-3. Ensure that only the favorite meals of the currently logged-in user are displayed.
-4. Verify that the favorite meals are listed in a user-friendly format.
-5. Check if there is an option to select or interact with the favorite meals for further actions.
+1. Navigate to the meals page.
+2. Click on "heart" icon in "Tartare Sauce" to make it a favorite meal.
+3. Click on "heart" icon in "Corn Fritters" to make it a favorite meal.
+4. Click on "My Favorites" radio button on the top of the page to filter the meals by displaying your user's favorite meals.
+5. Verify that "Tartare Sauce" and "Corn Fritters" are displayed without any other meals
 
 ## Expected Behavior:
 - Only the favorite meals of the currently logged-in user should be displayed.
@@ -1064,6 +1064,7 @@ Pre-requisite: MP-Login-001.
 ## Test Results:
 Passed as only the favorite meals of the currently logged-in user is displayed.
 
+![Screenshot from 2024-05-23 11-40-43](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/8e7a89c3-fec4-4872-be0c-2fa9f32619c8)
 
 
 ## <a id="040">Test case ID: MP-UpdateMealTable-040</a>
