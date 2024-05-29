@@ -74,3 +74,4 @@ Release name: v2
 | 15-May-2024 | #645|[AA-BackToMeal-081](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#081) 	| Verify the ingredient page has a link back to Meal from the meal name | Passed |
 | 16-May-2024 | #621|[AA-MealNameOnIngredientPage-082](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#082) 	| Verify the ingredient page has the meal name| Passed |
 |16-May-2024 | #584 | [AA-TagSpaces-0083](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#083) | Verify ability to use spaces in tags in Admin UI | Passed |
+|29-May-2024 | #673| [MP-CivictechLogOnMealPlan-084](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#084) | Verify ability to use spaces in tags in Admin UI | Passed |
