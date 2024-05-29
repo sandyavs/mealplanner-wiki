@@ -102,7 +102,7 @@
 | 81 | [AA-BackToMeal-081](#081) | Verify the ingredient page has a link back to Meal from the meal name |
 | 82 | [AA-MealNameOnIngredientPage-082](#082) | Verify the ingredient page has the meal name |
 | 83 | [AA-TagSpaces-083](#083) | Verify ability to use spaces in tags and tags in Admin UI   |
-| 84 | [AA-CivictechLogOnMealPlan-084](#084) | Verify ability to use spaces in tags and tags in Admin UI   |
+| 84 | [MP-CivictechLogOnMealPlan-084](#084) | Verify print meal plan page has a civictech logo   |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
