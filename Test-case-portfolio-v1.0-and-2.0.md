@@ -2292,5 +2292,6 @@ The meal plan print page Should has a Civictech logo displayed on the page foote
 
 ## Test Result
 Passed 
+
 ![Capture](https://github.com/CivicTechFredericton/mealplanner/assets/72166328/abde17c2-6e34-47a8-aa8d-b0484ea3a966)
 
