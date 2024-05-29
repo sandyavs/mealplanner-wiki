@@ -102,6 +102,7 @@
 | 81 | [AA-BackToMeal-081](#081) | Verify the ingredient page has a link back to Meal from the meal name |
 | 82 | [AA-MealNameOnIngredientPage-082](#082) | Verify the ingredient page has the meal name |
 | 83 | [AA-TagSpaces-083](#083) | Verify ability to use spaces in tags and tags in Admin UI   |
+| 84 | [AA-CivictechLogOnMealPlan-084](#084) | Verify ability to use spaces in tags and tags in Admin UI   |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2268,4 +2269,28 @@ In the Admin UI for managing products and tags, users should be able to use spac
 Passed as in the Admin UI for managing products, users could use spaces in  tag names successfully. 
 
 ![Screenshot from 2024-05-16 12-57-57](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/891dcdac-ef27-48a2-a258-5b710b5a8021)
+
+
+## <a id="084">Test case ID: MP-CivictechLogOnMealPlan-084</a>
+
+## Test case name:
+
+Verify the meal plan print page has civictech logo on the footer.
+
+## Related Bug:[#673](https://github.com/CivicTechFredericton/mealplanner/issues/673)
+
+## Steps to follow:
+MP-Template-031
+1. Navigate to "Meal Plan" page from the navigation bar.
+2. Click on the meal plan to display the meal plan calendar.
+3. Click on "Print" icon on the top left of the page.
+4. Verify that the meal plan print page has a Civictech logo on the page footer.
+
+## Expected Behaviour:
+The meal plan print page Should has a Civictech logo displayed on the page footer.
+
+
+## Test Result
+Passed 
+![Capture](https://github.com/CivicTechFredericton/mealplanner/assets/72166328/abde17c2-6e34-47a8-aa8d-b0484ea3a966)
 
