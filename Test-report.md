@@ -78,3 +78,4 @@ Release name: v2
 |30-May-2024 | #455| [MP-Favoritefeatureformeal-085](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#085) | Verify ability to select favorite meals in the meal planner UI | Passed |
 |30-May-2024 | #455| [MP-SortingfeaturewithFavoritecategoryformeals-086](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#086) | Verify ability to sort meals by favorite category in the meal planner UI | Passed |
 |30-May-2024 |#685| [AA-CreateIngredientButton-087](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#087) | Verify the exciting of CREATE button for Ingredients when there are no ingredients yet| Passed |
+|30-May-2024 |#670| [MP-SpaceBeforeMethod-088](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#088) | Verify the ingredients and method are displayed without unnecessary blank space.| Passed |
