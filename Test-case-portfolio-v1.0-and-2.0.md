@@ -2379,8 +2379,6 @@ Test case passed.
 ![Screenshot from 2024-05-30 12-15-35](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/978854d5-14b6-4386-877f-1dbc5c700085)
 ![Screenshot from 2024-05-30 12-16-57](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/d44dc387-aa30-4fd7-9857-638dd9fd29c0)
 
-
-| 88 | [MP-SpaceBeforeMethod-088](#088) | Verify the ingredients and method are displayed without unnecessary blank space.|
 ## <a id="088">Test case ID: MP-SpaceBeforeMethod-088</a>
 
 ## Test case name:
