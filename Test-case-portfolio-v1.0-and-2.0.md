@@ -2359,10 +2359,10 @@ Verify the exciting of CREATE button for Ingredients when there are no ingredien
 3. Click on the "Create" button to create new meal.
 4. Fill the name en field with "test1".
 5. Click on "save" button on the bottom of the page. 
-6. From the "Meals" section, Click on "Show" button b
+6. From the "Meals" section, Click on "Show" button beside the "test1" meal.
 7. Click on "Ingredients" button.
 8. Verify that there is a "Create" button to create the first ingredient.
-9. Click on the "create"button and fill ingredient name, quantity,unit, and product keyword with "testIn", "1", "tsp" and "test"
+9. Click on the "create" button and fill ingredient name, quantity,unit, and product keyword with "testIn", "1", "tsp" and "test"
 10. Click on the "Save" button.
 11. Verify that the ingredient has been created.
 
