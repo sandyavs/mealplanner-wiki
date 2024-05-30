@@ -2303,7 +2303,7 @@ Passed
 
 ## Test case name:
 
-Favorite feature for meal 
+Verify the favorite feature for meal 
 ## Related Bug: [BUG] Favorite feature for meal #455
 
 ## Steps to follow:
@@ -2326,7 +2326,7 @@ Passed as in the Meal planner UI, users can chose favorite meals by clicking the
 
 ## Test case name:
 
-There should be a sorting feature with the Favorite category for meals.
+Verify there is a sorting feature with the Favorite category for meals.
 
 ## Related Bug: [BUG] Favorite feature for meal #455
 
