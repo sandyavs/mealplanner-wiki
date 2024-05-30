@@ -107,6 +107,7 @@
 | 86 | [MP-SortingfeaturewithFavoritecategoryformeals-086](#086) | Verify meals have sorting feature with favorite category   |
 | 87 | [AA-CreateIngredientButton-087](#087) | Verify the exciting of CREATE button for Ingredients when there are no ingredients yet|
 | 88 | [MP-SpaceBeforeMethod-088](#088) | Verify the ingredients and method are displayed without unnecessary blank space.|
+| 89 | [AA-TipsInRichText-089](#089) | Verify  the tips have rich text format. |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2405,3 +2406,31 @@ On the meal page, the ingredients and method should be displayed right after the
 Test case passed.
 
 ![Screenshot from 2024-05-30 12-35-50](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/cb92a287-cee2-4576-8707-4eaef8f7934c)
+
+
+## <a id="089">Test case ID: AA-TipsInRichText-089</a>
+
+## Test case name:
+
+Verify the tips have rich text format just like the method so that if there are more than one tips it can be bulleted.
+
+## Related Issue: [#664](https://github.com/CivicTechFredericton/mealplanner/issues/664)
+
+## Steps to follow:
+
+ Pre-requisite: [MP-Login-001](#001)
+1. Access to the Admin UI as an admin.
+2. In the left navigation menu, select the section "Meals".
+3. Click on the "Show" button on the left side of "Tuna Noodle Casserole" meal to view it.
+4. Navigate to "summery" tab to display the tips.
+5. Verify that the tips are written in bullet points.
+
+## Expected Behaviour:
+
+Upon accessing the summery page of a specific meal in the admin UI, the tips should have rich text format just like the method so that if there are more than one tips it can be bulleted.
+
+## Test Results:
+Require Revision
+![Screenshot from 2024-05-30 13-10-37](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/6bcd208d-ff1f-4cc1-b329-f41c90c87fad)
+![Screenshot from 2024-05-30 13-10-59](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/d85e200e-4013-4fe9-90fb-271db5372719)
+
