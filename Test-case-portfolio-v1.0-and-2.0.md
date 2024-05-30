@@ -105,7 +105,7 @@
 | 84 | [MP-CivictechLogOnMealPlan-084](#084) | Verify print meal plan page has a civictech logo   |
 | 85 | [MP-Favoritefeatureformeal-085](#085) | Verify meals have favorite feature   |
 | 86 | [MP-SortingfeaturewithFavoritecategoryformeals-086](#086) | Verify meals have sorting feature with favorite category   |
-
+| 87 | [AA-CreateIngredientButton-087](#087) | Verify the exciting of CREATE button for Ingredients when there are no ingredients yet|
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2341,4 +2341,41 @@ In the Meal planner UI, at the Meals navigation page, users should be able to di
 ## Test Results:
 Passed as in the Meal planner UI, users can chose to display only favorite meals by clicking the "My favorite" radio button on the meals page.
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/d7cc9f3d-28c2-4e6a-af5d-af20c8688e73)
+
+
+## <a id="087">Test case ID: AA-CreateIngredientButton-087</a>
+
+## Test case name:
+
+Verify the exciting of CREATE button for Ingredients when there are no ingredients yet
+
+## Related Issue: [#685](https://github.com/CivicTechFredericton/mealplanner/issues/685)
+
+## Steps to follow:
+
+ Pre-requisite: [MP-Login-001](#001)
+1. Access to the Admin UI as an admin.
+2. In the left navigation menu, select the section "Meals".
+3. Click on the "Create" button to create new meal.
+4. Fill the name en field with "test1".
+5. Click on "save" button on the bottom of the page. 
+6. From the "Meals" section, Click on "Show" button b
+7. Click on "Ingredients" button.
+8. Verify that there is a "Create" button to create the first ingredient.
+9. Click on the "create"button and fill ingredient name, quantity,unit, and product keyword with "testIn", "1", "tsp" and "test"
+10. Click on the "Save" button.
+11. Verify that the ingredient has been created.
+
+## Expected Behaviour:
+
+Upon accessing the Ingredients page of a specific meal in the admin UI, the Ingredients should have a create button when there are no ingredients and the admin/meal dispenser should be able to create Ingredients using this button
+
+## Test Results:
+Test case passed.
+
+![Screenshot from 2024-05-30 12-01-50](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/2e73e772-45e6-4917-839a-693579ce72bb)
+![Screenshot from 2024-05-30 12-02-13](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/e742ab99-1855-45da-bb64-c43cdfea2c62)
+![Screenshot from 2024-05-30 12-15-35](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/978854d5-14b6-4386-877f-1dbc5c700085)
+![Screenshot from 2024-05-30 12-16-57](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/d44dc387-aa30-4fd7-9857-638dd9fd29c0)
+
 
