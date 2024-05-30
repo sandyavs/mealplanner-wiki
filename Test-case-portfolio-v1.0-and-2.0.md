@@ -2298,7 +2298,7 @@ Passed
 
 ![Capture](https://github.com/CivicTechFredericton/mealplanner/assets/72166328/abde17c2-6e34-47a8-aa8d-b0484ea3a966)
 
-## <a id="085">Test case ID: AA-TagSpaces-085</a>
+## <a id="085">Test case ID: MP-Favoritefeatureformeal-085</a>
 
 ## Test case name:
 
@@ -2321,7 +2321,7 @@ Passed as in the Meal planner UI, users can chose favorite meals by clicking the
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/f53bd0ee-8322-4925-8324-d89496d77d64)
 
-## <a id="086">Test case ID: AA-TagSpaces-086</a>
+## <a id="086">Test case ID: MP-SortingfeaturewithFavoritecategoryformeals-086</a>
 
 ## Test case name:
 
