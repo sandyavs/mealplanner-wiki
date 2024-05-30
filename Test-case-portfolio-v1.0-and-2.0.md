@@ -106,6 +106,7 @@
 | 85 | [MP-Favoritefeatureformeal-085](#085) | Verify meals have favorite feature   |
 | 86 | [MP-SortingfeaturewithFavoritecategoryformeals-086](#086) | Verify meals have sorting feature with favorite category   |
 | 87 | [AA-CreateIngredientButton-087](#087) | Verify the exciting of CREATE button for Ingredients when there are no ingredients yet|
+| 88 | [MP-SpaceBeforeMethod-088](#088) | Verify the ingredients and method are displayed without unnecessary blank space.|
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2379,3 +2380,30 @@ Test case passed.
 ![Screenshot from 2024-05-30 12-16-57](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/d44dc387-aa30-4fd7-9857-638dd9fd29c0)
 
 
+| 88 | [MP-SpaceBeforeMethod-088](#088) | Verify the ingredients and method are displayed without unnecessary blank space.|
+## <a id="088">Test case ID: MP-SpaceBeforeMethod-088</a>
+
+## Test case name:
+Verify the ingredients and method are displayed without unnecessary blank space.
+
+## Related Issue: #670
+
+## Description:
+This test case verifies that the ingredients and method should be displayed right after the meal picture, title, and description without unnecessary blank space.
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Navigate to the meals page.
+2. Navigate to "meals" page from the navigation bar.
+3. Search for "Salsa Cruda" and click on it to view its details.
+4. Verify that page has no unnecessary blank space before ingredients and method.
+
+
+## Expected Behavior:
+On the meal page, the ingredients and method should be displayed right after the meal picture, title, and description without unnecessary blank space.
+
+### Test Results:
+
+Test case passed.
+
+![Screenshot from 2024-05-30 12-35-50](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/cb92a287-cee2-4576-8707-4eaef8f7934c)
