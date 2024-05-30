@@ -103,6 +103,9 @@
 | 82 | [AA-MealNameOnIngredientPage-082](#082) | Verify the ingredient page has the meal name |
 | 83 | [AA-TagSpaces-083](#083) | Verify ability to use spaces in tags and tags in Admin UI   |
 | 84 | [MP-CivictechLogOnMealPlan-084](#084) | Verify print meal plan page has a civictech logo   |
+| 85 | [MP-Favoritefeatureformeal-085](#085) | Verify meals have favorite feature   |
+| 86 | [MP-SortingfeaturewithFavoritecategoryformeals-086](#086) | Verify meals have sorting feature with favorite category   |
+
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2294,4 +2297,49 @@ The meal plan print page Should has a Civictech logo displayed on the page foote
 Passed 
 
 ![Capture](https://github.com/CivicTechFredericton/mealplanner/assets/72166328/abde17c2-6e34-47a8-aa8d-b0484ea3a966)
+
+## <a id="085">Test case ID: AA-TagSpaces-085</a>
+
+## Test case name:
+
+Favorite feature for meal 
+## Related Bug: [BUG] Favorite feature for meal #455
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. From the navigation bar, click on "meal" to navigate to the meals page.
+2. Search  for any meal and Click on the heart icon to select a meal as a favorite.
+4. Confirm that heart icon is now red in color to show it has be selected as a favorite meal.
+
+## Expected Behaviour:
+
+In the Meal planner UI, at the Meals navigation page, users should be able to mark any meal they choose as Favorite. This ensures flexibility and ease of use in managing a users favorite meals.
+
+## Test Results:
+Passed as in the Meal planner UI, users can chose favorite meals by clicking the heart icon  below the meal name on the  lower left hand side.
+ 
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/f53bd0ee-8322-4925-8324-d89496d77d64)
+
+## <a id="086">Test case ID: AA-TagSpaces-086</a>
+
+## Test case name:
+
+There should be a sorting feature with the Favorite category for meals.
+
+## Related Bug: [BUG] Favorite feature for meal #455
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. From the navigation bar, click on "meal" to navigate to the meals page.
+2. Click on "My favorite" radio button to display only  meals in favorite category. Search  for any meal and Click on the heart icon to select a meal as a favorite.
+4. Confirm that only favorite meals with the red heart icons are displayed.
+
+## Expected Behavior:
+
+In the Meal planner UI, at the Meals navigation page, users should be able to display only favorite meals when the "My favorite" radio button is selected. This ensures flexibility and ease of use in managing a users favorite meals.
+
+## Test Results:
+Passed as in the Meal planner UI, users can chose to display only favorite meals by clicking the "My favorite" radio button on the meals page.
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/d7cc9f3d-28c2-4e6a-af5d-af20c8688e73)
 
