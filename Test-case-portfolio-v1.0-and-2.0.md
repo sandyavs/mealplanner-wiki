@@ -110,6 +110,7 @@
 | 89 | [AA-TipsInRichText-089](#089) | Verify  the tips have rich text format. |
 | 90 | [AA-UnitDisplayedNextToQuantityInProductMatch-090](#090) | Verify  the Unit is displayed next to the quantity in the Products Match view. |
 | 91 | [AA-RegisterNewUser-091](#091) | Verify the admin can register new user. |
+| 92 | [AA-TermsPage-092](#092) | Verify the new user must agree on terms and conditions |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2491,4 +2492,35 @@ The admin can create a new user and give the user a role.
 Test case Passed.
 
 ![Screenshot from 2024-05-31 12-04-31](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/2ecbdeb7-4191-4054-96fe-78e02e283147)
+
+## <a id="092">Test case ID: MP-TermsPage-092</a>
+
+## Test case name:
+Verify the new user must agree on terms and conditions
+
+## Related Issue: [#632](https://github.com/CivicTechFredericton/mealplanner/issues/632)
+
+## Description:
+This test case verifies that when the new user access the meal planner website for the first time the terms and condition page is displayed.
+
+## Steps to follow:
+Pre-requisite:RegisterNewUser-91
+1. Login to "https://goodmealplan.com/#/" using the new user credentials.
+2. Verify that terms and conditions page is displayed.
+3. On the URL try to navigate to "mealplans" page by editing the URL to "https://goodmealplan.com/#/mealplans"
+4. Verify that page "mealplans" are not displayed and you are redirected to terms and conditions page.
+5. On the URL try to navigate to "meals" page by editing the URL to "https://goodmealplan.com/#/meals"
+6. Verify that page "meals" are  displayed as this page is available for any user without registration.
+
+
+## Expected Behavior:
+The new user must view and accept the terms and conditions before going to meal plans page and using the website features, but the user can see the meals before accepting the conditions .
+
+### Test Results:
+
+Test case passed.
+![Screenshot from 2024-05-31 11-51-33](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/445f8e32-68a5-4302-8afd-2a9bfee0ecb5)
+![Screenshot from 2024-05-31 11-52-17](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/ba1036b1-d4de-49b5-9fc9-13202f78ac22)
+![Screenshot from 2024-05-31 11-52-59](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/0813fdc2-dc45-41fe-bae2-9097306244f9)
+
 
