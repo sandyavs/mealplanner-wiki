@@ -112,7 +112,8 @@
 | 91 | [AA-RegisterNewUser-091](#091) | Verify the admin can register new user. |
 | 92 | [MP-TermsPage-092](#092) | Verify the new user must agree on terms and conditions |
 | 93 | [MP-RejectConditions-093](#093) | Verify the user who reject the conditions doesn't have access to the meal plans |
-| 94 | [MP-AcceptConditions-094](#094) | Verify the user who reject the conditions have the access to the meal plans  |
+| 94 | [MP-AcceptConditions-094](#094) | Verify the user who accept the conditions have the access to the meal plans  |
+| 95 | [MP-CopyIconForClient-095](#095) | Verify the client user can copy a meal plan template. |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -826,15 +827,18 @@ Verify the functionality of creating and filtering meal plan templates
 ## Related Feature: Template for meal plan #548
 
 ## Steps to follow:
-1. Pre-requisite: MP-Login-001.
-2. In the navigation bar to the meal section. 
-3. Create a new meal and select the option to save it as a template.
-4. Verify that the meal plan is saved successfully as a template and no user is assigned to it.
-5. Navigate to the search view in the meal planner.
-6. Apply a filter to display only the templates.
-7. Confirm that the list of meal plans shown now includes only the templates created in step 3.
 
-## Expected Behaviour:
+1. Pre-requisite: MP-Login-001.
+2. Navigate to the "Meal Plan" section of the application.
+3. Click on the "Create Meal Plan" button to create the first meal plan 
+4. select "Create New Template" to save it as a template.
+5. Fill the input name field for the first meal plan and save it as a template.
+6. Verify that the meal plan is saved successfully as a template and no user is assigned to it.
+7. Navigate to the search view in the meal planner.
+8. Apply a filter to display only the templates.
+9. Confirm that the list of meal plans shown now includes only the templates created.
+
+## Expected Behavior:
 When creating a meal plan, the user should have the option to save it as a template, which will not assign any user to it. The user should then be able to filter the meal plans to display only templates, and the list should include the templates created by the user.
 
 ## Test Results:
@@ -2579,4 +2583,31 @@ Test case passed.
 ![Screenshot from 2024-05-31 11-54-07](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/e5bd0143-4d97-4171-b03f-f5071875cbcd)
 
 
+## <a id="095">Test case ID: MP-CopyIconForClient-095</a>
 
+## Test case name:
+Verify the client user can copy a meal plan template.
+
+## Related Issue: #667
+
+## Description:
+This test case verifies that When the new client user create a meal plan, a copy icon on the meal plan card is displayed and the user can click on it to copy the meal plan template.
+
+## Steps to follow:
+Pre-requisite: MP-AcceptConditions-094
+1. Navigate to the "Meal Plan" section of the application.
+2. Click on the "Create Meal Plan" button to create the first meal plan.
+3. Fill the input field name with "test".
+4. Click on Create button.
+6. Verify that the new meal plan template has a "copy" icon.
+7. Click on the "copy" icon on the meal plan card.
+8. Verify that the another meal plan is created.
+
+
+## Expected Behavior:
+When the new client user create a meal plan, a copy icon on the meal plan card is displayed and the user can click on it to copy the meal plan template.
+
+### Test Results:
+Test case passed.
+![Screenshot from 2024-05-31 17-41-04](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/5f3f2d0e-6795-4bb6-a692-b24c37877772)
+![Screenshot from 2024-05-31 17-44-42](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/9b09d7f4-f69f-4748-9d16-c0b6a8bee777)
