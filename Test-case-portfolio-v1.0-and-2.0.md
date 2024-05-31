@@ -2465,7 +2465,7 @@ Test case Passed
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/093cab82-caa3-4343-b021-509c1365a606)
 
-## <a id="09">Test case ID: AA-RegisterNewUser-091</a>
+## <a id="091">Test case ID: AA-RegisterNewUser-091</a>
 
 ## Test case name:
 
