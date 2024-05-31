@@ -108,6 +108,7 @@
 | 87 | [AA-CreateIngredientButton-087](#087) | Verify the exciting of CREATE button for Ingredients when there are no ingredients yet|
 | 88 | [MP-SpaceBeforeMethod-088](#088) | Verify the ingredients and method are displayed without unnecessary blank space.|
 | 89 | [AA-TipsInRichText-089](#089) | Verify  the tips have rich text format. |
+| 90 | [AA-UnitDisplayedNextToQuantityInProductMatches-090](#090) | Verify  the Unit is displayed next to the quantity in the Products grid in Matches view. |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2435,4 +2436,29 @@ Require Revision.
 ![Screenshot from 2024-05-30 13-10-59](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/d85e200e-4013-4fe9-90fb-271db5372719)
 ![Screenshot from 2024-05-30 13-10-37](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/6bcd208d-ff1f-4cc1-b329-f41c90c87fad)
 
+## <a id="090">Test case ID: AA-UnitDisplayedNextToQuantityInProductMatches-090</a>
+
+## Test case name:
+
+Verify  the Unit is displayed next to the quantity in the Products grid in Matches view. 
+
+## Related Issue: [#625](https://github.com/CivicTechFredericton/mealplanner/issues/625)
+
+## Steps to follow:
+
+ Pre-requisite: [MP-Login-001](#001)
+1. Access the "Admin UI" as an admin.
+2. Click on Meals.
+3. Select a meal.
+4. Click Ingredients.
+5. In Ingredients page, select MATCH of an ingredient.
+6. In the Matches page, you will see the grid of products.
+7. Verify that the unit is displayed next to the quantity in the products table.
+
+## Expected Behavior:
+
+Upon accessing the matches page of the product, the unit is displayed next to the quantity in the products table.
+
+## Test Results:
+Test case Passed
 
