@@ -110,7 +110,9 @@
 | 89 | [AA-TipsInRichText-089](#089) | Verify  the tips have rich text format. |
 | 90 | [AA-UnitDisplayedNextToQuantityInProductMatch-090](#090) | Verify  the Unit is displayed next to the quantity in the Products Match view. |
 | 91 | [AA-RegisterNewUser-091](#091) | Verify the admin can register new user. |
-| 92 | [AA-TermsPage-092](#092) | Verify the new user must agree on terms and conditions |
+| 92 | [MP-TermsPage-092](#092) | Verify the new user must agree on terms and conditions |
+| 93 | [MP-RejectConditions-093](#093) | Verify the user who reject the conditions doesn't have access to the meal plans |
+| 94 | [MP-AcceptConditions-094](#094) | Verify the user who reject the conditions have the access to the meal plans  |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2522,5 +2524,59 @@ Test case passed.
 ![Screenshot from 2024-05-31 11-51-33](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/445f8e32-68a5-4302-8afd-2a9bfee0ecb5)
 ![Screenshot from 2024-05-31 11-52-17](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/ba1036b1-d4de-49b5-9fc9-13202f78ac22)
 ![Screenshot from 2024-05-31 11-52-59](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/0813fdc2-dc45-41fe-bae2-9097306244f9)
+
+
+## <a id="093">Test case ID: MP-RejectConditions-093</a>
+
+## Test case name:
+Verify the user who reject the conditions doesn't have access to the meal plans
+
+## Related Issue: [#632](https://github.com/CivicTechFredericton/mealplanner/issues/632)
+
+## Description:
+This test case verifies that when the new user access the meal planner website for the first time and reject the terms and conditions doesn't have access to the meal plans page.
+
+## Steps to follow:
+Pre-requisite: MP-TermsPage-092
+1. Click On "Reject" button on the bottom of "https://develop.goodmealplan.com/#/terms" page.
+2. Verify that you are logged out and directed to the login page.
+
+
+## Expected Behavior:
+When the new user reject the conditions he must be logged out automatically and directed to the login page.
+
+### Test Results:
+
+Test case passed.
+
+
+## <a id="094">Test case ID: MP-AcceptConditions-094</a>
+
+## Test case name:
+Verify the user who accept the conditions have access to the meal plans
+
+## Related Issue: [#632](https://github.com/CivicTechFredericton/mealplanner/issues/632)
+
+## Description:
+This test case verifies that when the new user access the meal planner website for the first time and accept the terms and conditions can access to the meal plans page and use the website features.
+
+## Steps to follow:
+Pre-requisite: MP-TermsPage-092
+1. On the "https://develop.goodmealplan.com/#/terms" page click on the "I agree with the Terms and Conditions" checkbox .
+2. Click On "Accept" button on the bottom of page 
+3. Verify that you are directed to meal plans page.
+4. Click on the"loug out" icon.
+5. Log in again using the same user.
+6. verify that you are redirected to meal plans page without displaying the terms and conditions page again.
+
+
+## Expected Behavior:
+When the new user accept the conditions he must be directed to meal plan page and can use the website features.
+
+### Test Results:
+Test case passed.
+![Screenshot from 2024-05-31 11-53-57](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/c03fc2ee-7312-4eec-b6ce-d732ead4490b)
+![Screenshot from 2024-05-31 11-54-07](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/e5bd0143-4d97-4171-b03f-f5071875cbcd)
+
 
 
