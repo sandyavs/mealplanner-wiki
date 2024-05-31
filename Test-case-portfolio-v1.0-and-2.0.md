@@ -2565,7 +2565,7 @@ Pre-requisite: MP-TermsPage-092
 1. On the "https://develop.goodmealplan.com/#/terms" page click on the "I agree with the Terms and Conditions" checkbox .
 2. Click On "Accept" button on the bottom of page 
 3. Verify that you are directed to meal plans page.
-4. Click on the"loug out" icon.
+4. Click on the "log out" icon.
 5. Log in again using the same user.
 6. verify that you are redirected to meal plans page without displaying the terms and conditions page again.
 
