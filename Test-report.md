@@ -80,3 +80,4 @@ Release name: v2
 |30-May-2024 |#685| [AA-CreateIngredientButton-087](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#087) | Verify the exciting of CREATE button for Ingredients when there are no ingredients yet| Passed |
 |30-May-2024 |#670| [MP-SpaceBeforeMethod-088](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#088) | Verify the ingredients and method are displayed without unnecessary blank space.| Passed |
 |30-May-2024 |#664| [AA-TipsInRichText-089](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#089) | Verify the tips have rich text format..| Require Rivision |
+|30-May-2024 |#625| [AA-UnitDisplayedNextToQuantityInProductMatch-090](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#090) | Verify the Unit is displayed next to the quantity in the Products Match view.| Passed |
