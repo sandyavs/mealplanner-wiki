@@ -109,6 +109,7 @@
 | 88 | [MP-SpaceBeforeMethod-088](#088) | Verify the ingredients and method are displayed without unnecessary blank space.|
 | 89 | [AA-TipsInRichText-089](#089) | Verify  the tips have rich text format. |
 | 90 | [AA-UnitDisplayedNextToQuantityInProductMatch-090](#090) | Verify  the Unit is displayed next to the quantity in the Products Match view. |
+| 91 | [AA-RegisterNewUser-091](#091) | Verify the admin can register new user. |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2463,3 +2464,31 @@ Upon accessing the match page of the product, the unit is displayed next to the 
 Test case Passed
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/093cab82-caa3-4343-b021-509c1365a606)
+
+## <a id="09">Test case ID: AA-RegisterNewUser-091</a>
+
+## Test case name:
+
+Verify the admin can register new user.
+
+## Related Issue: 
+
+## Steps to follow:
+
+ Pre-requisite: [MP-Login-001](#001)
+1. Access the "Admin UI" as an admin.
+2. In the left navigation menu, select the section "Users".
+3. Click on "Register" button on the top left side of the page.
+4. Fill the name, email, password, confirm password fields with "test", "user@example.com", "password1" and "password1"
+5. Click on the "Register" on the bottom of the page.
+6. Verify that user is created with role "Client".
+
+## Expected Behavior:
+The admin can create a new user and give the user a role.
+
+## Test Results:
+
+Test case Passed.
+
+![Screenshot from 2024-05-31 12-04-31](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/2ecbdeb7-4191-4054-96fe-78e02e283147)
+
