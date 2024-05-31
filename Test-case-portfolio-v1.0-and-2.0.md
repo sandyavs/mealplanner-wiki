@@ -2088,7 +2088,7 @@ Pre-requisite: MP-Login-001
 The primary ingredient are displayed when there are substitutes for ingredients in a meal.
 
 ### Test Results:
-Test case Require revision.
+Test case Passed.
 
 ![Screenshot from 2024-05-06 10-13-23](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/72097115-73fc-4821-b112-96d715c5a9ad)
 
