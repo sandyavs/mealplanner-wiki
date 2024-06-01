@@ -114,6 +114,7 @@
 | 93 | [MP-RejectConditions-093](#093) | Verify the user who reject the conditions doesn't have access to the meal plans |
 | 94 | [MP-AcceptConditions-094](#094) | Verify the user who accept the conditions have the access to the meal plans  |
 | 95 | [MP-CopyIconForClient-095](#095) | Verify the client user can copy a meal plan template. |
+| 96 | [AA-CreateSubstituteIngredientforPrimaryIngredient-096](#096) | Verify ability to create substitute ingredient relating to a primary ingredient |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2611,3 +2612,35 @@ When the new client user create a meal plan, a copy icon on the meal plan card i
 Test case passed.
 ![Screenshot from 2024-05-31 17-41-04](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/5f3f2d0e-6795-4bb6-a692-b24c37877772)
 ![Screenshot from 2024-05-31 17-44-42](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/9b09d7f4-f69f-4748-9d16-c0b6a8bee777)
+
+## <a id="096">Test case ID: AA-CreateSubstituteIngredientforPrimaryIngredient-096](#096)</a>  
+
+## Test case name:
+
+Verify ability to create substitute ingredient relating to a primary ingredient 
+
+## Related Bug: [BUG] Unable to create substitute ingredient relating to a primary ingredient #668
+
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. Access the Admin UI as an admin.
+2. In the left navigation menu, select the section "Meals".
+3. In the search bar, search for a meal such as "rice pilaf"
+4. Click on the SHOW button
+5. Select Ingredients
+6. Select Create
+7. Add a new item called Fresh Parsley
+8. Click on the Primary Ingredient field, and confirm you will be able to see Dried Parsley Flakes among the options.
+9. Save and exit
+
+
+## Expected Behaviour:
+
+In the Admin UI, while creating ingredients, when clicking over the Substitute Ingredient drop down, it should display the correct options to select from. This ensures flexibility and ease of use in managing product information and categorization.
+
+## Test Results:
+Passed as in the Admin UI,  when clicking over the Substitute Ingredient drop down, it displays the expected primary ingredients options to select from. 
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/6faf6765-2dff-42bd-9eb0-22ef3b869525)
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/9b8dfbe1-f1a8-43ec-8e10-b75d8aaed70d)
