@@ -1119,15 +1119,20 @@ Verify Admin UI changes for ingredient table and product table
 
 ## Steps to follow:
 Pre-requisite: MP-Login-001
-1. Access to the Admin UI.
-2. Navigate to the ingredient table section in the Admin UI.
-3. Verify that the new ingredient table is displayed with the updated columns as per the solution described in the feature request.
-4. Check for options to create, edit, and delete columns in the ingredient table.
-5. Ensure that the Admin UI provides functionality to add, modify, and remove ingredients in the ingredient table.
-6. Navigate to the product table section in the Admin UI.
-7. Verify that the product table reflects the changes made in the ingredient table.
-8. Check for options to create, edit, and delete columns in the product table.
-9. Ensure that the Admin UI provides functionality to add, modify, and remove products in the product table.
+1. Logon to the Admin UI.
+2. Click on "meals", on the top left side of the page .
+3. Click on "Create" to create a  new meal then go to 5
+4. OR Input a meal name into the search box to search for an existing meal.
+5. Enter the details of a meal such as Name, tag, Portions, Quantity , description, cook time, prep time,  etc. Click Save
+6. Then Navigate to the ingredient table section in the Admin UI.
+7. Verify that the new ingredient table is displayed with the updated columns as per the solution described in the feature request.
+8. Verify options to create, edit, and delete columns in the ingredient table.
+9. Click on Ingredients, verify you can add or modify items on the the table. 
+10. Click on the checkbox on the left of an ingredient to verify the ability to "delete" items from the table. 
+11. Navigate to the product table section in the Admin UI.
+11. Verify that the product table reflects the changes made in the ingredient table.
+12. Check for options to create, edit, and delete columns in the product table.
+13. Ensure that the Admin UI provides functionality to add, modify, and remove products in the product table.
 
 ## Expected Behaviour:
 
