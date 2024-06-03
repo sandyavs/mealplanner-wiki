@@ -2645,3 +2645,31 @@ Passed as in the Admin UI,  when clicking over the Substitute Ingredient drop do
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/6faf6765-2dff-42bd-9eb0-22ef3b869525)
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/9b8dfbe1-f1a8-43ec-8e10-b75d8aaed70d)
+
+## <a id="097">Test case ID: MP-StartDateRequiredForMealPlanCreationandEdit-097</a>
+
+## Test case name:
+Verify start date exist on meal plan creation/ edit and meal plan card 
+
+## Related Issue: [#526](https://github.com/CivicTechFredericton/mealplanner/issues/526)
+
+## Description:
+This test case verifies that a start date can be inputted when creating Meal plans, editing Meal plan and on Meal cards. 
+
+## Steps to follow:
+Pre-requisite: MP-Login-001
+1. From the navigation bar, click on "CREATE MEAL PLAN" on the top right corner of the meals/meal plan page.
+2. The CREATE MEAL PLAN form appears, select the  start date from the calendar and enter the meal plan details.
+4. Confirm that start date shows on the creation form. 
+5. Navigate  to the meal plan page, select the new  meal plan created in step 4, confirm that the date is displayed on the meal card.
+6. Navigate  to the meal plan page, select any meal plan, confirm that the date is displayed on the meal card.
+
+## Expected Behavior:
+The meal plan start date is should be displayed  when creating and editing Meal plans as well as on Meal cards. This ensures flexibility and ease of use in managing product information and categorization.
+
+### Test Results:
+Test case passed.
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/f5ca6f1c-b28e-4929-817f-3ece825a8498) 
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/008a93ca-37a3-4932-9608-ce2991840eaf)
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/86d1193d-d8de-4934-bde1-d17a41b91313)
+
