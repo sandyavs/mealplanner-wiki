@@ -115,6 +115,7 @@
 | 94 | [MP-AcceptConditions-094](#094) | Verify the user who accept the conditions have the access to the meal plans  |
 | 95 | [MP-CopyIconForClient-095](#095) | Verify the client user can copy a meal plan template. |
 | 96 | [AA-CreateSubstituteIngredientforPrimaryIngredient-096](#096) | Verify ability to create substitute ingredient relating to a primary ingredient |
+| 97 | [MP-StartDateRequiredForMealPlanCreationandediting-097](#097) | Verify start date exist on meal plan creation/ edit and meal plan card   |
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
