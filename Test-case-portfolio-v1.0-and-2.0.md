@@ -119,7 +119,7 @@
 | 98 | [MP-DuplicateMealPlanForClient-098](#098) | Verify Duplicate meal plan for a client user have the current user assigned|
 | 99 | [MP-AssignUserForClient-099](#099) | Verify the assign user drop-down is invisible as a client user cannot re-assign plans|
 | 100| [MP-ClientCanNotCreateTemplate-100](#100) | Verify The option to 'Create Template' does not appear for the client user.|
-| 101| [MP-ClientCanNotCreateTemplate-101](#101) | Verify shopping list displays all the ingredients, meal it belongs to and product suggestions.|
+| 101| [MP-ShoppingList-101](#101) | Verify shopping list displays all the ingredients, meal it belongs to and product suggestions.|
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
 ## Test case name: 
@@ -2756,7 +2756,7 @@ Test case passed.
 ![Screenshot from 2024-06-04 11-38-47](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/d551c228-63ff-4bb3-bc93-9e09c08affc1)
 
 
-## <a id="101">Test case ID: MP-ClientCanNotCreateTemplate-101</a>
+## <a id="101">Test case ID: MP-ShoppingList-101</a>
 
 ## Test case name:
 Verify shopping list displays all the ingredients, meal it belongs to and product suggestions.
