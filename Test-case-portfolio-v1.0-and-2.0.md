@@ -119,7 +119,7 @@
 | 98 | [MP-DuplicateMealPlanForClient-098](#098) | Verify Duplicate meal plan for a client user have the current user assigned|
 | 99 | [MP-AssignUserForClient-099](#099) | Verify the assign user drop-down is invisible as a client user cannot re-assign plans|
 | 100| [MP-ClientCanNotCreateTemplate-100](#100) | Verify The option to 'Create Template' does not appear for the client user.|
-
+| 101| [MP-ClientCanNotCreateTemplate-101](#101) | Verify shopping list displays all the ingredients, meal it belongs to and product suggestions.|
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
 ## Test case name: 
@@ -2754,3 +2754,39 @@ When the new client user create a meal plan,the drop-down the option to 'Create 
 Test case passed.
 
 ![Screenshot from 2024-06-04 11-38-47](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/d551c228-63ff-4bb3-bc93-9e09c08affc1)
+
+
+## <a id="101">Test case ID: MP-ClientCanNotCreateTemplate-101</a>
+
+## Test case name:
+Verify shopping list displays all the ingredients, meal it belongs to and product suggestions.
+
+## Related Issue: #637
+
+## Description:
+This test case verifies that the shopping list displays all the ingredients, meal it belongs to and product suggestions and a disclaimer note.
+
+## Steps to follow:
+Pre-requisite: MP-Template-031
+1. Navigate  to "meal plans" from the navigation bar.
+2. Select "Breakfast Burrito" from the selected meal catalogue.
+3. Drag and drop it in the specific category of the meal plan.
+4. Navigate  back to "meals".
+5. Click on "Breakfast Burrito" to display its ingredients.
+6. Navigate  back to "meal plans".
+7. Click on the shopping icon.
+8. Verify that the shopping list has a disclaimer note and all the ingredients related to "Breakfast Burrito" with product suggestions, and prices.
+
+## Expected Behavior:
+The shopping list has a disclaimer note and all the ingredients related to "Breakfast Burrito" with product suggestions, and prices.
+
+### Test Results:
+
+Test case passed.
+
+![Screenshot from 2024-06-04 12-37-10](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/6846aa45-1cec-4ccd-81de-b78316446aa1)
+
+
+![Screenshot from 2024-06-04 12-36-11](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/5f3981c5-f3c5-4e24-9def-1986278cc6ab)
+
+
