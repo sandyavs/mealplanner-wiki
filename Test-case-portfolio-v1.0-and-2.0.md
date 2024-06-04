@@ -116,6 +116,7 @@
 | 95 | [MP-CopyIconForClient-095](#095) | Verify the client user can copy a meal plan template. |
 | 96 | [AA-CreateSubstituteIngredientforPrimaryIngredient-096](#096) | Verify ability to create substitute ingredient relating to a primary ingredient |
 | 97 | [MP-StartDateRequiredForMealPlanCreationandEdit-097](#097) | Verify start date exist on meal plan creation/ edit and meal plan card   |
+| 98 | [MP-DuplicateMealPlanForClient-098](#098) | Verify Duplicate meal plan for a client user have the current user assigned|
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2681,3 +2682,22 @@ Test case passed.
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/86d1193d-d8de-4934-bde1-d17a41b91313)
 
 
+## <a id="98">Test case ID: MP-DuplicateMealPlanForClient-098</a>
+
+## Test case name:
+
+Verify Duplicate meal plan for a client user have the current user assigned
+
+## Related Bug:[#698](https://github.com/CivicTechFredericton/mealplanner/issues/698)
+
+## Steps to follow:
+MP-CopyIconForClient-095
+1. Verify that the another meal plan is assigned to the signed in client.
+
+## Expected Behaviour:
+Duplicate meal plan for a client user should have the current user assigned 
+
+
+## Test Result
+Passed 
+![Screenshot from 2024-05-31 17-44-42](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/9b09d7f4-f69f-4748-9d16-c0b6a8bee777)
