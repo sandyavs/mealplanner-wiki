@@ -2682,7 +2682,7 @@ Test case passed.
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/86d1193d-d8de-4934-bde1-d17a41b91313)
 
 
-## <a id="98">Test case ID: MP-DuplicateMealPlanForClient-098</a>
+## <a id="098">Test case ID: MP-DuplicateMealPlanForClient-098 </a>
 
 ## Test case name:
 
