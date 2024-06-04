@@ -91,4 +91,4 @@ Release name: v2
 |04-Jun-2024 |[#698](https://github.com/CivicTechFredericton/mealplanner/issues/698)| [MP-DuplicateMealPlanForClient-098](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#098)| Verify duplicate meal plan for a client user have the current user assigned| Passed |
 |04-Jun-2024 |#666| [MP-AssignUserForClient-099](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#099)|  	Verify the assign user drop-down is invisible as a client user cannot re-assign plans| Passed |
 |04-Jun-2024 |#687| [MP-ClientCanNotCreateTemplate-100](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#100))| Verify The option to 'Create Template' does not appear for the client user.| Passed |
-
+|04-Jun-2024 | #603| [MP-ShoppingList-101](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#101)| Verify shopping list displays all the ingredients, meal it belongs to and product suggestions.|Passed
