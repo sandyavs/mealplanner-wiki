@@ -2761,7 +2761,7 @@ Test case passed.
 ## Test case name:
 Verify shopping list displays all the ingredients, meal it belongs to and product suggestions.
 
-## Related Issue: #637
+## Related Issue: #603
 
 ## Description:
 This test case verifies that the shopping list displays all the ingredients, meal it belongs to and product suggestions and a disclaimer note.
