@@ -2464,10 +2464,10 @@ Verify  the Unit is displayed next to the quantity in the Products Match view.
 
  Pre-requisite: [MP-Login-001](#001)
 1. Access the "Admin UI" as an admin.
-2. Click on Meals.
-3. Select a meal.
-4. Click Ingredients.
-5. In Ingredients page, select MATCH of an ingredient.
+2. In the left navigation menu, select the section "Meals".
+3. Click on "show" button on the left side of the "Chicken Curry" meal to display it.
+4. Click on "Ingredients" button.
+5. In Ingredients page, select MATCH of an ingredient on the left side.
 6. In the Matches page, you will see the grid of products.
 7. Verify that the unit is displayed next to the quantity in the products table.
 
