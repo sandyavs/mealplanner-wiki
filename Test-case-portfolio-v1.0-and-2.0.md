@@ -2326,7 +2326,7 @@ Verify the favorite feature for meal
 ## Steps to follow:
 Pre-requisite: MP-Login-001
 1. From the navigation bar, click on "meal" to navigate to the meals page.
-2. Click on the heart icon to select "Tartare Sauce" and "Corn Fritts" meals as favorites.
+2. Click on the heart icon to select "Tartare Sauce", "Cheddar, Apple Muffins" and "Corn Fritts" meals as favorites.
 4. Confirm that heart icon is now red in color to show the meals have been selected as a favorite meal.
 
 ## Expected Behaviour:
