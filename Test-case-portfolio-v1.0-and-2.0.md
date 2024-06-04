@@ -118,6 +118,7 @@
 | 97 | [MP-StartDateRequiredForMealPlanCreationandEdit-097](#097) | Verify start date exist on meal plan creation/ edit and meal plan card   |
 | 98 | [MP-DuplicateMealPlanForClient-098](#098) | Verify Duplicate meal plan for a client user have the current user assigned|
 | 99 | [MP-AssignUserForClient-099](#099) | Verify the assign user drop-down is invisible as a client user cannot re-assign plans|
+| 100| [MP-ClientCanNotCreateTemplate-100](#100) | Verify The option to 'Create Template' does not appear for the client user.|
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2703,7 +2704,6 @@ Duplicate meal plan for a client user should have the current user assigned
 Passed 
 ![Screenshot from 2024-05-31 17-44-42](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/9b09d7f4-f69f-4748-9d16-c0b6a8bee777)
 
-| 99 | [MP-AssignUserForClient-099](#099) | Verify the assign user drop-down is invisible as a client user cannot re-assign plans|
 ## <a id="099">Test case ID: MP-AssignUserForClient-099</a>
 
 ## Test case name:
@@ -2729,3 +2729,28 @@ Test case passed.
 
 ![Screenshot from 2024-06-04 11-38-47](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/d551c228-63ff-4bb3-bc93-9e09c08affc1)
 
+
+## <a id="100">Test case ID: MP-ClientCanNotCreateTemplate-100</a>
+
+## Test case name:
+Verify The option to 'Create Template' does not appear for the client user.
+
+## Related Issue: [#687](https://github.com/CivicTechFredericton/mealplanner/issues/687)
+
+## Description:
+This test case verifies that When the new client user create a meal plan, The option to 'Create Template' does not appear for the client user. as Create Template is required only for admins and meal designers
+
+## Steps to follow:
+Pre-requisite: MP-AcceptConditions-094
+1. Navigate to the "Meal Plan" section of the application.
+2. Click on the "Create Meal Plan" button to create the first meal plan.
+3. Verify that there is no "Create New Template" radio button to click.
+
+
+## Expected Behavior:
+When the new client user create a meal plan,the drop-down the option to 'Create Template' does not appear for the client user
+
+### Test Results:
+Test case passed.
+
+![Screenshot from 2024-06-04 11-38-47](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/d551c228-63ff-4bb3-bc93-9e09c08affc1)
