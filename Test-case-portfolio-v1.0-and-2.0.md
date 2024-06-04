@@ -1124,10 +1124,10 @@ Verify Admin UI changes for ingredient table and product table
 Pre-requisite: MP-Login-001
 1. Logon to the Admin UI.
 2. On the top left side of the page, Click on "meals" .
-3. Click on "Create" to create a  new meal then go to 5
-4. OR Input a meal name into the search box to search for an existing meal.
-5. Enter the details of a meal such as Name, tag, Portions, Quantity , description, cook time, prep time,  etc. Click Save
-6. Then Navigate to the ingredient table section in the Admin UI.
+3. To create a  new meal, click on the "Create" icon on the top right corner.
+4. Enter the details of a meal such as Name, tag, Portions, Quantity , description, cook time, prep time,  etc. Click Save.
+5. To modify an existing  meal, type meal name into the search box. The meal is displayed. click on "show" to navigate to the ingredients table.
+6. From the Meal search page, Navigate to the ingredient table  by clicking the  "show" icon at the right of the list.
 7. Verify that the new ingredient table is displayed with the updated columns as per the solution described in the feature request.
 8. Verify options to create, edit, and delete columns in the ingredient table.
 9. Click on Ingredients, verify you can add or modify items on the the table. 
