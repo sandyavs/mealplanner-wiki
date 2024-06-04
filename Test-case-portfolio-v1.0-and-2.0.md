@@ -2726,5 +2726,6 @@ When the new client user create a meal plan,the drop-down is invisible as a clie
 
 ### Test Results:
 Test case passed.
+
 ![Screenshot from 2024-06-04 11-38-47](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/d551c228-63ff-4bb3-bc93-9e09c08affc1)
 
