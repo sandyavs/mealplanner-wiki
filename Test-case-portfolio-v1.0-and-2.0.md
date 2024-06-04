@@ -2326,8 +2326,8 @@ Verify the favorite feature for meal
 ## Steps to follow:
 Pre-requisite: MP-Login-001
 1. From the navigation bar, click on "meal" to navigate to the meals page.
-2. Search  for any meal and Click on the heart icon to select a meal as a favorite.
-4. Confirm that heart icon is now red in color to show it has be selected as a favorite meal.
+2. Click on the heart icon to select "Tartare Sauce" and "Corn Fritts" meals as favorites.
+4. Confirm that heart icon is now red in color to show the meals have been selected as a favorite meal.
 
 ## Expected Behaviour:
 
@@ -2348,10 +2348,10 @@ Verify there is a sorting feature with the Favorite category for meals.
 ## Related Bug: [BUG] Favorite feature for meal #455
 
 ## Steps to follow:
-Pre-requisite: MP-Login-001
+Pre-requisite: MP-Favoritefeatureformeal-085
 1. From the navigation bar, click on "meal" to navigate to the meals page.
-2. Click on "My favorite" radio button to display only  meals in favorite category. Search  for any meal and Click on the heart icon to select a meal as a favorite.
-4. Confirm that only favorite meals with the red heart icons are displayed.
+2. Click on "My favorite" radio button to display only  meals in favorite category.
+3. Confirm that only favorite meals with the red heart icons are displayed.
 
 ## Expected Behavior:
 
