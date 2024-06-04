@@ -104,7 +104,7 @@
 | 83 | [AA-TagSpaces-083](#083) | Verify ability to use spaces in tags and tags in Admin UI   |
 | 84 | [MP-CivictechLogOnMealPlan-084](#084) | Verify print meal plan page has a civictech logo   |
 | 85 | [MP-Favoritefeatureformeal-085](#085) | Verify meals have favorite feature   |
-| 86 | [MP-SortingfeaturewithFavoritecategoryformeals-086](#086) | Verify meals have sorting feature with favorite category   |
+| 86 | [MP-SortingFavoriteMeals-086](#086) | Verify meals have sorting feature with favorite category   |
 | 87 | [AA-CreateIngredientButton-087](#087) | Verify the exciting of CREATE button for Ingredients when there are no ingredients yet|
 | 88 | [MP-SpaceBeforeMethod-088](#088) | Verify the ingredients and method are displayed without unnecessary blank space.|
 | 89 | [AA-TipsInRichText-089](#089) | Verify  the tips have rich text format. |
@@ -2339,7 +2339,7 @@ Passed as in the Meal planner UI, users can chose favorite meals by clicking the
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/f53bd0ee-8322-4925-8324-d89496d77d64)
 
-## <a id="086">Test case ID: MP-SortingfeaturewithFavoritecategoryformeals-086</a>
+## <a id="086">Test case ID: MP-SortingFavoriteMeals-086</a>
 
 ## Test case name:
 
@@ -2359,7 +2359,8 @@ In the Meal planner UI, at the Meals navigation page, users should be able to di
 
 ## Test Results:
 Passed as in the Meal planner UI, users can chose to display only favorite meals by clicking the "My favorite" radio button on the meals page.
-![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/d7cc9f3d-28c2-4e6a-af5d-af20c8688e73)
+![Screenshot from 2024-06-04 10-20-24](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/eb574bbf-5f2a-4106-9921-741195638062)
+
 
 
 ## <a id="087">Test case ID: AA-CreateIngredientButton-087</a>
