@@ -1120,7 +1120,7 @@ Verify Admin UI changes for ingredient table and product table
 ## Steps to follow:
 Pre-requisite: MP-Login-001
 1. Logon to the Admin UI.
-2. Click on "meals", on the top left side of the page .
+2. On the top left side of the page, Click on "meals" .
 3. Click on "Create" to create a  new meal then go to 5
 4. OR Input a meal name into the search box to search for an existing meal.
 5. Enter the details of a meal such as Name, tag, Portions, Quantity , description, cook time, prep time,  etc. Click Save
@@ -1129,14 +1129,15 @@ Pre-requisite: MP-Login-001
 8. Verify options to create, edit, and delete columns in the ingredient table.
 9. Click on Ingredients, verify you can add or modify items on the the table. 
 10. Click on the checkbox on the left of an ingredient to verify the ability to "delete" items from the table. 
-11. Navigate to the product table section in the Admin UI.
-11. Verify that the product table reflects the changes made in the ingredient table.
-12. Check for options to create, edit, and delete columns in the product table.
-13. Ensure that the Admin UI provides functionality to add, modify, and remove products in the product table.
+11. Navigate to the product table section in the Admin UI on the top left corner of the page.
+11. Verify that the product table has a "CREATE" icon on the top right corner of the page.
+12. Search for a product, click the box next to the product name , verify a red delete icon appears on the top right of the page and an edit icon at 
+    the left of the list. This confirms the ability to delete or edit products when required.
+
 
 ## Expected Behaviour:
 
-The Admin UI should accurately reflect the changes made to the ingredient table and product table as per the feature request #543. Users should be able to seamlessly create, edit, and delete columns, ingredients, and products using the updated Admin UI.
+The Admin UI should have the create, edit and delete functionalities as stated in  request #543. Users should be able to seamlessly create, edit, and delete ingredients and create, edit, and delete products.
 
 ## Test Results: 
 Passed.
