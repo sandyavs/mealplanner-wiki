@@ -975,16 +975,16 @@ Pre-requisite: MP-Login-001.
 3. Click on "Create" button on the right corner.
 4. Fill the name field with "Marinara Sauce".
 5. Fill the Photo url field with "https://goodmealplan.com/pictures/Marinara%20Sauce.jpg".
-5. Fill the viedo url field with "https://www.youtube.com/watch?v=q35rhlsJ-v0".
-5. Check whether the images are embedded as thumbnails within the meal details.
-6. Verify that the videos are embedded and playable within the meal details.
-7. Ensure that the embedded images and videos are clearly distinguishable and identifiable.
-8. Attempt to click on the embedded images to view them in full size, if applicable.
+6. Fill the viedo url field with "https://www.youtube.com/watch?v=q35rhlsJ-v0". 
+7. Click on play button of the embedded video and it should be controlled (played and paused). 
+8. After the video is played click on full screen button of the embedded video and it should be play in full screen. Click back to normal size.
 
 
 ## Expected Behaviour:
-
-In the meal planner interface, images and videos associated with meals should be embedded as thumbnails and playable content, respectively, rather than displayed as plain text or URLs. This enhancement should improve the user experience by providing a more visually appealing and intuitive way to view and interact with meal-related media.
+1. In the meals list view for the meal with Name en 'Marinara Sauce' see the Photo url column value displayed as a thumbnail. 
+2. In the meals list view for the meal with Name en 'Marinara Sauce' see the video url column value displayed as a embedded video. 
+3. In the meals list view for the meal with Name en 'Marinara Sauce' Clicking on the play button will display the video.
+4. The displayed video for the meal with Name en 'Marinara Sauce' can be played in full screen.
 
 ## Test Results:
 Test Case Passed.
