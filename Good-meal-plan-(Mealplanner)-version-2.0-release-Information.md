@@ -12,6 +12,16 @@
 
 **Demo Video URL:** https://www.youtube.com/watch?v=PL-hsxbr7Ek
 
+## Volunteers:
+### Developers: 
+_Shanthi Shanmugam, Vagmi Mudumbai, Bo Sun Kim, Priya Guntupalli, Rodrigo Castro, Pavitra Modi, Jon Dalton_
+### QAs: 
+_Ola Makhlouf, Ala Salehi_
+### Data entry: 
+_Folashade Jemilo, Rhoda Mairabo, Adeniyi Oluokun, Mohamed Alsadek Mohamed, Ola Makhlouf, Tracy Copeland, Oliver Ogbaka, Olufemi Awodola, Pavitra Modi, Bo Sun Kim, Akinwale Mayomi Aisida, Toyosi, Ashwant Manikoth_
+### Database and deployment support: 
+_Rory Bray, Vagmi Mudumbai_
+
 ## Database level:
 1. Introduced a new system of migration for the database changes 
 1. Imported recipes from docx to text and text to JSON using AI and wrote scripts to update the database
