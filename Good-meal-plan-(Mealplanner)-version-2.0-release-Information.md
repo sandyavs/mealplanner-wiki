@@ -10,7 +10,7 @@
 
 **Release Date:** 5-June-2024
 
-**Demo Video URL:** 
+**Demo Video URL:** https://www.youtube.com/watch?v=PL-hsxbr7Ek
 
 ## Database level:
 1. Introduced a new system of migration for the database changes 
