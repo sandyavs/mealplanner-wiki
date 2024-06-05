@@ -120,6 +120,8 @@
 | 99 | [MP-AssignUserForClient-099](#099) | Verify the assign user drop-down is invisible as a client user cannot re-assign plans|
 | 100| [MP-ClientCanNotCreateTemplate-100](#100) | Verify The option to 'Create Template' does not appear for the client user.|
 | 101| [MP-ShoppingList-101](#101) | Verify shopping list displays all the ingredients, meal it belongs to and product suggestions.|
+| 102| [AA-DeleteMeasureTable-102](#102) | Verify there is no Measure section and verify that Ingredients exists under Meals.|
+
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
 ## Test case name: 
@@ -2784,7 +2786,30 @@ Test case passed.
 
 ![Screenshot from 2024-06-04 12-37-10](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/6846aa45-1cec-4ccd-81de-b78316446aa1)
 
-
 ![Screenshot from 2024-06-04 12-36-11](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/5f3981c5-f3c5-4e24-9def-1986278cc6ab)
 
 
+
+
+## <a id="102">Test case ID: AA-DeleteMeasureTable-102</a>
+
+## Test case name:
+
+Ensure that there is no 'Measure' section and that 'Ingredients' exists under Meals.
+
+## Related Bug ID: #568
+
+## Steps to follow:
+1.Go to admin UI
+2.Check for a section 'Measure' - Should not be present
+3.Check for 'Ingredients' under Meals - Should be present
+
+
+## Expected Behaviour:
+
+No 'Measure' section present and 'Ingredients' should show under meals. 
+
+## Test Results:
+Passed successfully.
+
+![image](https://github.com/CivicTechFredericton/mealplanner/assets/72166328/1c5364b7-ea7c-491d-937a-ffe5014768e4)
