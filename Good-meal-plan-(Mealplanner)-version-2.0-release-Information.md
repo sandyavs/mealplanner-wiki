@@ -18,7 +18,7 @@ _Shanthi Shanmugam, Vagmi Mudumbai, Bo Sun Kim, Priya Guntupalli, Rodrigo Castro
 ### QAs: 
 _Ola Makhlouf, Ala Salehi_
 ### Data entry: 
-_Folashade Jemilo, Rhoda Mairabo, Adeniyi Oluokun, Mohamed Alsadek Mohamed, Ola Makhlouf, Tracy Copeland, Oliver Ogbaka, Olufemi Awodola, Pavitra Modi, Bo Sun Kim, Akinwale Mayomi Aisida, Toyosi, Ashwant Manikoth_
+_Folashade Jemilo, Rhoda Mairabo, Adeniyi Oluokun, Mohamed Alsadek Mohamed, Ola Makhlouf, Tracy Copeland, Oliver Ogbaka, Olufemi Awodola, Pavitra Modi, Bo Sun Kim, Akinwale Mayomi Aisida, Oluwatoyosi Adelekan, Ashwant Manikoth_
 ### Database and deployment support: 
 _Rory Bray, Vagmi Mudumbai_
 
