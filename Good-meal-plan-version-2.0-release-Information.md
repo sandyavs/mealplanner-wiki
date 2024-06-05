@@ -22,13 +22,14 @@ _Folashade Jemilo, Rhoda Mairabo, Adeniyi Oluokun, Mohamed Alsadek Mohamed, Ola 
 ### Database and deployment support: 
 _Rory Bray, Vagmi Mudumbai_
 
-## Database level:
+## Features List:
+### Database level:
 1. Introduced a new system of migration for the database changes 
 1. Imported recipes from docx to text and text to JSON using AI and wrote scripts to update the database
 1. We scraped thousands of products based on keywords related to recipe ingredients. We used a scraper API from the Walmart website. These prices and data are as of March 2024 and cannot be programmatically updated as some entries have been manually added.
 1. Login secure cookie. - We set the cookie secure field to true on the production environment.
 
-## Admin UI:
+### Admin UI:
 1. Meal designer has now permission to access admin UI except the `Users` section
 1. Search for any word in the meal name yields accurate results in the meals section
 1. Search for any word in the product name yields accurate results in the products section.
@@ -48,7 +49,7 @@ _Rory Bray, Vagmi Mudumbai_
 1. The tips on the meals page are in rich text format just like the method.
 1. Reset password will reset to the given password and can be set only by the admin.
 
-## Main UI:
+### Main UI:
 1. Login - The first-time login will show the terms and conditions page. Only on accepting can I login
 1. Login - Meals and meal page can be accessed without login
 1. Login - Display error message when invalid credentials are given
