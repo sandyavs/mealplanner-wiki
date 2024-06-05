@@ -2642,11 +2642,7 @@ Pre-requisite: MP-Login-001
 5. Select Ingredients
 6. Select Create
 7. Add a new item called Fresh Parsley
-8. Click on the Primary Ingredient field, and confirm you will be able to see Dried Parsley Flakes among the options.
-9. Save.
-Click on the Primary Ingredient field
-Select one of the meal's existing ingredient 'Dried Parsley Flakes' among the options.
-Click Save
+8. Click on the Primary Ingredient field, Select one of the meal's existing ingredient 'Dried Parsley Flakes' among the options
 
 
 ## Expected Behaviour:
