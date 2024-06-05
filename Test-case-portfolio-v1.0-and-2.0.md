@@ -114,7 +114,7 @@
 | 93 | [MP-RejectConditions-093](#093) | Verify the user who reject the conditions doesn't have access to the meal plans |
 | 94 | [MP-AcceptConditions-094](#094) | Verify the user who accept the conditions have the access to the meal plans  |
 | 95 | [MP-CopyIconForClient-095](#095) | Verify the client user can copy a meal plan template. |
-| 96 | [AA-CreateSubstituteIngredientforPrimaryIngredient-096](#096) | Verify ability to create substitute ingredient relating to a primary ingredient |
+| 96 | [AA-CreateSubstituteIngredientforPrmIngredient-096](#096) | Verify ability to create substitute ingredient relating to a primary ingredient |
 | 97 | [MP-StartDateRequiredForMealPlanCreationandEdit-097](#097) | Verify start date exist on meal plan creation/ edit and meal plan card   |
 | 98 | [MP-DuplicateMealPlanForClient-098](#098) | Verify Duplicate meal plan for a client user have the current user assigned|
 | 99 | [MP-AssignUserForClient-099](#099) | Verify the assign user drop-down is invisible as a client user cannot re-assign plans|
@@ -2624,7 +2624,7 @@ Test case passed.
 ![Screenshot from 2024-05-31 17-41-04](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/5f3f2d0e-6795-4bb6-a692-b24c37877772)
 ![Screenshot from 2024-05-31 17-44-42](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/9b09d7f4-f69f-4748-9d16-c0b6a8bee777)
 
-## <a id="096">Test case ID: AA-CreateSubstituteIngredientforPrimaryIngredient-096](#096)</a>  
+## <a id="096">Test case ID: AA-CreateSubstituteIngredientforPrmIngredient-096](#096)</a>  
 
 ## Test case name:
 
@@ -2644,14 +2644,16 @@ Pre-requisite: MP-Login-001
 7. Add a new item called Fresh Parsley
 8. Click on the Primary Ingredient field, and confirm you will be able to see Dried Parsley Flakes among the options.
 9. Save.
+Click on the Primary Ingredient field
+Select one of the meal's existing ingredient 'Dried Parsley Flakes' among the options.
+Click Save
 
 
 ## Expected Behaviour:
-
-In the Admin UI, while creating ingredients, when clicking over the Substitute Ingredient drop down, it should display the correct options to select from. This ensures flexibility and ease of use in managing product information and categorization.
+Ingredients page has an ingredient 'Fresh Parsley' with primary ingredient 'Dried Parsley Flakes'. This ensures flexibility and ease of use in managing product information and categorization.
 
 ## Test Results:
-Passed as in the Admin UI,  when clicking over the Substitute Ingredient drop down, it displays the expected primary ingredients options to select from. 
+Passed . In Admin UI, Ingredient page displays ingredient 'Fresh Parsley' with primary ingredient 'Dried Parsley Flakes'. 
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/6faf6765-2dff-42bd-9eb0-22ef3b869525)
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/9b8dfbe1-f1a8-43ec-8e10-b75d8aaed70d)
