@@ -983,8 +983,8 @@ Pre-requisite: MP-Login-001.
 ## Expected Behaviour:
 1. In the meals list view for the meal with Name en 'Marinara Sauce' see the Photo url column value displayed as a thumbnail. 
 2. In the meals list view for the meal with Name en 'Marinara Sauce' see the video url column value displayed as a embedded video. 
-3. In the meals list view for the meal with Name en 'Marinara Sauce' Clicking on the play button will display the video.
-4. The displayed video for the meal with Name en 'Marinara Sauce' can be played in full screen.
+3. In the meals list view for the meal with Name en 'Marinara Sauce' Clicking on the play button will start displaying the video.
+4. The displayed video for the meal with Name en 'Marinara Sauce' can be played in full screen and back to normal size.
 
 ## Test Results:
 Test Case Passed.
