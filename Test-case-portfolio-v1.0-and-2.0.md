@@ -115,7 +115,7 @@
 | 94 | [MP-AcceptConditions-094](#094) | Verify the user who accept the conditions have the access to the meal plans  |
 | 95 | [MP-CopyIconForClient-095](#095) | Verify the client user can copy a meal plan template. |
 | 96 | [AA-CreateSubstituteIngredient-096](#096) | Verify ability to create substitute ingredient relating to a primary ingredient |
-| 97 | [MP-StartDateRequiredForMealPlanCreationandEdit-097](#097) | Verify start date exist on meal plan creation/ edit and meal plan card   |
+| 97 | [MP-StartDateForMealPlan-097](#097) | Verify start date exist on meal plan creation/ edit and meal plan card   |
 | 98 | [MP-DuplicateMealPlanForClient-098](#098) | Verify Duplicate meal plan for a client user have the current user assigned|
 | 99 | [MP-AssignUserForClient-099](#099) | Verify the assign user drop-down is invisible as a client user cannot re-assign plans|
 | 100| [MP-ClientCanNotCreateTemplate-100](#100) | Verify The option to 'Create Template' does not appear for the client user.|
@@ -2628,7 +2628,7 @@ Test case passed.
 ![Screenshot from 2024-05-31 17-41-04](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/5f3f2d0e-6795-4bb6-a692-b24c37877772)
 ![Screenshot from 2024-05-31 17-44-42](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/9b09d7f4-f69f-4748-9d16-c0b6a8bee777)
 
-## <a id="096">Test case ID: AA-SubstituteIngredient-096](#096)</a>  
+## <a id="096">Test case ID: AA-SubstituteIngredient-096(#096)</a>  
 
 ## Test case name:
 
@@ -2660,7 +2660,7 @@ Passed . In Admin UI, Ingredient page displays ingredient 'Fresh Parsley' with p
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/6faf6765-2dff-42bd-9eb0-22ef3b869525)
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/9b8dfbe1-f1a8-43ec-8e10-b75d8aaed70d)
 
-## <a id="097">Test case ID: MP-StartDateRequiredForMealPlanCreationandEdit-097</a>
+## <a id="097">Test case ID: MP-StartDateForMealPlan-097</a>
 
 ## Test case name:
 Verify start date exist on meal plan creation/ edit and meal plan card 
@@ -2672,14 +2672,16 @@ This test case verifies that a start date can be inputted when creating Meal pla
 
 ## Steps to follow:
 Pre-requisite: MP-Login-001
-1. From the navigation bar, click on "CREATE MEAL PLAN" on the top right corner of the meals/meal plan page.
-2. The CREATE MEAL PLAN form appears, select the  start date from the calendar and enter the meal plan details.
-4. Confirm that start date shows on the creation form. 
-5. Navigate  to the meal plan page, select the new  meal plan created in step 4, confirm that the date is displayed on the meal card.
-6. Navigate  to the meal plan page, select any meal plan, confirm that the date is displayed on the meal card.
+1. From the navigation bar go to "Meal Plans" page. 
+2. Click on "CREATE MEAL PLAN" on the top right corner of meal plan page.
+2. Fill the name field in the form with "FolaDt1" 
+3. Select the "10-06-2024" as the start date from the calendar.
+4. Click on the "Save" button to save the meal plan.
+5. Click on the new  meal plan created in step 4, confirm that the date is displayed on the meal card.
+
 
 ## Expected Behavior:
-The meal plan start date is should be displayed  when creating and editing Meal plans as well as on Meal cards. This ensures flexibility and ease of use in managing product information and categorization.
+The meal plan start date is should be displayed  when creating and displaying the Meal plan card and details.
 
 ### Test Results:
 Test case passed.
