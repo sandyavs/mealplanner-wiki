@@ -2643,16 +2643,18 @@ Pre-requisite: MP-Login-001
 2. In the left navigation menu, select the section "Meals".
 3. In the search bar, search for a meal such as "rice pilaf"
 4. Click on the SHOW button
-5. Select Ingredients
-6. Select Create
+5. Click on  "Ingredients" button on the bottom of the page
+6. Select Create.
 7. Add a new item called Fresh Parsley
-8. Click on the Primary Ingredient field, Select one of the meal's existing ingredient 'Dried Parsley Flakes' among the options
+8. Click on the Primary Ingredient field.
+9. Select one of the meal's existing ingredient 'Dried Parsley Flakes' among the options.
+10 Click Save.
 
 
 ## Expected Behaviour:
 Ingredients page has an ingredient 'Fresh Parsley' with primary ingredient 'Dried Parsley Flakes'. This ensures flexibility and ease of use in managing product information and categorization.
 
-## Test Results:
+## Test results:
 Passed . In Admin UI, Ingredient page displays ingredient 'Fresh Parsley' with primary ingredient 'Dried Parsley Flakes'. 
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/168258664/6faf6765-2dff-42bd-9eb0-22ef3b869525)
