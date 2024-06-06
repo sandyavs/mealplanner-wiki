@@ -108,13 +108,13 @@
 | 87 | [AA-CreateIngredientButton-087](#087) | Verify the exciting of CREATE button for Ingredients when there are no ingredients yet|
 | 88 | [MP-SpaceBeforeMethod-088](#088) | Verify the ingredients and method are displayed without unnecessary blank space.|
 | 89 | [AA-TipsInRichText-089](#089) | Verify  the tips have rich text format. |
-| 90 | [AA-UnitDisplayedNextToQuantityInProductMatch-090](#090) | Verify  the Unit is displayed next to the quantity in the Products Match view. |
+| 90 | [AA-UnitDisplayedInProductMatch-090](#090) | Verify  the Unit is displayed next to the quantity in the Products Match view. |
 | 91 | [AA-RegisterNewUser-091](#091) | Verify the admin can register new user. |
 | 92 | [MP-TermsPage-092](#092) | Verify the new user must agree on terms and conditions |
 | 93 | [MP-RejectConditions-093](#093) | Verify the user who reject the conditions doesn't have access to the meal plans |
 | 94 | [MP-AcceptConditions-094](#094) | Verify the user who accept the conditions have the access to the meal plans  |
 | 95 | [MP-CopyIconForClient-095](#095) | Verify the client user can copy a meal plan template. |
-| 96 | [AA-CreateSubstituteIngredientforPrmIngredient-096](#096) | Verify ability to create substitute ingredient relating to a primary ingredient |
+| 96 | [AA-CreateSubstituteIngredient-096](#096) | Verify ability to create substitute ingredient relating to a primary ingredient |
 | 97 | [MP-StartDateRequiredForMealPlanCreationandEdit-097](#097) | Verify start date exist on meal plan creation/ edit and meal plan card   |
 | 98 | [MP-DuplicateMealPlanForClient-098](#098) | Verify Duplicate meal plan for a client user have the current user assigned|
 | 99 | [MP-AssignUserForClient-099](#099) | Verify the assign user drop-down is invisible as a client user cannot re-assign plans|
@@ -2460,7 +2460,7 @@ Require Revision.
 ![Screenshot from 2024-05-30 13-10-59](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/d85e200e-4013-4fe9-90fb-271db5372719)
 ![Screenshot from 2024-05-30 13-10-37](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/6bcd208d-ff1f-4cc1-b329-f41c90c87fad)
 
-## <a id="090">Test case ID: AA-UnitDisplayedNextToQuantityInProductMatch-090</a>
+## <a id="090">Test case ID: AA-UnitDisplayedInProductMatch-090</a>
 
 ## Test case name:
 
@@ -2628,7 +2628,7 @@ Test case passed.
 ![Screenshot from 2024-05-31 17-41-04](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/5f3f2d0e-6795-4bb6-a692-b24c37877772)
 ![Screenshot from 2024-05-31 17-44-42](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/9b09d7f4-f69f-4748-9d16-c0b6a8bee777)
 
-## <a id="096">Test case ID: AA-CreateSubstituteIngredientforPrmIngredient-096](#096)</a>  
+## <a id="096">Test case ID: AA-SubstituteIngredient-096](#096)</a>  
 
 ## Test case name:
 
@@ -2648,7 +2648,7 @@ Pre-requisite: MP-Login-001
 7. Add a new item called Fresh Parsley
 8. Click on the Primary Ingredient field.
 9. Select one of the meal's existing ingredient 'Dried Parsley Flakes' among the options.
-10 Click Save.
+10. Click Save.
 
 
 ## Expected Behaviour:
