@@ -2800,14 +2800,14 @@ Ensure that there is no 'Measure' section and that 'Ingredients' exists under Me
 ## Related Bug ID: #568
 
 ## Steps to follow:
-1.Go to admin UI
-2.Check for a section 'Measure' - Should not be present
-3.Check for 'Ingredients' under Meals - Should be present
-
+Pre-requisite: MP-Login-001
+1. Access the Admin UI as an admin.
+2. In the left navigation menu, select the section "Meals".
+3. Click on "Show" button on the right corner of 'Chicken Curry' meal.
 
 ## Expected Behaviour:
 
-No 'Measure' section present and 'Ingredients' should show under meals. 
+No 'Measure' section present and 'Ingredients' button should show on the bottom of the page. 
 
 ## Test Results:
 Passed successfully.
