@@ -834,22 +834,24 @@ Verify the functionality of creating and filtering meal plan templates
 ## Related Feature: Template for meal plan #548
 
 ## Steps to follow:
-
-1. Pre-requisite: MP-Login-001.
-2. Navigate to the "Meal Plan" section of the application.
-3. Click on the "Create Meal Plan" button to create the first meal plan 
+Pre-requisite: MP-Login-001.
+1. Log in to mealplaner UI as an admin
+2. Navigate to the "Meal Plan" from the Navigation bar.
+3. Click on the "Create Meal Plan" button to create the meal plan. 
 4. select "Create New Template" to save it as a template.
-5. Fill the input name field for the first meal plan and save it as a template.
-6. Verify that the meal plan is saved successfully as a template and no user is assigned to it.
-7. Navigate to the search view in the meal planner.
-8. Apply a filter to display only the templates.
-9. Confirm that the list of meal plans shown now includes only the templates created.
+5. Fill the input name field for the first meal plan with "template1".
+6. Click on "save" button.
+7. Apply a filter to display only the templates.
 
 ## Expected Behavior:
-When creating a meal plan, the user should have the option to save it as a template, which will not assign any user to it. The user should then be able to filter the meal plans to display only templates, and the list should include the templates created by the user.
+The meal designer/admin  can create a meal plan save it successfully as a template and no user is assigned to it.
+The meal designer/admin  should then be able to filter the meal plans to display only templates, and the list should include the templates created by the  meal designer/admin .
 
 ## Test Results:
-Passed as the user is able to filter the meal plans to display only templates, and the list included the templates created by the user.
+Passed as the meal designer/admin  is able to create templates and filter the meal plans to display only templates, and the list included the templates created by the meal designer/admin.
+![Screenshot from 2024-06-06 18-46-51](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/8e902408-2223-4b4e-9e23-8f436de93538)
+
+![Screenshot from 2024-06-06 18-49-01](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/11ad26a5-0e7f-4963-83ab-72d9ae2607a0)
 
 ## <a id="032">Test case ID: MP-AddPrepCookPortions-032</a>
 
