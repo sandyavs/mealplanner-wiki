@@ -62,7 +62,7 @@
 | 41 | [AA-UpdateIngredientTable-041](#041) | Verify Admin UI changes for ingredient table and product table             |
 | 42 | [AA-MealDesignerModify-042](#042) | Verify meal designer's ability to modify meals, products, and nutrition using admin UI |
 | 43 | [AA-AssignMealIngredientCode-043](#043) | Verify the ability to assign a unique code to meals and ingredients |
-| 44 | [MP-TemplateMealPlan-044](#044) | Verify the ability to create template meal plans by meal designers and admins |
+| 44 | [MP-TagsOrderedAlphabetical-044](#044) | Verify Tags in meal plan and meal are ordered in alphabetical order |
 | 45 | [AA-FieldNamesChange-045](#045) | Verify the consistency of field names for recipes and ingredients with the database schema |
 | 46 | [AA-CreateUser-046](#046) | Verify the ability to create a user with the role of 'meal designer' |
 | 47 | [AA-ModifyMeal-047](#047) | Verify the ability to modify meals in the Admin UI |
@@ -1210,38 +1210,30 @@ Users, whether admin or meal designers, should have the ability to assign unique
 ## Test Results:
 Test case passed. 
 
-
-## <a id="044">Test case ID: MP-TemplateMealPlan-044</a>
+## <a id="044">Test case ID: MP-TagsOrderedAlphabetical-044</a>
 
 ## Test case name:
 
-Verify the ability to create template meal plans by meal designers and admins
+ Verify Tags in meal plan and meal are ordered in alphabetical order
 
-## Related Feature: [548 template meal plan #551](https://github.com/CivicTechFredericton/mealplanner/issues/551)
+## Related Feature: #707
 
 ## Steps to follow:
 
 Pre-requisite: MP-Login-001.
-1. Log in to the application with valid credentials.
-2. Navigate to the meal plans section as the Admin.
-3. Check for the option to create a new template for meal plans.
-4. Verify that both meal designers and admins have access to create templates.
-5. Create a new template for a meal plan and specify the necessary details.
-6. Ensure that the template can be saved without assigning a user to it.
-7. Check that the created template is displayed correctly in the list of available templates.
-8. Verify that templates can be edited and deleted by meal designers and admins.
-9. Test that the template functionality does not interfere with regular meal plan creation and assignment.
+1. Navigate to "meals" page from the navigation bar.
+2. Click on "Tags" radio button.
+3. Navigate to "meal Plans" page from the navigation bar.
+4. Click on "Tags" radio button.
 
 ## Expected Behaviour:
-
-Meal designers and admins should have the ability to create templates for meal plans in the Admin UI. These templates should allow for customization of meal plan details without assigning a user to them, effectively serving as reusable blueprints for future meal plans. The system should handle template creation, editing, and deletion seamlessly, ensuring that they do not disrupt regular meal planning operations.
+On meal plan and meal Tags should be ordered in alphabetical order
 
 ## Test Results:
 Test case passed. 
-![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/15ec3d2b-985d-43da-bae8-43248f9e8cc6)
 
-![image](https://github.com/CivicTechFredericton/mealplanner/assets/59191427/d7b2b081-df99-45ba-b5bf-edebc7e5bbec)
-
+![Screenshot from 2024-06-06 13-08-15](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/4d607094-e9d8-41c3-8bee-73d907a9869b)
+![Screenshot from 2024-06-11 12-51-16](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/c80fdaa0-ca66-44a4-b0e9-c138cf76d648)
 
 ## <a id="045">Test case ID: AA-FieldNamesChange-045</a>
 
@@ -2417,10 +2409,10 @@ This test case verifies that the ingredients and method should be displayed righ
 
 ## Steps to follow:
 Pre-requisite: MP-Login-001
-1. Navigate to the meals page.
-2. Navigate to "meals" page from the navigation bar.
-3. Search for "Salsa Cruda" and click on it to view its details.
-4. Verify that page has no unnecessary blank space before ingredients and method.
+
+1. Navigate to "meals" page from the navigation bar.
+2. Search for "Salsa Cruda" and click on it to view its details.
+3. Verify that page has no unnecessary blank space before ingredients and method.
 
 
 ## Expected Behavior:
