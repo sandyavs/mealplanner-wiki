@@ -2455,10 +2455,11 @@ Verify the tips have rich text format just like the method so that if there are 
 Upon accessing the summery page of a specific meal in the admin UI, the tips should have rich text format just like the method so that if there are more than one tips it can be bulleted.
 
 ## Test Results:
-Require Revision.
+Passed
+![Screenshot from 2024-06-11 09-34-41](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/2dd5043b-1205-497b-bcbb-c865314aabf2)
+![Screenshot from 2024-06-11 11-06-21](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/b65b053f-2005-4b9f-bf0d-522d3babb7cd)
 
-![Screenshot from 2024-05-30 13-10-59](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/d85e200e-4013-4fe9-90fb-271db5372719)
-![Screenshot from 2024-05-30 13-10-37](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/6bcd208d-ff1f-4cc1-b329-f41c90c87fad)
+
 
 ## <a id="090">Test case ID: AA-UnitDisplayedInProductMatch-090</a>
 
