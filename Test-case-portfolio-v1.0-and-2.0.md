@@ -824,7 +824,7 @@ After creating or deleting a meal plan, the list of meal plan tags should be aut
 ## Test Results:
 Passed as the list of meal plan tags automatically updated on the "Filter by tags" view without requiring a page refresh or navigating to a different option.
 ![Screenshot from 2024-05-16 12-32-46](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/bcf9e1e0-b6f4-4e8d-a0de-c27f2a3b3f32)
-
+![Screenshot from 2024-06-11 11-36-18](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/5b42a5b2-ea0f-4885-9c93-662719779e1e)
 
 ## <a id="031">Test case ID: MP-Template-031</a>
 
