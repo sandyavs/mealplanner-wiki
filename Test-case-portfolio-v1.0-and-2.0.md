@@ -2327,10 +2327,11 @@ Pre-requisite: MP-Login-001
 1. From the navigation bar, click on "meal" to navigate to the meals page.
 2. Click on the heart icon to select "Tartare Sauce", "Cheddar, Apple Muffins" and "Corn Fritts" meals as favorites.
 4. Confirm that heart icon is now red in color to show the meals have been selected as a favorite meal.
+5. Click again on the heart icon to delete "Tartare Sauce" from the favorite.
 
 ## Expected Behaviour:
 
-In the Meal planner UI, at the Meals navigation page, users should be able to mark any meal they choose as Favorite. This ensures flexibility and ease of use in managing a users favorite meals.
+In the Meal planner UI, at the Meals navigation page, users should be able to mark any meal they choose as Favorite and delete it. This ensures flexibility and ease of use in managing a users favorite meals.
 
 ## Test Results:
 Passed as in the Meal planner UI, users can chose favorite meals by clicking the heart icon  below the meal name on the  lower left hand side.
