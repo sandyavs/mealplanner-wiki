@@ -1460,10 +1460,10 @@ Verify the ability to create a new product in the Admin UI
 ## Steps to follow:
 Pre-requisite: MP-Login-001
 1. Access the Admin UI with permissions assigned as a meal designer.
-2. Navigate to the products section.
-3. Locate the option to create a new product.
-4. Provide necessary details for the new product such as name, type, and nutritional information.
-5. Confirm the creation of the new product.
+2. In the left navigation menu, select the section 'products'.
+3. Click on the 'create' button on the top right to create a new product.
+4. Fill the name, quantity, Price, and 'product Keywords' with "test", 1", "1" and "Butter".
+5. Click on Save.
 
 ## Expected Behaviour:
 
@@ -1471,6 +1471,8 @@ Meal designers should be able to create new products within the Admin UI, provid
 
 ### Test Results:
 Test case passed.
+![Screenshot from 2024-06-12 10-41-45](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/46a648ac-433d-4f6d-a931-737c0065c2a2)
+
 
 ## <a id="055">Test case ID: AA-EditProduct-055</a>
 
