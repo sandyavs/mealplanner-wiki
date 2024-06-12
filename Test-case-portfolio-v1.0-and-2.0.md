@@ -121,6 +121,7 @@
 | 100| [MP-ClientCanNotCreateTemplate-100](#100) | Verify The option to 'Create Template' does not appear for the client user.|
 | 101| [MP-ShoppingList-101](#101) | Verify shopping list displays all the ingredients, meal it belongs to and product suggestions.|
 | 102| [AA-DeleteMeasureTable-102](#102) | Verify there is no Measure section and verify that Ingredients exists under Meals.|
+| 103| [AA-NoneCaseSensitiveSearch-103](#103) | Verify the search for product keyword of product is not case-sensitive.|
 
 ## <a id="001">Test case ID: MP-Login-001</a> 
 
@@ -2791,8 +2792,6 @@ Test case passed.
 ![Screenshot from 2024-06-04 12-36-11](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/5f3981c5-f3c5-4e24-9def-1986278cc6ab)
 
 
-
-
 ## <a id="102">Test case ID: AA-DeleteMeasureTable-102</a>
 
 ## Test case name:
@@ -2815,3 +2814,31 @@ No 'Measure' section present and 'Ingredients' button should show on the bottom 
 Passed successfully.
 
 ![image](https://github.com/CivicTechFredericton/mealplanner/assets/72166328/1c5364b7-ea7c-491d-937a-ffe5014768e4)
+
+## <a id="103">Test case ID: AA-NoneCaseSensitiveSearch-103</a>
+
+## Test case name:
+
+Verify the search for product keyword of product is not case-sensitive.
+
+## Related Bug ID: #568
+
+## Steps to follow:
+Pre-requisite: [AA-CreateProduct-054](https://github.com/CivicTechFredericton/mealplanner/wiki/Test-case-portfolio-v1.0-and-2.0#test-case-id-AA-CreateProduct-054):
+1. Access the Admin UI as an admin.
+2. In the left navigation menu, select the section "Meals".
+3. Click on "Show" button on the right corner of "Tuna Noodle Casserole" meal.
+4. Click on "Ingredients" on the bottom of the page to display the ingredients table.
+5. On the "Butter" row with key word "butter", click on "Match" on the right side.
+6. Verify that the product with "Butter" keyword appears.
+
+
+## Expected Behaviour:
+
+search for product keyword of product is not case-sensitive so any products have the same keyword that is written uppercase should appear when matching the ingredient to products.
+ 
+
+## Test Results:
+Passed successfully.
+![Screenshot from 2024-06-12 10-41-11](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/80478f02-85b9-4f19-8351-4562a8378b40)
+![Screenshot from 2024-06-12 10-41-23](https://github.com/CivicTechFredericton/mealplanner/assets/99453690/5a1af050-8478-4d58-af8a-c9383d5cf6ad)
