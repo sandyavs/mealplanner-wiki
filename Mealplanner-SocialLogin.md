@@ -23,11 +23,12 @@ Add Google and Facebook login support alongside the existing standard login (use
 	- A1: System displays appropriate error messages for missing/invalid inputs.
 	- A2: If email already exists in the system, display an error message.
 	- A3: If the admin selects more than one mode of login, the system prompts an error: "Only one social login mode can be assigned per user."
-- **Notes:**
+ - **Notes:**
 	- Under Users tab there will be 2 subtabs:
 		- Standard Login Users (remains unaffected).
 		- Social Login Users (new addition).
 
+<br></br>
 - **Use Case ID:** UC-002
 - **Use Case Name:** Login with Google
 - **Actor(s):** User
@@ -55,6 +56,8 @@ Add Google and Facebook login support alongside the existing standard login (use
 - **Notes:**
 	1. A registered user can log in only through the assigned login method.
 	2. The Terms & Conditions must be accepted to activate the user account firs-time Google login users.
+
+<br></br>
 
 - **Use Case ID:** UC-003
 - **Use Case Name:** Login with Facebook
