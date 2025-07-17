@@ -29,6 +29,7 @@ Add Google and Facebook login support alongside the existing standard login (use
 		- Social Login Users (new addition).
 
 <br></br>
+
 - **Use Case ID:** UC-002
 - **Use Case Name:** Login with Google
 - **Actor(s):** User
