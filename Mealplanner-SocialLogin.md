@@ -4,7 +4,7 @@ Add Google and Facebook login support alongside the existing standard login (use
 
 ## Use Cases:
 - **Use Case ID:** UC-001
-- **Use Case Name:** Register Social Login User
+- **Use Case Name:** Register Social Login User<!-- no space: same paragraph -->
 - **Actor(s):** Admin
 - **Description:** This use case describes the steps an admin takes to regsiter a new/existing user with their mode of social login (Google or Facebook) to the system.
 - **Preconditions:** The admin must be logged in to the Mealplanner Admin application.
@@ -23,9 +23,10 @@ Add Google and Facebook login support alongside the existing standard login (use
 	- A1: System displays appropriate error messages for missing/invalid inputs.
 	- A2: If email already exists in the system, display an error message.
 	- A3: If the admin selects more than one mode of login, the system prompts an error: "Only one social login mode can be assigned per user."
-- **Notes:** Under Users tab there will be 2 subtabs:
-	- Standard Login Users (remains unaffected).
-	- Social Login Users (new addition).
+- **Notes:**
+	- Under Users tab there will be 2 subtabs:
+		- Standard Login Users (remains unaffected).
+		- Social Login Users (new addition).
 
 - **Use Case ID:** UC-002
 - **Use Case Name:** Login with Google
