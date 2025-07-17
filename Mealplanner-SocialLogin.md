@@ -28,7 +28,7 @@ Add Google and Facebook login support alongside the existing standard login (use
 		- Standard Login Users (remains unaffected).
 		- Social Login Users (new addition).
 
-<br></br>
+<br>
 
 - **Use Case ID:** UC-002
 - **Use Case Name:** Login with Google
@@ -58,7 +58,7 @@ Add Google and Facebook login support alongside the existing standard login (use
 	1. A registered user can log in only through the assigned login method.
 	2. The Terms & Conditions must be accepted to activate the user account firs-time Google login users.
 
-<br></br>
+<br>
 
 - **Use Case ID:** UC-003
 - **Use Case Name:** Login with Facebook
